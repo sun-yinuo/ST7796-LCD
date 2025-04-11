@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj"
+  "CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
   "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj"

@@ -82,10 +82,24 @@ CMakeFiles/LCD.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/main.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\main.c -o CMakeFiles\LCD.elf.dir\Core\Src\main.c.s
 
+CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/st7796.c
+CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\st7796.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\st7796.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\st7796.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\st7796.c > CMakeFiles\LCD.elf.dir\Core\Src\st7796.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\st7796.c -o CMakeFiles\LCD.elf.dir\Core\Src\st7796.c.s
+
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/stm32l4xx_hal_msp.c
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\stm32l4xx_hal_msp.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/stm32l4xx_it.c
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_it.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_it.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\stm32l4xx_it.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/syscalls.c
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\syscalls.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/sysmem.c
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\sysmem.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/system_stm32l4xx.c
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\system_stm32l4xx.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\system_stm32l4xx.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\system_stm32l4xx.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.i: cmake_force
@@ -154,7 +168,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.s: cmake_force
 
 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj: C:/Users/Administrator/Desktop/LCD/Core/Startup/startup_stm32l476rgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\LCD.elf.dir\Core\Startup\startup_stm32l476rgtx.s.obj -c C:\Users\Administrator\Desktop\LCD\Core\Startup\startup_stm32l476rgtx.s
 
 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.i: cmake_force
@@ -168,7 +182,7 @@ CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.s: cmake_force
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
@@ -182,7 +196,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s: cmake
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s: 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s:
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramf
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s: 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i: cmake_force
@@ -406,6 +420,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s
 # Object files for target LCD.elf
 LCD_elf_OBJECTS = \
 "CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj" \
 "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" \
 "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj" \
 "CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj" \
@@ -434,6 +449,7 @@ LCD_elf_OBJECTS = \
 LCD_elf_EXTERNAL_OBJECTS =
 
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj
@@ -459,7 +475,7 @@ LCD.elf: CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_s
 LCD.elf: CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/build.make
 LCD.elf: CMakeFiles/LCD.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable LCD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable LCD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LCD.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Administrator/Desktop/LCD/cmake-build-debug/LCD.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Administrator/Desktop/LCD/cmake-build-debug/LCD.bin"

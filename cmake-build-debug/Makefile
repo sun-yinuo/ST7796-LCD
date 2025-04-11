@@ -152,6 +152,30 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/st7796.obj: Core/Src/st7796.c.obj
+.PHONY : Core/Src/st7796.obj
+
+# target to build an object file
+Core/Src/st7796.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+.PHONY : Core/Src/st7796.c.obj
+
+Core/Src/st7796.i: Core/Src/st7796.c.i
+.PHONY : Core/Src/st7796.i
+
+# target to preprocess a source file
+Core/Src/st7796.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.i
+.PHONY : Core/Src/st7796.c.i
+
+Core/Src/st7796.s: Core/Src/st7796.c.s
+.PHONY : Core/Src/st7796.s
+
+# target to generate assembly for a file
+Core/Src/st7796.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.s
+.PHONY : Core/Src/st7796.c.s
+
 Core/Src/stm32l4xx_hal_msp.obj: Core/Src/stm32l4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32l4xx_hal_msp.obj
 
@@ -700,6 +724,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/st7796.obj
+	@echo ... Core/Src/st7796.i
+	@echo ... Core/Src/st7796.s
 	@echo ... Core/Src/stm32l4xx_hal_msp.obj
 	@echo ... Core/Src/stm32l4xx_hal_msp.i
 	@echo ... Core/Src/stm32l4xx_hal_msp.s

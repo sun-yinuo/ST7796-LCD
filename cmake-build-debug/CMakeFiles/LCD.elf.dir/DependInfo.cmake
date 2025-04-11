@@ -31,6 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Administrator/Desktop/LCD/Core/Src/main.c" "CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj.d"
+  "C:/Users/Administrator/Desktop/LCD/Core/Src/st7796.c" "CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/stm32l4xx_hal_msp.c" "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/stm32l4xx_it.c" "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/syscalls.c" "CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj.d"

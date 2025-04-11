@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "st7796.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,6 +90,15 @@ int main(void)
   MX_GPIO_Init();
   MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
+  ST7796_AttachSPI(&hspi2);
+
+  ST7796_Init();
+
+  LCD_DrawPoint(160, 240,BLACK);
+  LCD_DrawPoint(160, 250,RED);
+  LCD_DrawPoint(160, 260,BLUE);
+  LCD_DrawPoint(160, 270,GREEN);
+
 
   /* USER CODE END 2 */
 
