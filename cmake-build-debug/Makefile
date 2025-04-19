@@ -128,6 +128,8782 @@ LCD.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/build
 .PHONY : LCD.elf/fast
 
+Core/Src/lvgl/port/lv_port_disp.obj: Core/Src/lvgl/port/lv_port_disp.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_disp.obj
+
+# target to build an object file
+Core/Src/lvgl/port/lv_port_disp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_disp.c.obj
+
+Core/Src/lvgl/port/lv_port_disp.i: Core/Src/lvgl/port/lv_port_disp.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_disp.i
+
+# target to preprocess a source file
+Core/Src/lvgl/port/lv_port_disp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_disp.c.i
+
+Core/Src/lvgl/port/lv_port_disp.s: Core/Src/lvgl/port/lv_port_disp.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_disp.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/port/lv_port_disp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_disp.c.s
+
+Core/Src/lvgl/port/lv_port_fs.obj: Core/Src/lvgl/port/lv_port_fs.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_fs.obj
+
+# target to build an object file
+Core/Src/lvgl/port/lv_port_fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_fs.c.obj
+
+Core/Src/lvgl/port/lv_port_fs.i: Core/Src/lvgl/port/lv_port_fs.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_fs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/port/lv_port_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_fs.c.i
+
+Core/Src/lvgl/port/lv_port_fs.s: Core/Src/lvgl/port/lv_port_fs.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_fs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/port/lv_port_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_fs.c.s
+
+Core/Src/lvgl/port/lv_port_indev.obj: Core/Src/lvgl/port/lv_port_indev.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_indev.obj
+
+# target to build an object file
+Core/Src/lvgl/port/lv_port_indev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_indev.c.obj
+
+Core/Src/lvgl/port/lv_port_indev.i: Core/Src/lvgl/port/lv_port_indev.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_indev.i
+
+# target to preprocess a source file
+Core/Src/lvgl/port/lv_port_indev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_indev.c.i
+
+Core/Src/lvgl/port/lv_port_indev.s: Core/Src/lvgl/port/lv_port_indev.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_indev.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/port/lv_port_indev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_indev.c.s
+
+Core/Src/lvgl/port/lv_port_lcd_stm32.obj: Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.obj
+
+# target to build an object file
+Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
+.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
+
+Core/Src/lvgl/port/lv_port_lcd_stm32.i: Core/Src/lvgl/port/lv_port_lcd_stm32.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.i
+
+# target to preprocess a source file
+Core/Src/lvgl/port/lv_port_lcd_stm32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.i
+.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.c.i
+
+Core/Src/lvgl/port/lv_port_lcd_stm32.s: Core/Src/lvgl/port/lv_port_lcd_stm32.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/port/lv_port_lcd_stm32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.s
+.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.c.s
+
+Core/Src/lvgl/src/core/lv_group.obj: Core/Src/lvgl/src/core/lv_group.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_group.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_group.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_group.c.obj
+
+Core/Src/lvgl/src/core/lv_group.i: Core/Src/lvgl/src/core/lv_group.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_group.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_group.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_group.c.i
+
+Core/Src/lvgl/src/core/lv_group.s: Core/Src/lvgl/src/core/lv_group.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_group.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_group.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_group.c.s
+
+Core/Src/lvgl/src/core/lv_obj.obj: Core/Src/lvgl/src/core/lv_obj.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj.c.obj
+
+Core/Src/lvgl/src/core/lv_obj.i: Core/Src/lvgl/src/core/lv_obj.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj.c.i
+
+Core/Src/lvgl/src/core/lv_obj.s: Core/Src/lvgl/src/core/lv_obj.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj.c.s
+
+Core/Src/lvgl/src/core/lv_obj_class.obj: Core/Src/lvgl/src/core/lv_obj_class.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_class.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_class.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_class.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_class.i: Core/Src/lvgl/src/core/lv_obj_class.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_class.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_class.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_class.c.i
+
+Core/Src/lvgl/src/core/lv_obj_class.s: Core/Src/lvgl/src/core/lv_obj_class.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_class.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_class.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_class.c.s
+
+Core/Src/lvgl/src/core/lv_obj_draw.obj: Core/Src/lvgl/src/core/lv_obj_draw.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_draw.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_draw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_draw.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_draw.i: Core/Src/lvgl/src/core/lv_obj_draw.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_draw.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_draw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_draw.c.i
+
+Core/Src/lvgl/src/core/lv_obj_draw.s: Core/Src/lvgl/src/core/lv_obj_draw.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_draw.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_draw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_draw.c.s
+
+Core/Src/lvgl/src/core/lv_obj_event.obj: Core/Src/lvgl/src/core/lv_obj_event.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_event.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_event.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_event.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_event.i: Core/Src/lvgl/src/core/lv_obj_event.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_event.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_event.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_event.c.i
+
+Core/Src/lvgl/src/core/lv_obj_event.s: Core/Src/lvgl/src/core/lv_obj_event.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_event.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_event.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_event.c.s
+
+Core/Src/lvgl/src/core/lv_obj_id_builtin.obj: Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_id_builtin.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_id_builtin.i: Core/Src/lvgl/src/core/lv_obj_id_builtin.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_id_builtin.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_id_builtin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_id_builtin.c.i
+
+Core/Src/lvgl/src/core/lv_obj_id_builtin.s: Core/Src/lvgl/src/core/lv_obj_id_builtin.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_id_builtin.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_id_builtin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_id_builtin.c.s
+
+Core/Src/lvgl/src/core/lv_obj_pos.obj: Core/Src/lvgl/src/core/lv_obj_pos.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_pos.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_pos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_pos.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_pos.i: Core/Src/lvgl/src/core/lv_obj_pos.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_pos.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_pos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_pos.c.i
+
+Core/Src/lvgl/src/core/lv_obj_pos.s: Core/Src/lvgl/src/core/lv_obj_pos.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_pos.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_pos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_pos.c.s
+
+Core/Src/lvgl/src/core/lv_obj_property.obj: Core/Src/lvgl/src/core/lv_obj_property.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_property.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_property.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_property.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_property.i: Core/Src/lvgl/src/core/lv_obj_property.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_property.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_property.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_property.c.i
+
+Core/Src/lvgl/src/core/lv_obj_property.s: Core/Src/lvgl/src/core/lv_obj_property.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_property.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_property.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_property.c.s
+
+Core/Src/lvgl/src/core/lv_obj_scroll.obj: Core/Src/lvgl/src/core/lv_obj_scroll.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_scroll.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_scroll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_scroll.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_scroll.i: Core/Src/lvgl/src/core/lv_obj_scroll.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_scroll.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_scroll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_scroll.c.i
+
+Core/Src/lvgl/src/core/lv_obj_scroll.s: Core/Src/lvgl/src/core/lv_obj_scroll.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_scroll.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_scroll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_scroll.c.s
+
+Core/Src/lvgl/src/core/lv_obj_style.obj: Core/Src/lvgl/src/core/lv_obj_style.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_style.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_style.i: Core/Src/lvgl/src/core/lv_obj_style.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_style.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style.c.i
+
+Core/Src/lvgl/src/core/lv_obj_style.s: Core/Src/lvgl/src/core/lv_obj_style.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_style.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style.c.s
+
+Core/Src/lvgl/src/core/lv_obj_style_gen.obj: Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style_gen.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_style_gen.i: Core/Src/lvgl/src/core/lv_obj_style_gen.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style_gen.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_style_gen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style_gen.c.i
+
+Core/Src/lvgl/src/core/lv_obj_style_gen.s: Core/Src/lvgl/src/core/lv_obj_style_gen.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style_gen.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_style_gen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_style_gen.c.s
+
+Core/Src/lvgl/src/core/lv_obj_tree.obj: Core/Src/lvgl/src/core/lv_obj_tree.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_tree.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_obj_tree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_obj_tree.c.obj
+
+Core/Src/lvgl/src/core/lv_obj_tree.i: Core/Src/lvgl/src/core/lv_obj_tree.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_tree.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_obj_tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_obj_tree.c.i
+
+Core/Src/lvgl/src/core/lv_obj_tree.s: Core/Src/lvgl/src/core/lv_obj_tree.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_tree.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_obj_tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_obj_tree.c.s
+
+Core/Src/lvgl/src/core/lv_refr.obj: Core/Src/lvgl/src/core/lv_refr.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_refr.obj
+
+# target to build an object file
+Core/Src/lvgl/src/core/lv_refr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj
+.PHONY : Core/Src/lvgl/src/core/lv_refr.c.obj
+
+Core/Src/lvgl/src/core/lv_refr.i: Core/Src/lvgl/src/core/lv_refr.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_refr.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/core/lv_refr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.i
+.PHONY : Core/Src/lvgl/src/core/lv_refr.c.i
+
+Core/Src/lvgl/src/core/lv_refr.s: Core/Src/lvgl/src/core/lv_refr.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_refr.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/core/lv_refr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.s
+.PHONY : Core/Src/lvgl/src/core/lv_refr.c.s
+
+Core/Src/lvgl/src/display/lv_display.obj: Core/Src/lvgl/src/display/lv_display.c.obj
+.PHONY : Core/Src/lvgl/src/display/lv_display.obj
+
+# target to build an object file
+Core/Src/lvgl/src/display/lv_display.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj
+.PHONY : Core/Src/lvgl/src/display/lv_display.c.obj
+
+Core/Src/lvgl/src/display/lv_display.i: Core/Src/lvgl/src/display/lv_display.c.i
+.PHONY : Core/Src/lvgl/src/display/lv_display.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/display/lv_display.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.i
+.PHONY : Core/Src/lvgl/src/display/lv_display.c.i
+
+Core/Src/lvgl/src/display/lv_display.s: Core/Src/lvgl/src/display/lv_display.c.s
+.PHONY : Core/Src/lvgl/src/display/lv_display.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/display/lv_display.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.s
+.PHONY : Core/Src/lvgl/src/display/lv_display.c.s
+
+Core/Src/lvgl/src/draw/lv_draw.obj: Core/Src/lvgl/src/draw/lv_draw.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw.i: Core/Src/lvgl/src/draw/lv_draw.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw.c.i
+
+Core/Src/lvgl/src/draw/lv_draw.s: Core/Src/lvgl/src/draw/lv_draw.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_arc.obj: Core/Src/lvgl/src/draw/lv_draw_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_arc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_arc.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_arc.i: Core/Src/lvgl/src/draw/lv_draw_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_arc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_arc.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_arc.s: Core/Src/lvgl/src/draw/lv_draw_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_arc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_arc.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_buf.obj: Core/Src/lvgl/src/draw/lv_draw_buf.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_buf.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_buf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_buf.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_buf.i: Core/Src/lvgl/src/draw/lv_draw_buf.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_buf.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_buf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_buf.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_buf.s: Core/Src/lvgl/src/draw/lv_draw_buf.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_buf.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_buf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_buf.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_image.obj: Core/Src/lvgl/src/draw/lv_draw_image.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_image.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_image.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_image.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_image.i: Core/Src/lvgl/src/draw/lv_draw_image.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_image.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_image.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_image.s: Core/Src/lvgl/src/draw/lv_draw_image.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_image.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_image.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_label.obj: Core/Src/lvgl/src/draw/lv_draw_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_label.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_label.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_label.i: Core/Src/lvgl/src/draw/lv_draw_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_label.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_label.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_label.s: Core/Src/lvgl/src/draw/lv_draw_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_label.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_label.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_line.obj: Core/Src/lvgl/src/draw/lv_draw_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_line.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_line.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_line.i: Core/Src/lvgl/src/draw/lv_draw_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_line.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_line.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_line.s: Core/Src/lvgl/src/draw/lv_draw_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_line.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_line.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_mask.obj: Core/Src/lvgl/src/draw/lv_draw_mask.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_mask.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_mask.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_mask.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_mask.i: Core/Src/lvgl/src/draw/lv_draw_mask.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_mask.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_mask.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_mask.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_mask.s: Core/Src/lvgl/src/draw/lv_draw_mask.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_mask.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_mask.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_mask.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_rect.obj: Core/Src/lvgl/src/draw/lv_draw_rect.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_rect.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_rect.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_rect.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_rect.i: Core/Src/lvgl/src/draw/lv_draw_rect.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_rect.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_rect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_rect.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_rect.s: Core/Src/lvgl/src/draw/lv_draw_rect.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_rect.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_rect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_rect.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_triangle.obj: Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_triangle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_triangle.i: Core/Src/lvgl/src/draw/lv_draw_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_triangle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_triangle.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_triangle.s: Core/Src/lvgl/src/draw/lv_draw_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_triangle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_triangle.c.s
+
+Core/Src/lvgl/src/draw/lv_draw_vector.obj: Core/Src/lvgl/src/draw/lv_draw_vector.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_vector.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_draw_vector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_vector.c.obj
+
+Core/Src/lvgl/src/draw/lv_draw_vector.i: Core/Src/lvgl/src/draw/lv_draw_vector.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_vector.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_draw_vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_vector.c.i
+
+Core/Src/lvgl/src/draw/lv_draw_vector.s: Core/Src/lvgl/src/draw/lv_draw_vector.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_vector.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_draw_vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_draw_vector.c.s
+
+Core/Src/lvgl/src/draw/lv_image_decoder.obj: Core/Src/lvgl/src/draw/lv_image_decoder.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_image_decoder.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/lv_image_decoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj
+.PHONY : Core/Src/lvgl/src/draw/lv_image_decoder.c.obj
+
+Core/Src/lvgl/src/draw/lv_image_decoder.i: Core/Src/lvgl/src/draw/lv_image_decoder.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_image_decoder.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/lv_image_decoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.i
+.PHONY : Core/Src/lvgl/src/draw/lv_image_decoder.c.i
+
+Core/Src/lvgl/src/draw/lv_image_decoder.s: Core/Src/lvgl/src/draw/lv_image_decoder.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_image_decoder.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/lv_image_decoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.s
+.PHONY : Core/Src/lvgl/src/draw/lv_image_decoder.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.obj: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.i: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i
+
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.s: Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.obj: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.i: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i
+
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.s: Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.obj: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.i: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i
+
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.s: Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s
+
+Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.obj: Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj
+
+Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.i: Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.i
+.PHONY : Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.i
+.PHONY : Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.i
+
+Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.s: Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.s
+.PHONY : Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.s
+.PHONY : Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.obj: Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.obj: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.i: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i
+
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.s: Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s
+
+Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.obj: Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.obj: Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.i: Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.i
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.i
+
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.s: Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.s
+.PHONY : Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.obj: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.i: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.s: Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.s
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.obj: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.obj
+
+# target to build an object file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.i: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.i
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.i
+
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.s: Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.s
+.PHONY : Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.s
+
+Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.obj: Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj
+
+Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.i: Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.i
+
+Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.s: Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.s
+
+Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.obj: Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj
+
+Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.i: Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.i
+
+Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.s: Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.s
+
+Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.obj: Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj
+
+Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.i: Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.i
+
+Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.s: Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.s
+
+Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.obj: Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj
+
+Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.i: Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i
+
+Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.s: Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s
+
+Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.obj: Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj
+
+Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.i: Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i
+
+Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.s: Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s
+
+Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.obj: Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj
+
+Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.i: Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.i
+
+Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.s: Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.s
+
+Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.obj: Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj
+
+Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.i: Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.i
+
+Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.s: Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.s
+
+Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.obj: Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj
+
+Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.i: Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.i
+.PHONY : Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.i
+
+Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.s: Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.s
+.PHONY : Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.s
+
+Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.obj: Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj
+.PHONY : Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj
+
+Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.i: Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.i
+.PHONY : Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.i
+.PHONY : Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.i
+
+Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.s: Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.s
+.PHONY : Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.s
+.PHONY : Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.s
+
+Core/Src/lvgl/src/drivers/evdev/lv_evdev.obj: Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/evdev/lv_evdev.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj
+
+Core/Src/lvgl/src/drivers/evdev/lv_evdev.i: Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.i
+.PHONY : Core/Src/lvgl/src/drivers/evdev/lv_evdev.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.i
+.PHONY : Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.i
+
+Core/Src/lvgl/src/drivers/evdev/lv_evdev.s: Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.s
+.PHONY : Core/Src/lvgl/src/drivers/evdev/lv_evdev.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.s
+.PHONY : Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.s
+
+Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.obj: Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj
+
+Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.i: Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.i
+
+Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.s: Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.s
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.obj: Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.i: Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.i
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.s: Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.s
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.obj: Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.i: Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.i
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.s: Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.s
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.obj: Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.i: Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.i
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.i
+
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.s: Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.s
+.PHONY : Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.s
+
+Core/Src/lvgl/src/drivers/libinput/lv_libinput.obj: Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_libinput.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj
+
+Core/Src/lvgl/src/drivers/libinput/lv_libinput.i: Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.i
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_libinput.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.i
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.i
+
+Core/Src/lvgl/src/drivers/libinput/lv_libinput.s: Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.s
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_libinput.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.s
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.s
+
+Core/Src/lvgl/src/drivers/libinput/lv_xkb.obj: Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_xkb.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj
+
+Core/Src/lvgl/src/drivers/libinput/lv_xkb.i: Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.i
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_xkb.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.i
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.i
+
+Core/Src/lvgl/src/drivers/libinput/lv_xkb.s: Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.s
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_xkb.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.s
+.PHONY : Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.s
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.obj: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.i: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.i
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.i
+
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.s: Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.s
+.PHONY : Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.s
+
+Core/Src/lvgl/src/drivers/qnx/lv_qnx.obj: Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/qnx/lv_qnx.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj
+
+Core/Src/lvgl/src/drivers/qnx/lv_qnx.i: Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.i
+.PHONY : Core/Src/lvgl/src/drivers/qnx/lv_qnx.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.i
+.PHONY : Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.i
+
+Core/Src/lvgl/src/drivers/qnx/lv_qnx.s: Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.s
+.PHONY : Core/Src/lvgl/src/drivers/qnx/lv_qnx.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.s
+.PHONY : Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.s
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.obj: Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.i: Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.i
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.s: Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.s
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.obj: Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.i: Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.i
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.s: Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.s
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.obj: Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.i: Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.i
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.s: Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.s
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.obj: Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.i: Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.i
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.i
+
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.s: Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.s
+.PHONY : Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.s
+
+Core/Src/lvgl/src/drivers/wayland/lv_wayland.obj: Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj
+
+Core/Src/lvgl/src/drivers/wayland/lv_wayland.i: Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.i
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.i
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.i
+
+Core/Src/lvgl/src/drivers/wayland/lv_wayland.s: Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.s
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.s
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.s
+
+Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.obj: Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj
+
+Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.i: Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.i
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.i
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.i
+
+Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.s: Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.s
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.s
+.PHONY : Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.s
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_context.obj: Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_context.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_context.i: Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.i
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_context.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.i
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.i
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_context.s: Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.s
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_context.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.s
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.s
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_display.obj: Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_display.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_display.i: Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.i
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_display.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.i
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.i
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_display.s: Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.s
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_display.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.s
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.s
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_input.obj: Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_input.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_input.i: Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.i
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_input.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.i
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.i
+
+Core/Src/lvgl/src/drivers/windows/lv_windows_input.s: Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.s
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_input.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.s
+.PHONY : Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.s
+
+Core/Src/lvgl/src/drivers/x11/lv_x11_display.obj: Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_display.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj
+
+Core/Src/lvgl/src/drivers/x11/lv_x11_display.i: Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.i
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_display.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.i
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.i
+
+Core/Src/lvgl/src/drivers/x11/lv_x11_display.s: Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.s
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_display.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.s
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.s
+
+Core/Src/lvgl/src/drivers/x11/lv_x11_input.obj: Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_input.obj
+
+# target to build an object file
+Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj
+
+Core/Src/lvgl/src/drivers/x11/lv_x11_input.i: Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.i
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_input.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.i
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.i
+
+Core/Src/lvgl/src/drivers/x11/lv_x11_input.s: Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.s
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_input.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.s
+.PHONY : Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.s
+
+Core/Src/lvgl/src/font/lv_binfont_loader.obj: Core/Src/lvgl/src/font/lv_binfont_loader.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_binfont_loader.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_binfont_loader.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_binfont_loader.c.obj
+
+Core/Src/lvgl/src/font/lv_binfont_loader.i: Core/Src/lvgl/src/font/lv_binfont_loader.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_binfont_loader.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_binfont_loader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_binfont_loader.c.i
+
+Core/Src/lvgl/src/font/lv_binfont_loader.s: Core/Src/lvgl/src/font/lv_binfont_loader.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_binfont_loader.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_binfont_loader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_binfont_loader.c.s
+
+Core/Src/lvgl/src/font/lv_font.obj: Core/Src/lvgl/src/font/lv_font.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font.c.obj
+
+Core/Src/lvgl/src/font/lv_font.i: Core/Src/lvgl/src/font/lv_font.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font.c.i
+
+Core/Src/lvgl/src/font/lv_font.s: Core/Src/lvgl/src/font/lv_font.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font.c.s
+
+Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.obj: Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+
+Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.i: Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+
+Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.s: Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+
+Core/Src/lvgl/src/font/lv_font_fmt_txt.obj: Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_fmt_txt.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
+
+Core/Src/lvgl/src/font/lv_font_fmt_txt.i: Core/Src/lvgl/src/font/lv_font_fmt_txt.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_fmt_txt.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_fmt_txt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_fmt_txt.c.i
+
+Core/Src/lvgl/src/font/lv_font_fmt_txt.s: Core/Src/lvgl/src/font/lv_font_fmt_txt.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_fmt_txt.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_fmt_txt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_fmt_txt.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_10.obj: Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_10.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_10.i: Core/Src/lvgl/src/font/lv_font_montserrat_10.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_10.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_10.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_10.s: Core/Src/lvgl/src/font/lv_font_montserrat_10.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_10.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_10.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_12.obj: Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_12.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_12.i: Core/Src/lvgl/src/font/lv_font_montserrat_12.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_12.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_12.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_12.s: Core/Src/lvgl/src/font/lv_font_montserrat_12.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_12.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_12.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_14.obj: Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_14.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_14.i: Core/Src/lvgl/src/font/lv_font_montserrat_14.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_14.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_14.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_14.s: Core/Src/lvgl/src/font/lv_font_montserrat_14.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_14.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_14.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_16.obj: Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_16.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_16.i: Core/Src/lvgl/src/font/lv_font_montserrat_16.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_16.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_16.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_16.s: Core/Src/lvgl/src/font/lv_font_montserrat_16.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_16.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_16.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_18.obj: Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_18.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_18.i: Core/Src/lvgl/src/font/lv_font_montserrat_18.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_18.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_18.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_18.s: Core/Src/lvgl/src/font/lv_font_montserrat_18.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_18.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_18.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_20.obj: Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_20.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_20.i: Core/Src/lvgl/src/font/lv_font_montserrat_20.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_20.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_20.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_20.s: Core/Src/lvgl/src/font/lv_font_montserrat_20.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_20.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_20.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_22.obj: Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_22.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_22.i: Core/Src/lvgl/src/font/lv_font_montserrat_22.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_22.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_22.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_22.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_22.s: Core/Src/lvgl/src/font/lv_font_montserrat_22.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_22.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_22.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_22.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_24.obj: Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_24.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_24.i: Core/Src/lvgl/src/font/lv_font_montserrat_24.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_24.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_24.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_24.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_24.s: Core/Src/lvgl/src/font/lv_font_montserrat_24.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_24.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_24.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_24.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_26.obj: Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_26.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_26.i: Core/Src/lvgl/src/font/lv_font_montserrat_26.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_26.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_26.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_26.s: Core/Src/lvgl/src/font/lv_font_montserrat_26.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_26.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_26.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_28.obj: Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_28.i: Core/Src/lvgl/src/font/lv_font_montserrat_28.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_28.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_28.s: Core/Src/lvgl/src/font/lv_font_montserrat_28.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_28.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.obj: Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.i: Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.s: Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_30.obj: Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_30.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_30.i: Core/Src/lvgl/src/font/lv_font_montserrat_30.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_30.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_30.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_30.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_30.s: Core/Src/lvgl/src/font/lv_font_montserrat_30.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_30.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_30.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_30.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_32.obj: Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_32.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_32.i: Core/Src/lvgl/src/font/lv_font_montserrat_32.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_32.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_32.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_32.s: Core/Src/lvgl/src/font/lv_font_montserrat_32.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_32.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_32.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_34.obj: Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_34.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_34.i: Core/Src/lvgl/src/font/lv_font_montserrat_34.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_34.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_34.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_34.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_34.s: Core/Src/lvgl/src/font/lv_font_montserrat_34.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_34.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_34.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_34.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_36.obj: Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_36.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_36.i: Core/Src/lvgl/src/font/lv_font_montserrat_36.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_36.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_36.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_36.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_36.s: Core/Src/lvgl/src/font/lv_font_montserrat_36.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_36.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_36.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_36.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_38.obj: Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_38.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_38.i: Core/Src/lvgl/src/font/lv_font_montserrat_38.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_38.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_38.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_38.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_38.s: Core/Src/lvgl/src/font/lv_font_montserrat_38.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_38.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_38.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_38.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_40.obj: Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_40.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_40.i: Core/Src/lvgl/src/font/lv_font_montserrat_40.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_40.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_40.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_40.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_40.s: Core/Src/lvgl/src/font/lv_font_montserrat_40.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_40.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_40.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_40.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_42.obj: Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_42.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_42.i: Core/Src/lvgl/src/font/lv_font_montserrat_42.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_42.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_42.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_42.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_42.s: Core/Src/lvgl/src/font/lv_font_montserrat_42.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_42.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_42.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_42.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_44.obj: Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_44.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_44.i: Core/Src/lvgl/src/font/lv_font_montserrat_44.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_44.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_44.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_44.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_44.s: Core/Src/lvgl/src/font/lv_font_montserrat_44.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_44.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_44.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_44.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_46.obj: Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_46.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_46.i: Core/Src/lvgl/src/font/lv_font_montserrat_46.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_46.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_46.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_46.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_46.s: Core/Src/lvgl/src/font/lv_font_montserrat_46.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_46.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_46.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_46.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_48.obj: Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_48.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_48.i: Core/Src/lvgl/src/font/lv_font_montserrat_48.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_48.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_48.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_48.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_48.s: Core/Src/lvgl/src/font/lv_font_montserrat_48.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_48.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_48.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_48.c.s
+
+Core/Src/lvgl/src/font/lv_font_montserrat_8.obj: Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_8.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj
+
+Core/Src/lvgl/src/font/lv_font_montserrat_8.i: Core/Src/lvgl/src/font/lv_font_montserrat_8.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_8.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_montserrat_8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_8.c.i
+
+Core/Src/lvgl/src/font/lv_font_montserrat_8.s: Core/Src/lvgl/src/font/lv_font_montserrat_8.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_8.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_montserrat_8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_montserrat_8.c.s
+
+Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.obj: Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj
+
+Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.i: Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.i
+
+Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.s: Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.s
+
+Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.obj: Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj
+
+Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.i: Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.i
+
+Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.s: Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.s
+
+Core/Src/lvgl/src/font/lv_font_unscii_16.obj: Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_16.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj
+
+Core/Src/lvgl/src/font/lv_font_unscii_16.i: Core/Src/lvgl/src/font/lv_font_unscii_16.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_16.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_unscii_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_16.c.i
+
+Core/Src/lvgl/src/font/lv_font_unscii_16.s: Core/Src/lvgl/src/font/lv_font_unscii_16.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_16.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_unscii_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_16.c.s
+
+Core/Src/lvgl/src/font/lv_font_unscii_8.obj: Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_8.obj
+
+# target to build an object file
+Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj
+
+Core/Src/lvgl/src/font/lv_font_unscii_8.i: Core/Src/lvgl/src/font/lv_font_unscii_8.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_8.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/font/lv_font_unscii_8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.i
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_8.c.i
+
+Core/Src/lvgl/src/font/lv_font_unscii_8.s: Core/Src/lvgl/src/font/lv_font_unscii_8.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_8.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/font/lv_font_unscii_8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.s
+.PHONY : Core/Src/lvgl/src/font/lv_font_unscii_8.c.s
+
+Core/Src/lvgl/src/indev/lv_indev.obj: Core/Src/lvgl/src/indev/lv_indev.c.obj
+.PHONY : Core/Src/lvgl/src/indev/lv_indev.obj
+
+# target to build an object file
+Core/Src/lvgl/src/indev/lv_indev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj
+.PHONY : Core/Src/lvgl/src/indev/lv_indev.c.obj
+
+Core/Src/lvgl/src/indev/lv_indev.i: Core/Src/lvgl/src/indev/lv_indev.c.i
+.PHONY : Core/Src/lvgl/src/indev/lv_indev.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/indev/lv_indev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.i
+.PHONY : Core/Src/lvgl/src/indev/lv_indev.c.i
+
+Core/Src/lvgl/src/indev/lv_indev.s: Core/Src/lvgl/src/indev/lv_indev.c.s
+.PHONY : Core/Src/lvgl/src/indev/lv_indev.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/indev/lv_indev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.s
+.PHONY : Core/Src/lvgl/src/indev/lv_indev.c.s
+
+Core/Src/lvgl/src/indev/lv_indev_scroll.obj: Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj
+.PHONY : Core/Src/lvgl/src/indev/lv_indev_scroll.obj
+
+# target to build an object file
+Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj
+.PHONY : Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj
+
+Core/Src/lvgl/src/indev/lv_indev_scroll.i: Core/Src/lvgl/src/indev/lv_indev_scroll.c.i
+.PHONY : Core/Src/lvgl/src/indev/lv_indev_scroll.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/indev/lv_indev_scroll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.i
+.PHONY : Core/Src/lvgl/src/indev/lv_indev_scroll.c.i
+
+Core/Src/lvgl/src/indev/lv_indev_scroll.s: Core/Src/lvgl/src/indev/lv_indev_scroll.c.s
+.PHONY : Core/Src/lvgl/src/indev/lv_indev_scroll.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/indev/lv_indev_scroll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.s
+.PHONY : Core/Src/lvgl/src/indev/lv_indev_scroll.c.s
+
+Core/Src/lvgl/src/layouts/flex/lv_flex.obj: Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj
+.PHONY : Core/Src/lvgl/src/layouts/flex/lv_flex.obj
+
+# target to build an object file
+Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj
+.PHONY : Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj
+
+Core/Src/lvgl/src/layouts/flex/lv_flex.i: Core/Src/lvgl/src/layouts/flex/lv_flex.c.i
+.PHONY : Core/Src/lvgl/src/layouts/flex/lv_flex.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/layouts/flex/lv_flex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.i
+.PHONY : Core/Src/lvgl/src/layouts/flex/lv_flex.c.i
+
+Core/Src/lvgl/src/layouts/flex/lv_flex.s: Core/Src/lvgl/src/layouts/flex/lv_flex.c.s
+.PHONY : Core/Src/lvgl/src/layouts/flex/lv_flex.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/layouts/flex/lv_flex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.s
+.PHONY : Core/Src/lvgl/src/layouts/flex/lv_flex.c.s
+
+Core/Src/lvgl/src/layouts/grid/lv_grid.obj: Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj
+.PHONY : Core/Src/lvgl/src/layouts/grid/lv_grid.obj
+
+# target to build an object file
+Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj
+.PHONY : Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj
+
+Core/Src/lvgl/src/layouts/grid/lv_grid.i: Core/Src/lvgl/src/layouts/grid/lv_grid.c.i
+.PHONY : Core/Src/lvgl/src/layouts/grid/lv_grid.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/layouts/grid/lv_grid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.i
+.PHONY : Core/Src/lvgl/src/layouts/grid/lv_grid.c.i
+
+Core/Src/lvgl/src/layouts/grid/lv_grid.s: Core/Src/lvgl/src/layouts/grid/lv_grid.c.s
+.PHONY : Core/Src/lvgl/src/layouts/grid/lv_grid.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/layouts/grid/lv_grid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.s
+.PHONY : Core/Src/lvgl/src/layouts/grid/lv_grid.c.s
+
+Core/Src/lvgl/src/layouts/lv_layout.obj: Core/Src/lvgl/src/layouts/lv_layout.c.obj
+.PHONY : Core/Src/lvgl/src/layouts/lv_layout.obj
+
+# target to build an object file
+Core/Src/lvgl/src/layouts/lv_layout.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj
+.PHONY : Core/Src/lvgl/src/layouts/lv_layout.c.obj
+
+Core/Src/lvgl/src/layouts/lv_layout.i: Core/Src/lvgl/src/layouts/lv_layout.c.i
+.PHONY : Core/Src/lvgl/src/layouts/lv_layout.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/layouts/lv_layout.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.i
+.PHONY : Core/Src/lvgl/src/layouts/lv_layout.c.i
+
+Core/Src/lvgl/src/layouts/lv_layout.s: Core/Src/lvgl/src/layouts/lv_layout.c.s
+.PHONY : Core/Src/lvgl/src/layouts/lv_layout.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/layouts/lv_layout.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.s
+.PHONY : Core/Src/lvgl/src/layouts/lv_layout.c.s
+
+Core/Src/lvgl/src/libs/barcode/code128.obj: Core/Src/lvgl/src/libs/barcode/code128.c.obj
+.PHONY : Core/Src/lvgl/src/libs/barcode/code128.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/barcode/code128.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj
+.PHONY : Core/Src/lvgl/src/libs/barcode/code128.c.obj
+
+Core/Src/lvgl/src/libs/barcode/code128.i: Core/Src/lvgl/src/libs/barcode/code128.c.i
+.PHONY : Core/Src/lvgl/src/libs/barcode/code128.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/barcode/code128.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.i
+.PHONY : Core/Src/lvgl/src/libs/barcode/code128.c.i
+
+Core/Src/lvgl/src/libs/barcode/code128.s: Core/Src/lvgl/src/libs/barcode/code128.c.s
+.PHONY : Core/Src/lvgl/src/libs/barcode/code128.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/barcode/code128.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.s
+.PHONY : Core/Src/lvgl/src/libs/barcode/code128.c.s
+
+Core/Src/lvgl/src/libs/barcode/lv_barcode.obj: Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj
+.PHONY : Core/Src/lvgl/src/libs/barcode/lv_barcode.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj
+.PHONY : Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj
+
+Core/Src/lvgl/src/libs/barcode/lv_barcode.i: Core/Src/lvgl/src/libs/barcode/lv_barcode.c.i
+.PHONY : Core/Src/lvgl/src/libs/barcode/lv_barcode.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/barcode/lv_barcode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.i
+.PHONY : Core/Src/lvgl/src/libs/barcode/lv_barcode.c.i
+
+Core/Src/lvgl/src/libs/barcode/lv_barcode.s: Core/Src/lvgl/src/libs/barcode/lv_barcode.c.s
+.PHONY : Core/Src/lvgl/src/libs/barcode/lv_barcode.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/barcode/lv_barcode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.s
+.PHONY : Core/Src/lvgl/src/libs/barcode/lv_barcode.c.s
+
+Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.obj: Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
+.PHONY : Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
+.PHONY : Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
+
+Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.i: Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i
+.PHONY : Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i
+.PHONY : Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i
+
+Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.s: Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s
+.PHONY : Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s
+.PHONY : Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s
+
+Core/Src/lvgl/src/libs/bmp/lv_bmp.obj: Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj
+.PHONY : Core/Src/lvgl/src/libs/bmp/lv_bmp.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj
+.PHONY : Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj
+
+Core/Src/lvgl/src/libs/bmp/lv_bmp.i: Core/Src/lvgl/src/libs/bmp/lv_bmp.c.i
+.PHONY : Core/Src/lvgl/src/libs/bmp/lv_bmp.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/bmp/lv_bmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.i
+.PHONY : Core/Src/lvgl/src/libs/bmp/lv_bmp.c.i
+
+Core/Src/lvgl/src/libs/bmp/lv_bmp.s: Core/Src/lvgl/src/libs/bmp/lv_bmp.c.s
+.PHONY : Core/Src/lvgl/src/libs/bmp/lv_bmp.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/bmp/lv_bmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.s
+.PHONY : Core/Src/lvgl/src/libs/bmp/lv_bmp.c.s
+
+Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.obj: Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj
+.PHONY : Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj
+.PHONY : Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj
+
+Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.i: Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i
+.PHONY : Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i
+.PHONY : Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i
+
+Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.s: Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s
+.PHONY : Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s
+.PHONY : Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype.obj: Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype.i: Core/Src/lvgl/src/libs/freetype/lv_freetype.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/freetype/lv_freetype.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype.c.i
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype.s: Core/Src/lvgl/src/libs/freetype/lv_freetype.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/freetype/lv_freetype.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype.c.s
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.obj: Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.i: Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.i
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.s: Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.s
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_image.obj: Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_image.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_image.i: Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_image.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.i
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_image.s: Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_image.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.s
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.obj: Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.i: Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.i
+
+Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.s: Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.s
+
+Core/Src/lvgl/src/libs/freetype/lv_ftsystem.obj: Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_ftsystem.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj
+
+Core/Src/lvgl/src/libs/freetype/lv_ftsystem.i: Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_ftsystem.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.i
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.i
+
+Core/Src/lvgl/src/libs/freetype/lv_ftsystem.s: Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_ftsystem.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.s
+.PHONY : Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.obj: Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.i: Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.i
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.i
+
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.s: Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.s
+.PHONY : Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.s
+
+Core/Src/lvgl/src/libs/gif/gifdec.obj: Core/Src/lvgl/src/libs/gif/gifdec.c.obj
+.PHONY : Core/Src/lvgl/src/libs/gif/gifdec.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/gif/gifdec.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj
+.PHONY : Core/Src/lvgl/src/libs/gif/gifdec.c.obj
+
+Core/Src/lvgl/src/libs/gif/gifdec.i: Core/Src/lvgl/src/libs/gif/gifdec.c.i
+.PHONY : Core/Src/lvgl/src/libs/gif/gifdec.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/gif/gifdec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.i
+.PHONY : Core/Src/lvgl/src/libs/gif/gifdec.c.i
+
+Core/Src/lvgl/src/libs/gif/gifdec.s: Core/Src/lvgl/src/libs/gif/gifdec.c.s
+.PHONY : Core/Src/lvgl/src/libs/gif/gifdec.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/gif/gifdec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.s
+.PHONY : Core/Src/lvgl/src/libs/gif/gifdec.c.s
+
+Core/Src/lvgl/src/libs/gif/lv_gif.obj: Core/Src/lvgl/src/libs/gif/lv_gif.c.obj
+.PHONY : Core/Src/lvgl/src/libs/gif/lv_gif.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/gif/lv_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj
+.PHONY : Core/Src/lvgl/src/libs/gif/lv_gif.c.obj
+
+Core/Src/lvgl/src/libs/gif/lv_gif.i: Core/Src/lvgl/src/libs/gif/lv_gif.c.i
+.PHONY : Core/Src/lvgl/src/libs/gif/lv_gif.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/gif/lv_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.i
+.PHONY : Core/Src/lvgl/src/libs/gif/lv_gif.c.i
+
+Core/Src/lvgl/src/libs/gif/lv_gif.s: Core/Src/lvgl/src/libs/gif/lv_gif.c.s
+.PHONY : Core/Src/lvgl/src/libs/gif/lv_gif.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/gif/lv_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.s
+.PHONY : Core/Src/lvgl/src/libs/gif/lv_gif.c.s
+
+Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.obj: Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj
+.PHONY : Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj
+.PHONY : Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj
+
+Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.i: Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i
+.PHONY : Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i
+.PHONY : Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i
+
+Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.s: Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s
+.PHONY : Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s
+.PHONY : Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s
+
+Core/Src/lvgl/src/libs/libpng/lv_libpng.obj: Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj
+.PHONY : Core/Src/lvgl/src/libs/libpng/lv_libpng.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj
+.PHONY : Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj
+
+Core/Src/lvgl/src/libs/libpng/lv_libpng.i: Core/Src/lvgl/src/libs/libpng/lv_libpng.c.i
+.PHONY : Core/Src/lvgl/src/libs/libpng/lv_libpng.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/libpng/lv_libpng.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.i
+.PHONY : Core/Src/lvgl/src/libs/libpng/lv_libpng.c.i
+
+Core/Src/lvgl/src/libs/libpng/lv_libpng.s: Core/Src/lvgl/src/libs/libpng/lv_libpng.c.s
+.PHONY : Core/Src/lvgl/src/libs/libpng/lv_libpng.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/libpng/lv_libpng.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.s
+.PHONY : Core/Src/lvgl/src/libs/libpng/lv_libpng.c.s
+
+Core/Src/lvgl/src/libs/lodepng/lodepng.obj: Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lodepng.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj
+
+Core/Src/lvgl/src/libs/lodepng/lodepng.i: Core/Src/lvgl/src/libs/lodepng/lodepng.c.i
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lodepng.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/lodepng/lodepng.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.i
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lodepng.c.i
+
+Core/Src/lvgl/src/libs/lodepng/lodepng.s: Core/Src/lvgl/src/libs/lodepng/lodepng.c.s
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lodepng.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/lodepng/lodepng.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.s
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lodepng.c.s
+
+Core/Src/lvgl/src/libs/lodepng/lv_lodepng.obj: Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lv_lodepng.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj
+
+Core/Src/lvgl/src/libs/lodepng/lv_lodepng.i: Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.i
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lv_lodepng.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.i
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.i
+
+Core/Src/lvgl/src/libs/lodepng/lv_lodepng.s: Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.s
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lv_lodepng.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.s
+.PHONY : Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.s
+
+Core/Src/lvgl/src/libs/lz4/lz4.obj: Core/Src/lvgl/src/libs/lz4/lz4.c.obj
+.PHONY : Core/Src/lvgl/src/libs/lz4/lz4.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/lz4/lz4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj
+.PHONY : Core/Src/lvgl/src/libs/lz4/lz4.c.obj
+
+Core/Src/lvgl/src/libs/lz4/lz4.i: Core/Src/lvgl/src/libs/lz4/lz4.c.i
+.PHONY : Core/Src/lvgl/src/libs/lz4/lz4.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/lz4/lz4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.i
+.PHONY : Core/Src/lvgl/src/libs/lz4/lz4.c.i
+
+Core/Src/lvgl/src/libs/lz4/lz4.s: Core/Src/lvgl/src/libs/lz4/lz4.c.s
+.PHONY : Core/Src/lvgl/src/libs/lz4/lz4.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/lz4/lz4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.s
+.PHONY : Core/Src/lvgl/src/libs/lz4/lz4.c.s
+
+Core/Src/lvgl/src/libs/qrcode/lv_qrcode.obj: Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj
+.PHONY : Core/Src/lvgl/src/libs/qrcode/lv_qrcode.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj
+.PHONY : Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj
+
+Core/Src/lvgl/src/libs/qrcode/lv_qrcode.i: Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.i
+.PHONY : Core/Src/lvgl/src/libs/qrcode/lv_qrcode.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.i
+.PHONY : Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.i
+
+Core/Src/lvgl/src/libs/qrcode/lv_qrcode.s: Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.s
+.PHONY : Core/Src/lvgl/src/libs/qrcode/lv_qrcode.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.s
+.PHONY : Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.s
+
+Core/Src/lvgl/src/libs/qrcode/qrcodegen.obj: Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj
+.PHONY : Core/Src/lvgl/src/libs/qrcode/qrcodegen.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj
+.PHONY : Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj
+
+Core/Src/lvgl/src/libs/qrcode/qrcodegen.i: Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.i
+.PHONY : Core/Src/lvgl/src/libs/qrcode/qrcodegen.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.i
+.PHONY : Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.i
+
+Core/Src/lvgl/src/libs/qrcode/qrcodegen.s: Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.s
+.PHONY : Core/Src/lvgl/src/libs/qrcode/qrcodegen.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.s
+.PHONY : Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.s
+
+Core/Src/lvgl/src/libs/rle/lv_rle.obj: Core/Src/lvgl/src/libs/rle/lv_rle.c.obj
+.PHONY : Core/Src/lvgl/src/libs/rle/lv_rle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/rle/lv_rle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj
+.PHONY : Core/Src/lvgl/src/libs/rle/lv_rle.c.obj
+
+Core/Src/lvgl/src/libs/rle/lv_rle.i: Core/Src/lvgl/src/libs/rle/lv_rle.c.i
+.PHONY : Core/Src/lvgl/src/libs/rle/lv_rle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/rle/lv_rle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.i
+.PHONY : Core/Src/lvgl/src/libs/rle/lv_rle.c.i
+
+Core/Src/lvgl/src/libs/rle/lv_rle.s: Core/Src/lvgl/src/libs/rle/lv_rle.c.s
+.PHONY : Core/Src/lvgl/src/libs/rle/lv_rle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/rle/lv_rle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.s
+.PHONY : Core/Src/lvgl/src/libs/rle/lv_rle.c.s
+
+Core/Src/lvgl/src/libs/rlottie/lv_rlottie.obj: Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj
+.PHONY : Core/Src/lvgl/src/libs/rlottie/lv_rlottie.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj
+.PHONY : Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj
+
+Core/Src/lvgl/src/libs/rlottie/lv_rlottie.i: Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.i
+.PHONY : Core/Src/lvgl/src/libs/rlottie/lv_rlottie.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.i
+.PHONY : Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.i
+
+Core/Src/lvgl/src/libs/rlottie/lv_rlottie.s: Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.s
+.PHONY : Core/Src/lvgl/src/libs/rlottie/lv_rlottie.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.s
+.PHONY : Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgAccessor.obj: Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAccessor.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgAccessor.i: Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAccessor.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgAccessor.s: Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAccessor.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgAnimation.obj: Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAnimation.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgAnimation.i: Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAnimation.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgAnimation.s: Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAnimation.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgCanvas.obj: Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCanvas.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgCanvas.i: Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCanvas.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgCanvas.s: Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCanvas.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgCapi.obj: Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCapi.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgCapi.i: Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCapi.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgCapi.s: Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCapi.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgCompressor.obj: Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCompressor.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgCompressor.i: Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCompressor.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgCompressor.s: Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCompressor.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgFill.obj: Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgFill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgFill.i: Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgFill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgFill.s: Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgFill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.obj: Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.i: Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.s: Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgInitializer.obj: Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgInitializer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgInitializer.i: Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgInitializer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgInitializer.s: Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgInitializer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLines.obj: Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLines.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLines.i: Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLines.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLines.s: Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLines.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLoader.obj: Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLoader.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLoader.i: Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLoader.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLoader.s: Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLoader.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.obj: Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.i: Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.s: Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgMath.obj: Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgMath.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgMath.i: Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgMath.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgMath.s: Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgMath.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgPaint.obj: Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPaint.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgPaint.i: Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPaint.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgPaint.s: Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPaint.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgPicture.obj: Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPicture.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgPicture.i: Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPicture.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgPicture.s: Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPicture.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.obj: Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.i: Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.s: Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgRender.obj: Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRender.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgRender.i: Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRender.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgRender.s: Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRender.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSaver.obj: Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSaver.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSaver.i: Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSaver.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSaver.s: Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSaver.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgScene.obj: Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgScene.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgScene.i: Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgScene.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgScene.s: Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgScene.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgShape.obj: Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgShape.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgShape.i: Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgShape.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgShape.s: Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgShape.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgStr.obj: Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgStr.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgStr.i: Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgStr.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgStr.s: Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgStr.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.obj: Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.i: Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.s: Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.obj: Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.i: Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.s: Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.obj: Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.i: Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.s: Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.obj: Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.i: Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.s: Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.obj: Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.i: Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.s: Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.i: Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.s: Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwFill.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwFill.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwFill.i: Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwFill.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwFill.s: Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwFill.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwImage.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwImage.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwImage.i: Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwImage.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwImage.s: Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwImage.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwMath.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMath.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwMath.i: Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMath.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwMath.s: Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMath.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.i: Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.s: Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.i: Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.s: Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.i: Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.s: Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRle.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRle.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRle.i: Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRle.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwRle.s: Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRle.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwShape.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwShape.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwShape.i: Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwShape.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwShape.s: Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwShape.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.obj: Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.i: Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.s: Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.obj: Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.i: Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.s: Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgText.obj: Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgText.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgText.i: Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgText.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgText.s: Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgText.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.obj: Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.i: Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.s: Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.s
+
+Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.obj: Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj
+
+Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.i: Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.i
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.i
+
+Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.s: Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.s
+.PHONY : Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.s
+
+Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.obj: Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj
+.PHONY : Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj
+.PHONY : Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj
+
+Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.i: Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i
+.PHONY : Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i
+.PHONY : Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i
+
+Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.s: Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s
+.PHONY : Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s
+.PHONY : Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s
+
+Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.obj: Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj
+
+Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.i: Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.i
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.i
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.i
+
+Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.s: Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.s
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.s
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.s
+
+Core/Src/lvgl/src/libs/tjpgd/tjpgd.obj: Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/tjpgd.obj
+
+# target to build an object file
+Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj
+
+Core/Src/lvgl/src/libs/tjpgd/tjpgd.i: Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.i
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/tjpgd.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.i
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.i
+
+Core/Src/lvgl/src/libs/tjpgd/tjpgd.s: Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.s
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/tjpgd.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.s
+.PHONY : Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.s
+
+Core/Src/lvgl/src/lv_init.obj: Core/Src/lvgl/src/lv_init.c.obj
+.PHONY : Core/Src/lvgl/src/lv_init.obj
+
+# target to build an object file
+Core/Src/lvgl/src/lv_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj
+.PHONY : Core/Src/lvgl/src/lv_init.c.obj
+
+Core/Src/lvgl/src/lv_init.i: Core/Src/lvgl/src/lv_init.c.i
+.PHONY : Core/Src/lvgl/src/lv_init.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/lv_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.i
+.PHONY : Core/Src/lvgl/src/lv_init.c.i
+
+Core/Src/lvgl/src/lv_init.s: Core/Src/lvgl/src/lv_init.c.s
+.PHONY : Core/Src/lvgl/src/lv_init.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/lv_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.s
+.PHONY : Core/Src/lvgl/src/lv_init.c.s
+
+Core/Src/lvgl/src/misc/cache/lv_cache.obj: Core/Src/lvgl/src/misc/cache/lv_cache.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/cache/lv_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache.c.obj
+
+Core/Src/lvgl/src/misc/cache/lv_cache.i: Core/Src/lvgl/src/misc/cache/lv_cache.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/cache/lv_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache.c.i
+
+Core/Src/lvgl/src/misc/cache/lv_cache.s: Core/Src/lvgl/src/misc/cache/lv_cache.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/cache/lv_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache.c.s
+
+Core/Src/lvgl/src/misc/cache/lv_cache_entry.obj: Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_entry.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj
+
+Core/Src/lvgl/src/misc/cache/lv_cache_entry.i: Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_entry.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.i
+
+Core/Src/lvgl/src/misc/cache/lv_cache_entry.s: Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_entry.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.s
+
+Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.obj: Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
+
+Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.i: Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.i
+
+Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.s: Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.s
+
+Core/Src/lvgl/src/misc/cache/lv_image_cache.obj: Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_cache.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
+
+Core/Src/lvgl/src/misc/cache/lv_image_cache.i: Core/Src/lvgl/src/misc/cache/lv_image_cache.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_cache.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/cache/lv_image_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_cache.c.i
+
+Core/Src/lvgl/src/misc/cache/lv_image_cache.s: Core/Src/lvgl/src/misc/cache/lv_image_cache.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_cache.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/cache/lv_image_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_cache.c.s
+
+Core/Src/lvgl/src/misc/cache/lv_image_header_cache.obj: Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_header_cache.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
+
+Core/Src/lvgl/src/misc/cache/lv_image_header_cache.i: Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_header_cache.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.i
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.i
+
+Core/Src/lvgl/src/misc/cache/lv_image_header_cache.s: Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_header_cache.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.s
+.PHONY : Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.s
+
+Core/Src/lvgl/src/misc/lv_anim.obj: Core/Src/lvgl/src/misc/lv_anim.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_anim.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_anim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_anim.c.obj
+
+Core/Src/lvgl/src/misc/lv_anim.i: Core/Src/lvgl/src/misc/lv_anim.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_anim.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_anim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_anim.c.i
+
+Core/Src/lvgl/src/misc/lv_anim.s: Core/Src/lvgl/src/misc/lv_anim.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_anim.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_anim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_anim.c.s
+
+Core/Src/lvgl/src/misc/lv_anim_timeline.obj: Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_anim_timeline.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj
+
+Core/Src/lvgl/src/misc/lv_anim_timeline.i: Core/Src/lvgl/src/misc/lv_anim_timeline.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_anim_timeline.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_anim_timeline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_anim_timeline.c.i
+
+Core/Src/lvgl/src/misc/lv_anim_timeline.s: Core/Src/lvgl/src/misc/lv_anim_timeline.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_anim_timeline.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_anim_timeline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_anim_timeline.c.s
+
+Core/Src/lvgl/src/misc/lv_area.obj: Core/Src/lvgl/src/misc/lv_area.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_area.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_area.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_area.c.obj
+
+Core/Src/lvgl/src/misc/lv_area.i: Core/Src/lvgl/src/misc/lv_area.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_area.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_area.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_area.c.i
+
+Core/Src/lvgl/src/misc/lv_area.s: Core/Src/lvgl/src/misc/lv_area.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_area.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_area.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_area.c.s
+
+Core/Src/lvgl/src/misc/lv_array.obj: Core/Src/lvgl/src/misc/lv_array.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_array.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_array.c.obj
+
+Core/Src/lvgl/src/misc/lv_array.i: Core/Src/lvgl/src/misc/lv_array.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_array.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_array.c.i
+
+Core/Src/lvgl/src/misc/lv_array.s: Core/Src/lvgl/src/misc/lv_array.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_array.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_array.c.s
+
+Core/Src/lvgl/src/misc/lv_async.obj: Core/Src/lvgl/src/misc/lv_async.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_async.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_async.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_async.c.obj
+
+Core/Src/lvgl/src/misc/lv_async.i: Core/Src/lvgl/src/misc/lv_async.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_async.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_async.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_async.c.i
+
+Core/Src/lvgl/src/misc/lv_async.s: Core/Src/lvgl/src/misc/lv_async.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_async.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_async.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_async.c.s
+
+Core/Src/lvgl/src/misc/lv_bidi.obj: Core/Src/lvgl/src/misc/lv_bidi.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_bidi.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_bidi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_bidi.c.obj
+
+Core/Src/lvgl/src/misc/lv_bidi.i: Core/Src/lvgl/src/misc/lv_bidi.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_bidi.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_bidi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_bidi.c.i
+
+Core/Src/lvgl/src/misc/lv_bidi.s: Core/Src/lvgl/src/misc/lv_bidi.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_bidi.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_bidi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_bidi.c.s
+
+Core/Src/lvgl/src/misc/lv_color.obj: Core/Src/lvgl/src/misc/lv_color.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_color.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_color.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_color.c.obj
+
+Core/Src/lvgl/src/misc/lv_color.i: Core/Src/lvgl/src/misc/lv_color.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_color.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_color.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_color.c.i
+
+Core/Src/lvgl/src/misc/lv_color.s: Core/Src/lvgl/src/misc/lv_color.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_color.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_color.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_color.c.s
+
+Core/Src/lvgl/src/misc/lv_color_op.obj: Core/Src/lvgl/src/misc/lv_color_op.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_color_op.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_color_op.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_color_op.c.obj
+
+Core/Src/lvgl/src/misc/lv_color_op.i: Core/Src/lvgl/src/misc/lv_color_op.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_color_op.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_color_op.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_color_op.c.i
+
+Core/Src/lvgl/src/misc/lv_color_op.s: Core/Src/lvgl/src/misc/lv_color_op.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_color_op.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_color_op.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_color_op.c.s
+
+Core/Src/lvgl/src/misc/lv_event.obj: Core/Src/lvgl/src/misc/lv_event.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_event.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_event.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_event.c.obj
+
+Core/Src/lvgl/src/misc/lv_event.i: Core/Src/lvgl/src/misc/lv_event.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_event.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_event.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_event.c.i
+
+Core/Src/lvgl/src/misc/lv_event.s: Core/Src/lvgl/src/misc/lv_event.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_event.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_event.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_event.c.s
+
+Core/Src/lvgl/src/misc/lv_fs.obj: Core/Src/lvgl/src/misc/lv_fs.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_fs.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_fs.c.obj
+
+Core/Src/lvgl/src/misc/lv_fs.i: Core/Src/lvgl/src/misc/lv_fs.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_fs.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_fs.c.i
+
+Core/Src/lvgl/src/misc/lv_fs.s: Core/Src/lvgl/src/misc/lv_fs.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_fs.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_fs.c.s
+
+Core/Src/lvgl/src/misc/lv_ll.obj: Core/Src/lvgl/src/misc/lv_ll.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_ll.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_ll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_ll.c.obj
+
+Core/Src/lvgl/src/misc/lv_ll.i: Core/Src/lvgl/src/misc/lv_ll.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_ll.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_ll.c.i
+
+Core/Src/lvgl/src/misc/lv_ll.s: Core/Src/lvgl/src/misc/lv_ll.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_ll.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_ll.c.s
+
+Core/Src/lvgl/src/misc/lv_log.obj: Core/Src/lvgl/src/misc/lv_log.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_log.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_log.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_log.c.obj
+
+Core/Src/lvgl/src/misc/lv_log.i: Core/Src/lvgl/src/misc/lv_log.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_log.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_log.c.i
+
+Core/Src/lvgl/src/misc/lv_log.s: Core/Src/lvgl/src/misc/lv_log.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_log.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_log.c.s
+
+Core/Src/lvgl/src/misc/lv_lru.obj: Core/Src/lvgl/src/misc/lv_lru.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_lru.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_lru.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_lru.c.obj
+
+Core/Src/lvgl/src/misc/lv_lru.i: Core/Src/lvgl/src/misc/lv_lru.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_lru.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_lru.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_lru.c.i
+
+Core/Src/lvgl/src/misc/lv_lru.s: Core/Src/lvgl/src/misc/lv_lru.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_lru.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_lru.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_lru.c.s
+
+Core/Src/lvgl/src/misc/lv_math.obj: Core/Src/lvgl/src/misc/lv_math.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_math.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_math.c.obj
+
+Core/Src/lvgl/src/misc/lv_math.i: Core/Src/lvgl/src/misc/lv_math.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_math.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_math.c.i
+
+Core/Src/lvgl/src/misc/lv_math.s: Core/Src/lvgl/src/misc/lv_math.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_math.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_math.c.s
+
+Core/Src/lvgl/src/misc/lv_matrix.obj: Core/Src/lvgl/src/misc/lv_matrix.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_matrix.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_matrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_matrix.c.obj
+
+Core/Src/lvgl/src/misc/lv_matrix.i: Core/Src/lvgl/src/misc/lv_matrix.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_matrix.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_matrix.c.i
+
+Core/Src/lvgl/src/misc/lv_matrix.s: Core/Src/lvgl/src/misc/lv_matrix.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_matrix.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_matrix.c.s
+
+Core/Src/lvgl/src/misc/lv_palette.obj: Core/Src/lvgl/src/misc/lv_palette.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_palette.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_palette.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_palette.c.obj
+
+Core/Src/lvgl/src/misc/lv_palette.i: Core/Src/lvgl/src/misc/lv_palette.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_palette.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_palette.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_palette.c.i
+
+Core/Src/lvgl/src/misc/lv_palette.s: Core/Src/lvgl/src/misc/lv_palette.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_palette.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_palette.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_palette.c.s
+
+Core/Src/lvgl/src/misc/lv_profiler_builtin.obj: Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_profiler_builtin.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj
+
+Core/Src/lvgl/src/misc/lv_profiler_builtin.i: Core/Src/lvgl/src/misc/lv_profiler_builtin.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_profiler_builtin.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_profiler_builtin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_profiler_builtin.c.i
+
+Core/Src/lvgl/src/misc/lv_profiler_builtin.s: Core/Src/lvgl/src/misc/lv_profiler_builtin.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_profiler_builtin.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_profiler_builtin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_profiler_builtin.c.s
+
+Core/Src/lvgl/src/misc/lv_rb.obj: Core/Src/lvgl/src/misc/lv_rb.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_rb.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_rb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_rb.c.obj
+
+Core/Src/lvgl/src/misc/lv_rb.i: Core/Src/lvgl/src/misc/lv_rb.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_rb.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_rb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_rb.c.i
+
+Core/Src/lvgl/src/misc/lv_rb.s: Core/Src/lvgl/src/misc/lv_rb.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_rb.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_rb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_rb.c.s
+
+Core/Src/lvgl/src/misc/lv_style.obj: Core/Src/lvgl/src/misc/lv_style.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_style.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_style.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_style.c.obj
+
+Core/Src/lvgl/src/misc/lv_style.i: Core/Src/lvgl/src/misc/lv_style.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_style.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_style.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_style.c.i
+
+Core/Src/lvgl/src/misc/lv_style.s: Core/Src/lvgl/src/misc/lv_style.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_style.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_style.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_style.c.s
+
+Core/Src/lvgl/src/misc/lv_style_gen.obj: Core/Src/lvgl/src/misc/lv_style_gen.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_style_gen.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_style_gen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_style_gen.c.obj
+
+Core/Src/lvgl/src/misc/lv_style_gen.i: Core/Src/lvgl/src/misc/lv_style_gen.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_style_gen.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_style_gen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_style_gen.c.i
+
+Core/Src/lvgl/src/misc/lv_style_gen.s: Core/Src/lvgl/src/misc/lv_style_gen.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_style_gen.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_style_gen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_style_gen.c.s
+
+Core/Src/lvgl/src/misc/lv_templ.obj: Core/Src/lvgl/src/misc/lv_templ.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_templ.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_templ.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_templ.c.obj
+
+Core/Src/lvgl/src/misc/lv_templ.i: Core/Src/lvgl/src/misc/lv_templ.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_templ.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_templ.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_templ.c.i
+
+Core/Src/lvgl/src/misc/lv_templ.s: Core/Src/lvgl/src/misc/lv_templ.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_templ.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_templ.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_templ.c.s
+
+Core/Src/lvgl/src/misc/lv_text.obj: Core/Src/lvgl/src/misc/lv_text.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_text.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_text.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_text.c.obj
+
+Core/Src/lvgl/src/misc/lv_text.i: Core/Src/lvgl/src/misc/lv_text.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_text.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_text.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_text.c.i
+
+Core/Src/lvgl/src/misc/lv_text.s: Core/Src/lvgl/src/misc/lv_text.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_text.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_text.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_text.c.s
+
+Core/Src/lvgl/src/misc/lv_text_ap.obj: Core/Src/lvgl/src/misc/lv_text_ap.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_text_ap.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_text_ap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_text_ap.c.obj
+
+Core/Src/lvgl/src/misc/lv_text_ap.i: Core/Src/lvgl/src/misc/lv_text_ap.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_text_ap.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_text_ap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_text_ap.c.i
+
+Core/Src/lvgl/src/misc/lv_text_ap.s: Core/Src/lvgl/src/misc/lv_text_ap.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_text_ap.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_text_ap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_text_ap.c.s
+
+Core/Src/lvgl/src/misc/lv_timer.obj: Core/Src/lvgl/src/misc/lv_timer.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_timer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_timer.c.obj
+
+Core/Src/lvgl/src/misc/lv_timer.i: Core/Src/lvgl/src/misc/lv_timer.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_timer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_timer.c.i
+
+Core/Src/lvgl/src/misc/lv_timer.s: Core/Src/lvgl/src/misc/lv_timer.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_timer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_timer.c.s
+
+Core/Src/lvgl/src/misc/lv_utils.obj: Core/Src/lvgl/src/misc/lv_utils.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_utils.obj
+
+# target to build an object file
+Core/Src/lvgl/src/misc/lv_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj
+.PHONY : Core/Src/lvgl/src/misc/lv_utils.c.obj
+
+Core/Src/lvgl/src/misc/lv_utils.i: Core/Src/lvgl/src/misc/lv_utils.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_utils.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/misc/lv_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.i
+.PHONY : Core/Src/lvgl/src/misc/lv_utils.c.i
+
+Core/Src/lvgl/src/misc/lv_utils.s: Core/Src/lvgl/src/misc/lv_utils.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_utils.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/misc/lv_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.s
+.PHONY : Core/Src/lvgl/src/misc/lv_utils.c.s
+
+Core/Src/lvgl/src/osal/lv_cmsis_rtos2.obj: Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_cmsis_rtos2.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj
+
+Core/Src/lvgl/src/osal/lv_cmsis_rtos2.i: Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_cmsis_rtos2.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.i
+
+Core/Src/lvgl/src/osal/lv_cmsis_rtos2.s: Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_cmsis_rtos2.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.s
+
+Core/Src/lvgl/src/osal/lv_freertos.obj: Core/Src/lvgl/src/osal/lv_freertos.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_freertos.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_freertos.c.obj
+
+Core/Src/lvgl/src/osal/lv_freertos.i: Core/Src/lvgl/src/osal/lv_freertos.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_freertos.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_freertos.c.i
+
+Core/Src/lvgl/src/osal/lv_freertos.s: Core/Src/lvgl/src/osal/lv_freertos.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_freertos.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_freertos.c.s
+
+Core/Src/lvgl/src/osal/lv_mqx.obj: Core/Src/lvgl/src/osal/lv_mqx.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_mqx.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_mqx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_mqx.c.obj
+
+Core/Src/lvgl/src/osal/lv_mqx.i: Core/Src/lvgl/src/osal/lv_mqx.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_mqx.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_mqx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_mqx.c.i
+
+Core/Src/lvgl/src/osal/lv_mqx.s: Core/Src/lvgl/src/osal/lv_mqx.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_mqx.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_mqx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_mqx.c.s
+
+Core/Src/lvgl/src/osal/lv_os.obj: Core/Src/lvgl/src/osal/lv_os.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_os.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_os.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_os.c.obj
+
+Core/Src/lvgl/src/osal/lv_os.i: Core/Src/lvgl/src/osal/lv_os.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_os.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_os.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_os.c.i
+
+Core/Src/lvgl/src/osal/lv_os.s: Core/Src/lvgl/src/osal/lv_os.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_os.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_os.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_os.c.s
+
+Core/Src/lvgl/src/osal/lv_os_none.obj: Core/Src/lvgl/src/osal/lv_os_none.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_os_none.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_os_none.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_os_none.c.obj
+
+Core/Src/lvgl/src/osal/lv_os_none.i: Core/Src/lvgl/src/osal/lv_os_none.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_os_none.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_os_none.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_os_none.c.i
+
+Core/Src/lvgl/src/osal/lv_os_none.s: Core/Src/lvgl/src/osal/lv_os_none.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_os_none.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_os_none.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_os_none.c.s
+
+Core/Src/lvgl/src/osal/lv_pthread.obj: Core/Src/lvgl/src/osal/lv_pthread.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_pthread.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_pthread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_pthread.c.obj
+
+Core/Src/lvgl/src/osal/lv_pthread.i: Core/Src/lvgl/src/osal/lv_pthread.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_pthread.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_pthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_pthread.c.i
+
+Core/Src/lvgl/src/osal/lv_pthread.s: Core/Src/lvgl/src/osal/lv_pthread.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_pthread.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_pthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_pthread.c.s
+
+Core/Src/lvgl/src/osal/lv_rtthread.obj: Core/Src/lvgl/src/osal/lv_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_rtthread.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_rtthread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_rtthread.c.obj
+
+Core/Src/lvgl/src/osal/lv_rtthread.i: Core/Src/lvgl/src/osal/lv_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_rtthread.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_rtthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_rtthread.c.i
+
+Core/Src/lvgl/src/osal/lv_rtthread.s: Core/Src/lvgl/src/osal/lv_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_rtthread.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_rtthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_rtthread.c.s
+
+Core/Src/lvgl/src/osal/lv_windows.obj: Core/Src/lvgl/src/osal/lv_windows.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_windows.obj
+
+# target to build an object file
+Core/Src/lvgl/src/osal/lv_windows.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj
+.PHONY : Core/Src/lvgl/src/osal/lv_windows.c.obj
+
+Core/Src/lvgl/src/osal/lv_windows.i: Core/Src/lvgl/src/osal/lv_windows.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_windows.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/osal/lv_windows.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.i
+.PHONY : Core/Src/lvgl/src/osal/lv_windows.c.i
+
+Core/Src/lvgl/src/osal/lv_windows.s: Core/Src/lvgl/src/osal/lv_windows.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_windows.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/osal/lv_windows.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.s
+.PHONY : Core/Src/lvgl/src/osal/lv_windows.c.s
+
+Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.obj: Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj
+.PHONY : Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj
+.PHONY : Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj
+
+Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.i: Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.i
+.PHONY : Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.i
+.PHONY : Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.i
+
+Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.s: Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.s
+.PHONY : Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.s
+.PHONY : Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.s
+
+Core/Src/lvgl/src/others/fragment/lv_fragment.obj: Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj
+
+Core/Src/lvgl/src/others/fragment/lv_fragment.i: Core/Src/lvgl/src/others/fragment/lv_fragment.c.i
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/fragment/lv_fragment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.i
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment.c.i
+
+Core/Src/lvgl/src/others/fragment/lv_fragment.s: Core/Src/lvgl/src/others/fragment/lv_fragment.c.s
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/fragment/lv_fragment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.s
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment.c.s
+
+Core/Src/lvgl/src/others/fragment/lv_fragment_manager.obj: Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment_manager.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj
+
+Core/Src/lvgl/src/others/fragment/lv_fragment_manager.i: Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.i
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment_manager.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.i
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.i
+
+Core/Src/lvgl/src/others/fragment/lv_fragment_manager.s: Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.s
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment_manager.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.s
+.PHONY : Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.s
+
+Core/Src/lvgl/src/others/gridnav/lv_gridnav.obj: Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj
+.PHONY : Core/Src/lvgl/src/others/gridnav/lv_gridnav.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj
+.PHONY : Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj
+
+Core/Src/lvgl/src/others/gridnav/lv_gridnav.i: Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.i
+.PHONY : Core/Src/lvgl/src/others/gridnav/lv_gridnav.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.i
+.PHONY : Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.i
+
+Core/Src/lvgl/src/others/gridnav/lv_gridnav.s: Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.s
+.PHONY : Core/Src/lvgl/src/others/gridnav/lv_gridnav.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.s
+.PHONY : Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.s
+
+Core/Src/lvgl/src/others/ime/lv_ime_pinyin.obj: Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj
+.PHONY : Core/Src/lvgl/src/others/ime/lv_ime_pinyin.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj
+.PHONY : Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj
+
+Core/Src/lvgl/src/others/ime/lv_ime_pinyin.i: Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.i
+.PHONY : Core/Src/lvgl/src/others/ime/lv_ime_pinyin.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.i
+.PHONY : Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.i
+
+Core/Src/lvgl/src/others/ime/lv_ime_pinyin.s: Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.s
+.PHONY : Core/Src/lvgl/src/others/ime/lv_ime_pinyin.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.s
+.PHONY : Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.s
+
+Core/Src/lvgl/src/others/imgfont/lv_imgfont.obj: Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj
+.PHONY : Core/Src/lvgl/src/others/imgfont/lv_imgfont.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj
+.PHONY : Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj
+
+Core/Src/lvgl/src/others/imgfont/lv_imgfont.i: Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.i
+.PHONY : Core/Src/lvgl/src/others/imgfont/lv_imgfont.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.i
+.PHONY : Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.i
+
+Core/Src/lvgl/src/others/imgfont/lv_imgfont.s: Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.s
+.PHONY : Core/Src/lvgl/src/others/imgfont/lv_imgfont.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.s
+.PHONY : Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.s
+
+Core/Src/lvgl/src/others/monkey/lv_monkey.obj: Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj
+.PHONY : Core/Src/lvgl/src/others/monkey/lv_monkey.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj
+.PHONY : Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj
+
+Core/Src/lvgl/src/others/monkey/lv_monkey.i: Core/Src/lvgl/src/others/monkey/lv_monkey.c.i
+.PHONY : Core/Src/lvgl/src/others/monkey/lv_monkey.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/monkey/lv_monkey.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.i
+.PHONY : Core/Src/lvgl/src/others/monkey/lv_monkey.c.i
+
+Core/Src/lvgl/src/others/monkey/lv_monkey.s: Core/Src/lvgl/src/others/monkey/lv_monkey.c.s
+.PHONY : Core/Src/lvgl/src/others/monkey/lv_monkey.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/monkey/lv_monkey.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.s
+.PHONY : Core/Src/lvgl/src/others/monkey/lv_monkey.c.s
+
+Core/Src/lvgl/src/others/observer/lv_observer.obj: Core/Src/lvgl/src/others/observer/lv_observer.c.obj
+.PHONY : Core/Src/lvgl/src/others/observer/lv_observer.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/observer/lv_observer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj
+.PHONY : Core/Src/lvgl/src/others/observer/lv_observer.c.obj
+
+Core/Src/lvgl/src/others/observer/lv_observer.i: Core/Src/lvgl/src/others/observer/lv_observer.c.i
+.PHONY : Core/Src/lvgl/src/others/observer/lv_observer.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/observer/lv_observer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.i
+.PHONY : Core/Src/lvgl/src/others/observer/lv_observer.c.i
+
+Core/Src/lvgl/src/others/observer/lv_observer.s: Core/Src/lvgl/src/others/observer/lv_observer.c.s
+.PHONY : Core/Src/lvgl/src/others/observer/lv_observer.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/observer/lv_observer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.s
+.PHONY : Core/Src/lvgl/src/others/observer/lv_observer.c.s
+
+Core/Src/lvgl/src/others/snapshot/lv_snapshot.obj: Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj
+.PHONY : Core/Src/lvgl/src/others/snapshot/lv_snapshot.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj
+.PHONY : Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj
+
+Core/Src/lvgl/src/others/snapshot/lv_snapshot.i: Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.i
+.PHONY : Core/Src/lvgl/src/others/snapshot/lv_snapshot.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.i
+.PHONY : Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.i
+
+Core/Src/lvgl/src/others/snapshot/lv_snapshot.s: Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.s
+.PHONY : Core/Src/lvgl/src/others/snapshot/lv_snapshot.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.s
+.PHONY : Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.s
+
+Core/Src/lvgl/src/others/sysmon/lv_sysmon.obj: Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj
+.PHONY : Core/Src/lvgl/src/others/sysmon/lv_sysmon.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj
+.PHONY : Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj
+
+Core/Src/lvgl/src/others/sysmon/lv_sysmon.i: Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.i
+.PHONY : Core/Src/lvgl/src/others/sysmon/lv_sysmon.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.i
+.PHONY : Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.i
+
+Core/Src/lvgl/src/others/sysmon/lv_sysmon.s: Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.s
+.PHONY : Core/Src/lvgl/src/others/sysmon/lv_sysmon.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.s
+.PHONY : Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.s
+
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.obj: Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj
+
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.i: Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.i
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.i
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.i
+
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.s: Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.s
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.s
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.s
+
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.obj: Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.obj
+
+# target to build an object file
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj
+
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.i: Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i
+
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.s: Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.s
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.s
+.PHONY : Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.s
+
+Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.obj: Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj
+
+Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.i: Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i
+
+Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.s: Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s
+
+Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.obj: Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj
+
+Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.i: Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i
+
+Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.s: Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s
+
+Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.obj: Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj
+
+Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.i: Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.i
+
+Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.s: Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.s
+
+Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.obj: Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj
+
+Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.i: Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.i
+
+Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.s: Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.s
+
+Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.obj: Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj
+
+Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.i: Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i
+
+Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.s: Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s
+
+Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.obj: Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj
+
+Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.i: Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i
+
+Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.s: Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s
+
+Core/Src/lvgl/src/stdlib/clib/lv_string_clib.obj: Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_string_clib.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj
+
+Core/Src/lvgl/src/stdlib/clib/lv_string_clib.i: Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_string_clib.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.i
+
+Core/Src/lvgl/src/stdlib/clib/lv_string_clib.s: Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_string_clib.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.s
+
+Core/Src/lvgl/src/stdlib/lv_mem.obj: Core/Src/lvgl/src/stdlib/lv_mem.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/lv_mem.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/lv_mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/lv_mem.c.obj
+
+Core/Src/lvgl/src/stdlib/lv_mem.i: Core/Src/lvgl/src/stdlib/lv_mem.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/lv_mem.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/lv_mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/lv_mem.c.i
+
+Core/Src/lvgl/src/stdlib/lv_mem.s: Core/Src/lvgl/src/stdlib/lv_mem.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/lv_mem.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/lv_mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/lv_mem.c.s
+
+Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.obj: Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj
+
+Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.i: Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i
+
+Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.s: Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.obj: Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.i: Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.s: Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.obj: Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.i: Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.s: Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.obj: Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.obj
+
+# target to build an object file
+Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.i: Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i
+
+Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.s: Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s
+.PHONY : Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s
+
+Core/Src/lvgl/src/themes/default/lv_theme_default.obj: Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
+.PHONY : Core/Src/lvgl/src/themes/default/lv_theme_default.obj
+
+# target to build an object file
+Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
+.PHONY : Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
+
+Core/Src/lvgl/src/themes/default/lv_theme_default.i: Core/Src/lvgl/src/themes/default/lv_theme_default.c.i
+.PHONY : Core/Src/lvgl/src/themes/default/lv_theme_default.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/themes/default/lv_theme_default.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.i
+.PHONY : Core/Src/lvgl/src/themes/default/lv_theme_default.c.i
+
+Core/Src/lvgl/src/themes/default/lv_theme_default.s: Core/Src/lvgl/src/themes/default/lv_theme_default.c.s
+.PHONY : Core/Src/lvgl/src/themes/default/lv_theme_default.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/themes/default/lv_theme_default.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.s
+.PHONY : Core/Src/lvgl/src/themes/default/lv_theme_default.c.s
+
+Core/Src/lvgl/src/themes/lv_theme.obj: Core/Src/lvgl/src/themes/lv_theme.c.obj
+.PHONY : Core/Src/lvgl/src/themes/lv_theme.obj
+
+# target to build an object file
+Core/Src/lvgl/src/themes/lv_theme.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj
+.PHONY : Core/Src/lvgl/src/themes/lv_theme.c.obj
+
+Core/Src/lvgl/src/themes/lv_theme.i: Core/Src/lvgl/src/themes/lv_theme.c.i
+.PHONY : Core/Src/lvgl/src/themes/lv_theme.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/themes/lv_theme.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.i
+.PHONY : Core/Src/lvgl/src/themes/lv_theme.c.i
+
+Core/Src/lvgl/src/themes/lv_theme.s: Core/Src/lvgl/src/themes/lv_theme.c.s
+.PHONY : Core/Src/lvgl/src/themes/lv_theme.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/themes/lv_theme.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.s
+.PHONY : Core/Src/lvgl/src/themes/lv_theme.c.s
+
+Core/Src/lvgl/src/themes/mono/lv_theme_mono.obj: Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj
+.PHONY : Core/Src/lvgl/src/themes/mono/lv_theme_mono.obj
+
+# target to build an object file
+Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj
+.PHONY : Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj
+
+Core/Src/lvgl/src/themes/mono/lv_theme_mono.i: Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.i
+.PHONY : Core/Src/lvgl/src/themes/mono/lv_theme_mono.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.i
+.PHONY : Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.i
+
+Core/Src/lvgl/src/themes/mono/lv_theme_mono.s: Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.s
+.PHONY : Core/Src/lvgl/src/themes/mono/lv_theme_mono.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.s
+.PHONY : Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.s
+
+Core/Src/lvgl/src/themes/simple/lv_theme_simple.obj: Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj
+.PHONY : Core/Src/lvgl/src/themes/simple/lv_theme_simple.obj
+
+# target to build an object file
+Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj
+.PHONY : Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj
+
+Core/Src/lvgl/src/themes/simple/lv_theme_simple.i: Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.i
+.PHONY : Core/Src/lvgl/src/themes/simple/lv_theme_simple.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.i
+.PHONY : Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.i
+
+Core/Src/lvgl/src/themes/simple/lv_theme_simple.s: Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.s
+.PHONY : Core/Src/lvgl/src/themes/simple/lv_theme_simple.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.s
+.PHONY : Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.s
+
+Core/Src/lvgl/src/tick/lv_tick.obj: Core/Src/lvgl/src/tick/lv_tick.c.obj
+.PHONY : Core/Src/lvgl/src/tick/lv_tick.obj
+
+# target to build an object file
+Core/Src/lvgl/src/tick/lv_tick.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj
+.PHONY : Core/Src/lvgl/src/tick/lv_tick.c.obj
+
+Core/Src/lvgl/src/tick/lv_tick.i: Core/Src/lvgl/src/tick/lv_tick.c.i
+.PHONY : Core/Src/lvgl/src/tick/lv_tick.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/tick/lv_tick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.i
+.PHONY : Core/Src/lvgl/src/tick/lv_tick.c.i
+
+Core/Src/lvgl/src/tick/lv_tick.s: Core/Src/lvgl/src/tick/lv_tick.c.s
+.PHONY : Core/Src/lvgl/src/tick/lv_tick.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/tick/lv_tick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.s
+.PHONY : Core/Src/lvgl/src/tick/lv_tick.c.s
+
+Core/Src/lvgl/src/widgets/animimage/lv_animimage.obj: Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/animimage/lv_animimage.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj
+
+Core/Src/lvgl/src/widgets/animimage/lv_animimage.i: Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.i
+.PHONY : Core/Src/lvgl/src/widgets/animimage/lv_animimage.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.i
+.PHONY : Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.i
+
+Core/Src/lvgl/src/widgets/animimage/lv_animimage.s: Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.s
+.PHONY : Core/Src/lvgl/src/widgets/animimage/lv_animimage.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.s
+.PHONY : Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.s
+
+Core/Src/lvgl/src/widgets/arc/lv_arc.obj: Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/arc/lv_arc.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
+
+Core/Src/lvgl/src/widgets/arc/lv_arc.i: Core/Src/lvgl/src/widgets/arc/lv_arc.c.i
+.PHONY : Core/Src/lvgl/src/widgets/arc/lv_arc.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/arc/lv_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.i
+.PHONY : Core/Src/lvgl/src/widgets/arc/lv_arc.c.i
+
+Core/Src/lvgl/src/widgets/arc/lv_arc.s: Core/Src/lvgl/src/widgets/arc/lv_arc.c.s
+.PHONY : Core/Src/lvgl/src/widgets/arc/lv_arc.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/arc/lv_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.s
+.PHONY : Core/Src/lvgl/src/widgets/arc/lv_arc.c.s
+
+Core/Src/lvgl/src/widgets/bar/lv_bar.obj: Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/bar/lv_bar.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
+
+Core/Src/lvgl/src/widgets/bar/lv_bar.i: Core/Src/lvgl/src/widgets/bar/lv_bar.c.i
+.PHONY : Core/Src/lvgl/src/widgets/bar/lv_bar.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/bar/lv_bar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.i
+.PHONY : Core/Src/lvgl/src/widgets/bar/lv_bar.c.i
+
+Core/Src/lvgl/src/widgets/bar/lv_bar.s: Core/Src/lvgl/src/widgets/bar/lv_bar.c.s
+.PHONY : Core/Src/lvgl/src/widgets/bar/lv_bar.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/bar/lv_bar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.s
+.PHONY : Core/Src/lvgl/src/widgets/bar/lv_bar.c.s
+
+Core/Src/lvgl/src/widgets/button/lv_button.obj: Core/Src/lvgl/src/widgets/button/lv_button.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/button/lv_button.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/button/lv_button.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/button/lv_button.c.obj
+
+Core/Src/lvgl/src/widgets/button/lv_button.i: Core/Src/lvgl/src/widgets/button/lv_button.c.i
+.PHONY : Core/Src/lvgl/src/widgets/button/lv_button.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/button/lv_button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.i
+.PHONY : Core/Src/lvgl/src/widgets/button/lv_button.c.i
+
+Core/Src/lvgl/src/widgets/button/lv_button.s: Core/Src/lvgl/src/widgets/button/lv_button.c.s
+.PHONY : Core/Src/lvgl/src/widgets/button/lv_button.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/button/lv_button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.s
+.PHONY : Core/Src/lvgl/src/widgets/button/lv_button.c.s
+
+Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.obj: Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+
+Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.i: Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i
+.PHONY : Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i
+.PHONY : Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i
+
+Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.s: Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s
+.PHONY : Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s
+.PHONY : Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar.obj: Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar.i: Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.i
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar.s: Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.s
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.obj: Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.i: Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.i
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.s: Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.s
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.obj: Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.i: Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.s: Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.obj: Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.i: Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i
+
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.s: Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s
+.PHONY : Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s
+
+Core/Src/lvgl/src/widgets/canvas/lv_canvas.obj: Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/canvas/lv_canvas.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj
+
+Core/Src/lvgl/src/widgets/canvas/lv_canvas.i: Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.i
+.PHONY : Core/Src/lvgl/src/widgets/canvas/lv_canvas.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.i
+.PHONY : Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.i
+
+Core/Src/lvgl/src/widgets/canvas/lv_canvas.s: Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.s
+.PHONY : Core/Src/lvgl/src/widgets/canvas/lv_canvas.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.s
+.PHONY : Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.s
+
+Core/Src/lvgl/src/widgets/chart/lv_chart.obj: Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/chart/lv_chart.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
+
+Core/Src/lvgl/src/widgets/chart/lv_chart.i: Core/Src/lvgl/src/widgets/chart/lv_chart.c.i
+.PHONY : Core/Src/lvgl/src/widgets/chart/lv_chart.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/chart/lv_chart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.i
+.PHONY : Core/Src/lvgl/src/widgets/chart/lv_chart.c.i
+
+Core/Src/lvgl/src/widgets/chart/lv_chart.s: Core/Src/lvgl/src/widgets/chart/lv_chart.c.s
+.PHONY : Core/Src/lvgl/src/widgets/chart/lv_chart.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/chart/lv_chart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.s
+.PHONY : Core/Src/lvgl/src/widgets/chart/lv_chart.c.s
+
+Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.obj: Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+
+Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.i: Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.i
+.PHONY : Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.i
+.PHONY : Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.i
+
+Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.s: Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.s
+.PHONY : Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.s
+.PHONY : Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.s
+
+Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.obj: Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+
+Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.i: Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.i
+.PHONY : Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.i
+.PHONY : Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.i
+
+Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.s: Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.s
+.PHONY : Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.s
+.PHONY : Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.s
+
+Core/Src/lvgl/src/widgets/image/lv_image.obj: Core/Src/lvgl/src/widgets/image/lv_image.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/image/lv_image.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/image/lv_image.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/image/lv_image.c.obj
+
+Core/Src/lvgl/src/widgets/image/lv_image.i: Core/Src/lvgl/src/widgets/image/lv_image.c.i
+.PHONY : Core/Src/lvgl/src/widgets/image/lv_image.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/image/lv_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.i
+.PHONY : Core/Src/lvgl/src/widgets/image/lv_image.c.i
+
+Core/Src/lvgl/src/widgets/image/lv_image.s: Core/Src/lvgl/src/widgets/image/lv_image.c.s
+.PHONY : Core/Src/lvgl/src/widgets/image/lv_image.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/image/lv_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.s
+.PHONY : Core/Src/lvgl/src/widgets/image/lv_image.c.s
+
+Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.obj: Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj
+
+Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.i: Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.i
+.PHONY : Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.i
+.PHONY : Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.i
+
+Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.s: Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.s
+.PHONY : Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.s
+.PHONY : Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.s
+
+Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.obj: Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+
+Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.i: Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.i
+.PHONY : Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.i
+.PHONY : Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.i
+
+Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.s: Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.s
+.PHONY : Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.s
+.PHONY : Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.s
+
+Core/Src/lvgl/src/widgets/label/lv_label.obj: Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/label/lv_label.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/label/lv_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+
+Core/Src/lvgl/src/widgets/label/lv_label.i: Core/Src/lvgl/src/widgets/label/lv_label.c.i
+.PHONY : Core/Src/lvgl/src/widgets/label/lv_label.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/label/lv_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.i
+.PHONY : Core/Src/lvgl/src/widgets/label/lv_label.c.i
+
+Core/Src/lvgl/src/widgets/label/lv_label.s: Core/Src/lvgl/src/widgets/label/lv_label.c.s
+.PHONY : Core/Src/lvgl/src/widgets/label/lv_label.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/label/lv_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.s
+.PHONY : Core/Src/lvgl/src/widgets/label/lv_label.c.s
+
+Core/Src/lvgl/src/widgets/led/lv_led.obj: Core/Src/lvgl/src/widgets/led/lv_led.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/led/lv_led.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/led/lv_led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/led/lv_led.c.obj
+
+Core/Src/lvgl/src/widgets/led/lv_led.i: Core/Src/lvgl/src/widgets/led/lv_led.c.i
+.PHONY : Core/Src/lvgl/src/widgets/led/lv_led.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/led/lv_led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.i
+.PHONY : Core/Src/lvgl/src/widgets/led/lv_led.c.i
+
+Core/Src/lvgl/src/widgets/led/lv_led.s: Core/Src/lvgl/src/widgets/led/lv_led.c.s
+.PHONY : Core/Src/lvgl/src/widgets/led/lv_led.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/led/lv_led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.s
+.PHONY : Core/Src/lvgl/src/widgets/led/lv_led.c.s
+
+Core/Src/lvgl/src/widgets/line/lv_line.obj: Core/Src/lvgl/src/widgets/line/lv_line.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/line/lv_line.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/line/lv_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/line/lv_line.c.obj
+
+Core/Src/lvgl/src/widgets/line/lv_line.i: Core/Src/lvgl/src/widgets/line/lv_line.c.i
+.PHONY : Core/Src/lvgl/src/widgets/line/lv_line.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/line/lv_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.i
+.PHONY : Core/Src/lvgl/src/widgets/line/lv_line.c.i
+
+Core/Src/lvgl/src/widgets/line/lv_line.s: Core/Src/lvgl/src/widgets/line/lv_line.c.s
+.PHONY : Core/Src/lvgl/src/widgets/line/lv_line.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/line/lv_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.s
+.PHONY : Core/Src/lvgl/src/widgets/line/lv_line.c.s
+
+Core/Src/lvgl/src/widgets/list/lv_list.obj: Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/list/lv_list.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/list/lv_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+
+Core/Src/lvgl/src/widgets/list/lv_list.i: Core/Src/lvgl/src/widgets/list/lv_list.c.i
+.PHONY : Core/Src/lvgl/src/widgets/list/lv_list.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/list/lv_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.i
+.PHONY : Core/Src/lvgl/src/widgets/list/lv_list.c.i
+
+Core/Src/lvgl/src/widgets/list/lv_list.s: Core/Src/lvgl/src/widgets/list/lv_list.c.s
+.PHONY : Core/Src/lvgl/src/widgets/list/lv_list.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/list/lv_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.s
+.PHONY : Core/Src/lvgl/src/widgets/list/lv_list.c.s
+
+Core/Src/lvgl/src/widgets/lottie/lv_lottie.obj: Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/lottie/lv_lottie.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj
+
+Core/Src/lvgl/src/widgets/lottie/lv_lottie.i: Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.i
+.PHONY : Core/Src/lvgl/src/widgets/lottie/lv_lottie.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.i
+.PHONY : Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.i
+
+Core/Src/lvgl/src/widgets/lottie/lv_lottie.s: Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.s
+.PHONY : Core/Src/lvgl/src/widgets/lottie/lv_lottie.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.s
+.PHONY : Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.s
+
+Core/Src/lvgl/src/widgets/menu/lv_menu.obj: Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/menu/lv_menu.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+
+Core/Src/lvgl/src/widgets/menu/lv_menu.i: Core/Src/lvgl/src/widgets/menu/lv_menu.c.i
+.PHONY : Core/Src/lvgl/src/widgets/menu/lv_menu.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/menu/lv_menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.i
+.PHONY : Core/Src/lvgl/src/widgets/menu/lv_menu.c.i
+
+Core/Src/lvgl/src/widgets/menu/lv_menu.s: Core/Src/lvgl/src/widgets/menu/lv_menu.c.s
+.PHONY : Core/Src/lvgl/src/widgets/menu/lv_menu.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/menu/lv_menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.s
+.PHONY : Core/Src/lvgl/src/widgets/menu/lv_menu.c.s
+
+Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.obj: Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+
+Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.i: Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.i
+.PHONY : Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.i
+.PHONY : Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.i
+
+Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.s: Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.s
+.PHONY : Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.s
+.PHONY : Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.s
+
+Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.obj: Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj
+
+Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.i: Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i
+.PHONY : Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i
+.PHONY : Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i
+
+Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.s: Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s
+.PHONY : Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s
+.PHONY : Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.obj: Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.i: Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.s: Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_image_properties.obj: Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_image_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_image_properties.i: Core/Src/lvgl/src/widgets/property/lv_image_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_image_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_image_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_image_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_image_properties.s: Core/Src/lvgl/src/widgets/property/lv_image_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_image_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_image_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_image_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.obj: Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.i: Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.s: Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_label_properties.obj: Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_label_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_label_properties.i: Core/Src/lvgl/src/widgets/property/lv_label_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_label_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_label_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_label_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_label_properties.s: Core/Src/lvgl/src/widgets/property/lv_label_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_label_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_label_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_label_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_obj_properties.obj: Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_obj_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_obj_properties.i: Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_obj_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_obj_properties.s: Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_obj_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_roller_properties.obj: Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_roller_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_roller_properties.i: Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_roller_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_roller_properties.s: Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_roller_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_style_properties.obj: Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_style_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_style_properties.i: Core/Src/lvgl/src/widgets/property/lv_style_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_style_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_style_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_style_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_style_properties.s: Core/Src/lvgl/src/widgets/property/lv_style_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_style_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_style_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_style_properties.c.s
+
+Core/Src/lvgl/src/widgets/property/lv_textarea_properties.obj: Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_textarea_properties.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj
+
+Core/Src/lvgl/src/widgets/property/lv_textarea_properties.i: Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_textarea_properties.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.i
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.i
+
+Core/Src/lvgl/src/widgets/property/lv_textarea_properties.s: Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_textarea_properties.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.s
+.PHONY : Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.s
+
+Core/Src/lvgl/src/widgets/roller/lv_roller.obj: Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/roller/lv_roller.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+
+Core/Src/lvgl/src/widgets/roller/lv_roller.i: Core/Src/lvgl/src/widgets/roller/lv_roller.c.i
+.PHONY : Core/Src/lvgl/src/widgets/roller/lv_roller.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/roller/lv_roller.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.i
+.PHONY : Core/Src/lvgl/src/widgets/roller/lv_roller.c.i
+
+Core/Src/lvgl/src/widgets/roller/lv_roller.s: Core/Src/lvgl/src/widgets/roller/lv_roller.c.s
+.PHONY : Core/Src/lvgl/src/widgets/roller/lv_roller.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/roller/lv_roller.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.s
+.PHONY : Core/Src/lvgl/src/widgets/roller/lv_roller.c.s
+
+Core/Src/lvgl/src/widgets/scale/lv_scale.obj: Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/scale/lv_scale.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+
+Core/Src/lvgl/src/widgets/scale/lv_scale.i: Core/Src/lvgl/src/widgets/scale/lv_scale.c.i
+.PHONY : Core/Src/lvgl/src/widgets/scale/lv_scale.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/scale/lv_scale.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.i
+.PHONY : Core/Src/lvgl/src/widgets/scale/lv_scale.c.i
+
+Core/Src/lvgl/src/widgets/scale/lv_scale.s: Core/Src/lvgl/src/widgets/scale/lv_scale.c.s
+.PHONY : Core/Src/lvgl/src/widgets/scale/lv_scale.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/scale/lv_scale.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.s
+.PHONY : Core/Src/lvgl/src/widgets/scale/lv_scale.c.s
+
+Core/Src/lvgl/src/widgets/slider/lv_slider.obj: Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/slider/lv_slider.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
+
+Core/Src/lvgl/src/widgets/slider/lv_slider.i: Core/Src/lvgl/src/widgets/slider/lv_slider.c.i
+.PHONY : Core/Src/lvgl/src/widgets/slider/lv_slider.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/slider/lv_slider.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.i
+.PHONY : Core/Src/lvgl/src/widgets/slider/lv_slider.c.i
+
+Core/Src/lvgl/src/widgets/slider/lv_slider.s: Core/Src/lvgl/src/widgets/slider/lv_slider.c.s
+.PHONY : Core/Src/lvgl/src/widgets/slider/lv_slider.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/slider/lv_slider.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.s
+.PHONY : Core/Src/lvgl/src/widgets/slider/lv_slider.c.s
+
+Core/Src/lvgl/src/widgets/span/lv_span.obj: Core/Src/lvgl/src/widgets/span/lv_span.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/span/lv_span.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/span/lv_span.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/span/lv_span.c.obj
+
+Core/Src/lvgl/src/widgets/span/lv_span.i: Core/Src/lvgl/src/widgets/span/lv_span.c.i
+.PHONY : Core/Src/lvgl/src/widgets/span/lv_span.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/span/lv_span.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.i
+.PHONY : Core/Src/lvgl/src/widgets/span/lv_span.c.i
+
+Core/Src/lvgl/src/widgets/span/lv_span.s: Core/Src/lvgl/src/widgets/span/lv_span.c.s
+.PHONY : Core/Src/lvgl/src/widgets/span/lv_span.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/span/lv_span.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.s
+.PHONY : Core/Src/lvgl/src/widgets/span/lv_span.c.s
+
+Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.obj: Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+
+Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.i: Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.i
+.PHONY : Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.i
+.PHONY : Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.i
+
+Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.s: Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.s
+.PHONY : Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.s
+.PHONY : Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.s
+
+Core/Src/lvgl/src/widgets/spinner/lv_spinner.obj: Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/spinner/lv_spinner.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
+
+Core/Src/lvgl/src/widgets/spinner/lv_spinner.i: Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.i
+.PHONY : Core/Src/lvgl/src/widgets/spinner/lv_spinner.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.i
+.PHONY : Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.i
+
+Core/Src/lvgl/src/widgets/spinner/lv_spinner.s: Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.s
+.PHONY : Core/Src/lvgl/src/widgets/spinner/lv_spinner.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.s
+.PHONY : Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.s
+
+Core/Src/lvgl/src/widgets/switch/lv_switch.obj: Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/switch/lv_switch.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
+
+Core/Src/lvgl/src/widgets/switch/lv_switch.i: Core/Src/lvgl/src/widgets/switch/lv_switch.c.i
+.PHONY : Core/Src/lvgl/src/widgets/switch/lv_switch.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/switch/lv_switch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.i
+.PHONY : Core/Src/lvgl/src/widgets/switch/lv_switch.c.i
+
+Core/Src/lvgl/src/widgets/switch/lv_switch.s: Core/Src/lvgl/src/widgets/switch/lv_switch.c.s
+.PHONY : Core/Src/lvgl/src/widgets/switch/lv_switch.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/switch/lv_switch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.s
+.PHONY : Core/Src/lvgl/src/widgets/switch/lv_switch.c.s
+
+Core/Src/lvgl/src/widgets/table/lv_table.obj: Core/Src/lvgl/src/widgets/table/lv_table.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/table/lv_table.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/table/lv_table.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/table/lv_table.c.obj
+
+Core/Src/lvgl/src/widgets/table/lv_table.i: Core/Src/lvgl/src/widgets/table/lv_table.c.i
+.PHONY : Core/Src/lvgl/src/widgets/table/lv_table.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/table/lv_table.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.i
+.PHONY : Core/Src/lvgl/src/widgets/table/lv_table.c.i
+
+Core/Src/lvgl/src/widgets/table/lv_table.s: Core/Src/lvgl/src/widgets/table/lv_table.c.s
+.PHONY : Core/Src/lvgl/src/widgets/table/lv_table.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/table/lv_table.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.s
+.PHONY : Core/Src/lvgl/src/widgets/table/lv_table.c.s
+
+Core/Src/lvgl/src/widgets/tabview/lv_tabview.obj: Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/tabview/lv_tabview.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
+
+Core/Src/lvgl/src/widgets/tabview/lv_tabview.i: Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.i
+.PHONY : Core/Src/lvgl/src/widgets/tabview/lv_tabview.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.i
+.PHONY : Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.i
+
+Core/Src/lvgl/src/widgets/tabview/lv_tabview.s: Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.s
+.PHONY : Core/Src/lvgl/src/widgets/tabview/lv_tabview.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.s
+.PHONY : Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.s
+
+Core/Src/lvgl/src/widgets/textarea/lv_textarea.obj: Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/textarea/lv_textarea.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+
+Core/Src/lvgl/src/widgets/textarea/lv_textarea.i: Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.i
+.PHONY : Core/Src/lvgl/src/widgets/textarea/lv_textarea.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.i
+.PHONY : Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.i
+
+Core/Src/lvgl/src/widgets/textarea/lv_textarea.s: Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.s
+.PHONY : Core/Src/lvgl/src/widgets/textarea/lv_textarea.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.s
+.PHONY : Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.s
+
+Core/Src/lvgl/src/widgets/tileview/lv_tileview.obj: Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/tileview/lv_tileview.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+
+Core/Src/lvgl/src/widgets/tileview/lv_tileview.i: Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.i
+.PHONY : Core/Src/lvgl/src/widgets/tileview/lv_tileview.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.i
+.PHONY : Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.i
+
+Core/Src/lvgl/src/widgets/tileview/lv_tileview.s: Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.s
+.PHONY : Core/Src/lvgl/src/widgets/tileview/lv_tileview.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.s
+.PHONY : Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.s
+
+Core/Src/lvgl/src/widgets/win/lv_win.obj: Core/Src/lvgl/src/widgets/win/lv_win.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/win/lv_win.obj
+
+# target to build an object file
+Core/Src/lvgl/src/widgets/win/lv_win.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
+.PHONY : Core/Src/lvgl/src/widgets/win/lv_win.c.obj
+
+Core/Src/lvgl/src/widgets/win/lv_win.i: Core/Src/lvgl/src/widgets/win/lv_win.c.i
+.PHONY : Core/Src/lvgl/src/widgets/win/lv_win.i
+
+# target to preprocess a source file
+Core/Src/lvgl/src/widgets/win/lv_win.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.i
+.PHONY : Core/Src/lvgl/src/widgets/win/lv_win.c.i
+
+Core/Src/lvgl/src/widgets/win/lv_win.s: Core/Src/lvgl/src/widgets/win/lv_win.c.s
+.PHONY : Core/Src/lvgl/src/widgets/win/lv_win.s
+
+# target to generate assembly for a file
+Core/Src/lvgl/src/widgets/win/lv_win.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.s
+.PHONY : Core/Src/lvgl/src/widgets/win/lv_win.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -721,6 +9497,1103 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LCD.elf
+	@echo ... Core/Src/lvgl/port/lv_port_disp.obj
+	@echo ... Core/Src/lvgl/port/lv_port_disp.i
+	@echo ... Core/Src/lvgl/port/lv_port_disp.s
+	@echo ... Core/Src/lvgl/port/lv_port_fs.obj
+	@echo ... Core/Src/lvgl/port/lv_port_fs.i
+	@echo ... Core/Src/lvgl/port/lv_port_fs.s
+	@echo ... Core/Src/lvgl/port/lv_port_indev.obj
+	@echo ... Core/Src/lvgl/port/lv_port_indev.i
+	@echo ... Core/Src/lvgl/port/lv_port_indev.s
+	@echo ... Core/Src/lvgl/port/lv_port_lcd_stm32.obj
+	@echo ... Core/Src/lvgl/port/lv_port_lcd_stm32.i
+	@echo ... Core/Src/lvgl/port/lv_port_lcd_stm32.s
+	@echo ... Core/Src/lvgl/src/core/lv_group.obj
+	@echo ... Core/Src/lvgl/src/core/lv_group.i
+	@echo ... Core/Src/lvgl/src/core/lv_group.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_class.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_class.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_class.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_draw.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_draw.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_draw.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_event.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_event.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_event.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_id_builtin.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_id_builtin.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_id_builtin.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_pos.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_pos.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_pos.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_property.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_property.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_property.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_scroll.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_scroll.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_scroll.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_style.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_style.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_style.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_style_gen.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_style_gen.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_style_gen.s
+	@echo ... Core/Src/lvgl/src/core/lv_obj_tree.obj
+	@echo ... Core/Src/lvgl/src/core/lv_obj_tree.i
+	@echo ... Core/Src/lvgl/src/core/lv_obj_tree.s
+	@echo ... Core/Src/lvgl/src/core/lv_refr.obj
+	@echo ... Core/Src/lvgl/src/core/lv_refr.i
+	@echo ... Core/Src/lvgl/src/core/lv_refr.s
+	@echo ... Core/Src/lvgl/src/display/lv_display.obj
+	@echo ... Core/Src/lvgl/src/display/lv_display.i
+	@echo ... Core/Src/lvgl/src/display/lv_display.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_arc.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_arc.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_arc.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_buf.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_buf.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_buf.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_image.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_image.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_image.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_label.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_label.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_label.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_line.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_line.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_line.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_mask.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_mask.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_mask.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_rect.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_rect.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_rect.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_triangle.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_triangle.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_triangle.s
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_vector.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_vector.i
+	@echo ... Core/Src/lvgl/src/draw/lv_draw_vector.s
+	@echo ... Core/Src/lvgl/src/draw/lv_image_decoder.obj
+	@echo ... Core/Src/lvgl/src/draw/lv_image_decoder.i
+	@echo ... Core/Src/lvgl/src/draw/lv_image_decoder.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.s
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.obj
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.i
+	@echo ... Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.s
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.obj
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.i
+	@echo ... Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.s
+	@echo ... Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.obj
+	@echo ... Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.i
+	@echo ... Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.i
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.s
+	@echo ... Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.s
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.obj
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.i
+	@echo ... Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.s
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.obj
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.i
+	@echo ... Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.s
+	@echo ... Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.i
+	@echo ... Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.s
+	@echo ... Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.i
+	@echo ... Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.s
+	@echo ... Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.i
+	@echo ... Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.s
+	@echo ... Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.i
+	@echo ... Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.s
+	@echo ... Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.i
+	@echo ... Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.s
+	@echo ... Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.i
+	@echo ... Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.s
+	@echo ... Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.i
+	@echo ... Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.s
+	@echo ... Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.i
+	@echo ... Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.s
+	@echo ... Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.obj
+	@echo ... Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.i
+	@echo ... Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.s
+	@echo ... Core/Src/lvgl/src/drivers/evdev/lv_evdev.obj
+	@echo ... Core/Src/lvgl/src/drivers/evdev/lv_evdev.i
+	@echo ... Core/Src/lvgl/src/drivers/evdev/lv_evdev.s
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.obj
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.i
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.s
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.obj
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.i
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.s
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.obj
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.i
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.s
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.obj
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.i
+	@echo ... Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.s
+	@echo ... Core/Src/lvgl/src/drivers/libinput/lv_libinput.obj
+	@echo ... Core/Src/lvgl/src/drivers/libinput/lv_libinput.i
+	@echo ... Core/Src/lvgl/src/drivers/libinput/lv_libinput.s
+	@echo ... Core/Src/lvgl/src/drivers/libinput/lv_xkb.obj
+	@echo ... Core/Src/lvgl/src/drivers/libinput/lv_xkb.i
+	@echo ... Core/Src/lvgl/src/drivers/libinput/lv_xkb.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.s
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.obj
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.i
+	@echo ... Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.s
+	@echo ... Core/Src/lvgl/src/drivers/qnx/lv_qnx.obj
+	@echo ... Core/Src/lvgl/src/drivers/qnx/lv_qnx.i
+	@echo ... Core/Src/lvgl/src/drivers/qnx/lv_qnx.s
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.obj
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.i
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.s
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.obj
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.i
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.s
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.obj
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.i
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.s
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.obj
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.i
+	@echo ... Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.s
+	@echo ... Core/Src/lvgl/src/drivers/wayland/lv_wayland.obj
+	@echo ... Core/Src/lvgl/src/drivers/wayland/lv_wayland.i
+	@echo ... Core/Src/lvgl/src/drivers/wayland/lv_wayland.s
+	@echo ... Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.obj
+	@echo ... Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.i
+	@echo ... Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.s
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_context.obj
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_context.i
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_context.s
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_display.obj
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_display.i
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_display.s
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_input.obj
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_input.i
+	@echo ... Core/Src/lvgl/src/drivers/windows/lv_windows_input.s
+	@echo ... Core/Src/lvgl/src/drivers/x11/lv_x11_display.obj
+	@echo ... Core/Src/lvgl/src/drivers/x11/lv_x11_display.i
+	@echo ... Core/Src/lvgl/src/drivers/x11/lv_x11_display.s
+	@echo ... Core/Src/lvgl/src/drivers/x11/lv_x11_input.obj
+	@echo ... Core/Src/lvgl/src/drivers/x11/lv_x11_input.i
+	@echo ... Core/Src/lvgl/src/drivers/x11/lv_x11_input.s
+	@echo ... Core/Src/lvgl/src/font/lv_binfont_loader.obj
+	@echo ... Core/Src/lvgl/src/font/lv_binfont_loader.i
+	@echo ... Core/Src/lvgl/src/font/lv_binfont_loader.s
+	@echo ... Core/Src/lvgl/src/font/lv_font.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font.i
+	@echo ... Core/Src/lvgl/src/font/lv_font.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_fmt_txt.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_fmt_txt.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_fmt_txt.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_10.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_10.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_10.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_12.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_12.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_12.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_14.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_14.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_14.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_16.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_16.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_16.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_18.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_18.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_18.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_20.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_20.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_20.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_22.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_22.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_22.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_24.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_24.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_24.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_26.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_26.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_26.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_28.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_28.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_28.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_30.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_30.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_30.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_32.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_32.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_32.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_34.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_34.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_34.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_36.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_36.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_36.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_38.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_38.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_38.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_40.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_40.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_40.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_42.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_42.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_42.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_44.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_44.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_44.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_46.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_46.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_46.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_48.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_48.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_48.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_8.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_8.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_montserrat_8.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_unscii_16.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_unscii_16.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_unscii_16.s
+	@echo ... Core/Src/lvgl/src/font/lv_font_unscii_8.obj
+	@echo ... Core/Src/lvgl/src/font/lv_font_unscii_8.i
+	@echo ... Core/Src/lvgl/src/font/lv_font_unscii_8.s
+	@echo ... Core/Src/lvgl/src/indev/lv_indev.obj
+	@echo ... Core/Src/lvgl/src/indev/lv_indev.i
+	@echo ... Core/Src/lvgl/src/indev/lv_indev.s
+	@echo ... Core/Src/lvgl/src/indev/lv_indev_scroll.obj
+	@echo ... Core/Src/lvgl/src/indev/lv_indev_scroll.i
+	@echo ... Core/Src/lvgl/src/indev/lv_indev_scroll.s
+	@echo ... Core/Src/lvgl/src/layouts/flex/lv_flex.obj
+	@echo ... Core/Src/lvgl/src/layouts/flex/lv_flex.i
+	@echo ... Core/Src/lvgl/src/layouts/flex/lv_flex.s
+	@echo ... Core/Src/lvgl/src/layouts/grid/lv_grid.obj
+	@echo ... Core/Src/lvgl/src/layouts/grid/lv_grid.i
+	@echo ... Core/Src/lvgl/src/layouts/grid/lv_grid.s
+	@echo ... Core/Src/lvgl/src/layouts/lv_layout.obj
+	@echo ... Core/Src/lvgl/src/layouts/lv_layout.i
+	@echo ... Core/Src/lvgl/src/layouts/lv_layout.s
+	@echo ... Core/Src/lvgl/src/libs/barcode/code128.obj
+	@echo ... Core/Src/lvgl/src/libs/barcode/code128.i
+	@echo ... Core/Src/lvgl/src/libs/barcode/code128.s
+	@echo ... Core/Src/lvgl/src/libs/barcode/lv_barcode.obj
+	@echo ... Core/Src/lvgl/src/libs/barcode/lv_barcode.i
+	@echo ... Core/Src/lvgl/src/libs/barcode/lv_barcode.s
+	@echo ... Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.obj
+	@echo ... Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.i
+	@echo ... Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.s
+	@echo ... Core/Src/lvgl/src/libs/bmp/lv_bmp.obj
+	@echo ... Core/Src/lvgl/src/libs/bmp/lv_bmp.i
+	@echo ... Core/Src/lvgl/src/libs/bmp/lv_bmp.s
+	@echo ... Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.obj
+	@echo ... Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.i
+	@echo ... Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.s
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype.obj
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype.i
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype.s
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.obj
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.i
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.s
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_image.obj
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_image.i
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_image.s
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.obj
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.i
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.s
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_ftsystem.obj
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_ftsystem.i
+	@echo ... Core/Src/lvgl/src/libs/freetype/lv_ftsystem.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.s
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.obj
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.i
+	@echo ... Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.s
+	@echo ... Core/Src/lvgl/src/libs/gif/gifdec.obj
+	@echo ... Core/Src/lvgl/src/libs/gif/gifdec.i
+	@echo ... Core/Src/lvgl/src/libs/gif/gifdec.s
+	@echo ... Core/Src/lvgl/src/libs/gif/lv_gif.obj
+	@echo ... Core/Src/lvgl/src/libs/gif/lv_gif.i
+	@echo ... Core/Src/lvgl/src/libs/gif/lv_gif.s
+	@echo ... Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.obj
+	@echo ... Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.i
+	@echo ... Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.s
+	@echo ... Core/Src/lvgl/src/libs/libpng/lv_libpng.obj
+	@echo ... Core/Src/lvgl/src/libs/libpng/lv_libpng.i
+	@echo ... Core/Src/lvgl/src/libs/libpng/lv_libpng.s
+	@echo ... Core/Src/lvgl/src/libs/lodepng/lodepng.obj
+	@echo ... Core/Src/lvgl/src/libs/lodepng/lodepng.i
+	@echo ... Core/Src/lvgl/src/libs/lodepng/lodepng.s
+	@echo ... Core/Src/lvgl/src/libs/lodepng/lv_lodepng.obj
+	@echo ... Core/Src/lvgl/src/libs/lodepng/lv_lodepng.i
+	@echo ... Core/Src/lvgl/src/libs/lodepng/lv_lodepng.s
+	@echo ... Core/Src/lvgl/src/libs/lz4/lz4.obj
+	@echo ... Core/Src/lvgl/src/libs/lz4/lz4.i
+	@echo ... Core/Src/lvgl/src/libs/lz4/lz4.s
+	@echo ... Core/Src/lvgl/src/libs/qrcode/lv_qrcode.obj
+	@echo ... Core/Src/lvgl/src/libs/qrcode/lv_qrcode.i
+	@echo ... Core/Src/lvgl/src/libs/qrcode/lv_qrcode.s
+	@echo ... Core/Src/lvgl/src/libs/qrcode/qrcodegen.obj
+	@echo ... Core/Src/lvgl/src/libs/qrcode/qrcodegen.i
+	@echo ... Core/Src/lvgl/src/libs/qrcode/qrcodegen.s
+	@echo ... Core/Src/lvgl/src/libs/rle/lv_rle.obj
+	@echo ... Core/Src/lvgl/src/libs/rle/lv_rle.i
+	@echo ... Core/Src/lvgl/src/libs/rle/lv_rle.s
+	@echo ... Core/Src/lvgl/src/libs/rlottie/lv_rlottie.obj
+	@echo ... Core/Src/lvgl/src/libs/rlottie/lv_rlottie.i
+	@echo ... Core/Src/lvgl/src/libs/rlottie/lv_rlottie.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgAccessor.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgAccessor.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgAccessor.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgAnimation.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgAnimation.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgAnimation.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCanvas.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCanvas.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCanvas.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCapi.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCapi.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCapi.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCompressor.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCompressor.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgCompressor.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgFill.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgFill.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgFill.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgInitializer.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgInitializer.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgInitializer.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLines.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLines.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLines.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLoader.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLoader.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLoader.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgMath.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgMath.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgMath.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgPaint.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgPaint.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgPaint.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgPicture.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgPicture.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgPicture.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgRender.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgRender.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgRender.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSaver.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSaver.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSaver.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgScene.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgScene.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgScene.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgShape.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgShape.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgShape.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgStr.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgStr.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgStr.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwFill.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwFill.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwFill.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwImage.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwImage.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwImage.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwMath.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwMath.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwMath.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRle.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRle.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwRle.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwShape.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwShape.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwShape.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgText.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgText.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgText.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.s
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.obj
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.i
+	@echo ... Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.s
+	@echo ... Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.obj
+	@echo ... Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.i
+	@echo ... Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.s
+	@echo ... Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.obj
+	@echo ... Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.i
+	@echo ... Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.s
+	@echo ... Core/Src/lvgl/src/libs/tjpgd/tjpgd.obj
+	@echo ... Core/Src/lvgl/src/libs/tjpgd/tjpgd.i
+	@echo ... Core/Src/lvgl/src/libs/tjpgd/tjpgd.s
+	@echo ... Core/Src/lvgl/src/lv_init.obj
+	@echo ... Core/Src/lvgl/src/lv_init.i
+	@echo ... Core/Src/lvgl/src/lv_init.s
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache.obj
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache.i
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache.s
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache_entry.obj
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache_entry.i
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache_entry.s
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.obj
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.i
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.s
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_image_cache.obj
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_image_cache.i
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_image_cache.s
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_image_header_cache.obj
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_image_header_cache.i
+	@echo ... Core/Src/lvgl/src/misc/cache/lv_image_header_cache.s
+	@echo ... Core/Src/lvgl/src/misc/lv_anim.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_anim.i
+	@echo ... Core/Src/lvgl/src/misc/lv_anim.s
+	@echo ... Core/Src/lvgl/src/misc/lv_anim_timeline.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_anim_timeline.i
+	@echo ... Core/Src/lvgl/src/misc/lv_anim_timeline.s
+	@echo ... Core/Src/lvgl/src/misc/lv_area.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_area.i
+	@echo ... Core/Src/lvgl/src/misc/lv_area.s
+	@echo ... Core/Src/lvgl/src/misc/lv_array.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_array.i
+	@echo ... Core/Src/lvgl/src/misc/lv_array.s
+	@echo ... Core/Src/lvgl/src/misc/lv_async.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_async.i
+	@echo ... Core/Src/lvgl/src/misc/lv_async.s
+	@echo ... Core/Src/lvgl/src/misc/lv_bidi.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_bidi.i
+	@echo ... Core/Src/lvgl/src/misc/lv_bidi.s
+	@echo ... Core/Src/lvgl/src/misc/lv_color.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_color.i
+	@echo ... Core/Src/lvgl/src/misc/lv_color.s
+	@echo ... Core/Src/lvgl/src/misc/lv_color_op.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_color_op.i
+	@echo ... Core/Src/lvgl/src/misc/lv_color_op.s
+	@echo ... Core/Src/lvgl/src/misc/lv_event.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_event.i
+	@echo ... Core/Src/lvgl/src/misc/lv_event.s
+	@echo ... Core/Src/lvgl/src/misc/lv_fs.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_fs.i
+	@echo ... Core/Src/lvgl/src/misc/lv_fs.s
+	@echo ... Core/Src/lvgl/src/misc/lv_ll.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_ll.i
+	@echo ... Core/Src/lvgl/src/misc/lv_ll.s
+	@echo ... Core/Src/lvgl/src/misc/lv_log.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_log.i
+	@echo ... Core/Src/lvgl/src/misc/lv_log.s
+	@echo ... Core/Src/lvgl/src/misc/lv_lru.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_lru.i
+	@echo ... Core/Src/lvgl/src/misc/lv_lru.s
+	@echo ... Core/Src/lvgl/src/misc/lv_math.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_math.i
+	@echo ... Core/Src/lvgl/src/misc/lv_math.s
+	@echo ... Core/Src/lvgl/src/misc/lv_matrix.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_matrix.i
+	@echo ... Core/Src/lvgl/src/misc/lv_matrix.s
+	@echo ... Core/Src/lvgl/src/misc/lv_palette.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_palette.i
+	@echo ... Core/Src/lvgl/src/misc/lv_palette.s
+	@echo ... Core/Src/lvgl/src/misc/lv_profiler_builtin.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_profiler_builtin.i
+	@echo ... Core/Src/lvgl/src/misc/lv_profiler_builtin.s
+	@echo ... Core/Src/lvgl/src/misc/lv_rb.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_rb.i
+	@echo ... Core/Src/lvgl/src/misc/lv_rb.s
+	@echo ... Core/Src/lvgl/src/misc/lv_style.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_style.i
+	@echo ... Core/Src/lvgl/src/misc/lv_style.s
+	@echo ... Core/Src/lvgl/src/misc/lv_style_gen.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_style_gen.i
+	@echo ... Core/Src/lvgl/src/misc/lv_style_gen.s
+	@echo ... Core/Src/lvgl/src/misc/lv_templ.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_templ.i
+	@echo ... Core/Src/lvgl/src/misc/lv_templ.s
+	@echo ... Core/Src/lvgl/src/misc/lv_text.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_text.i
+	@echo ... Core/Src/lvgl/src/misc/lv_text.s
+	@echo ... Core/Src/lvgl/src/misc/lv_text_ap.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_text_ap.i
+	@echo ... Core/Src/lvgl/src/misc/lv_text_ap.s
+	@echo ... Core/Src/lvgl/src/misc/lv_timer.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_timer.i
+	@echo ... Core/Src/lvgl/src/misc/lv_timer.s
+	@echo ... Core/Src/lvgl/src/misc/lv_utils.obj
+	@echo ... Core/Src/lvgl/src/misc/lv_utils.i
+	@echo ... Core/Src/lvgl/src/misc/lv_utils.s
+	@echo ... Core/Src/lvgl/src/osal/lv_cmsis_rtos2.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_cmsis_rtos2.i
+	@echo ... Core/Src/lvgl/src/osal/lv_cmsis_rtos2.s
+	@echo ... Core/Src/lvgl/src/osal/lv_freertos.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_freertos.i
+	@echo ... Core/Src/lvgl/src/osal/lv_freertos.s
+	@echo ... Core/Src/lvgl/src/osal/lv_mqx.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_mqx.i
+	@echo ... Core/Src/lvgl/src/osal/lv_mqx.s
+	@echo ... Core/Src/lvgl/src/osal/lv_os.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_os.i
+	@echo ... Core/Src/lvgl/src/osal/lv_os.s
+	@echo ... Core/Src/lvgl/src/osal/lv_os_none.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_os_none.i
+	@echo ... Core/Src/lvgl/src/osal/lv_os_none.s
+	@echo ... Core/Src/lvgl/src/osal/lv_pthread.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_pthread.i
+	@echo ... Core/Src/lvgl/src/osal/lv_pthread.s
+	@echo ... Core/Src/lvgl/src/osal/lv_rtthread.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_rtthread.i
+	@echo ... Core/Src/lvgl/src/osal/lv_rtthread.s
+	@echo ... Core/Src/lvgl/src/osal/lv_windows.obj
+	@echo ... Core/Src/lvgl/src/osal/lv_windows.i
+	@echo ... Core/Src/lvgl/src/osal/lv_windows.s
+	@echo ... Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.obj
+	@echo ... Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.i
+	@echo ... Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.s
+	@echo ... Core/Src/lvgl/src/others/fragment/lv_fragment.obj
+	@echo ... Core/Src/lvgl/src/others/fragment/lv_fragment.i
+	@echo ... Core/Src/lvgl/src/others/fragment/lv_fragment.s
+	@echo ... Core/Src/lvgl/src/others/fragment/lv_fragment_manager.obj
+	@echo ... Core/Src/lvgl/src/others/fragment/lv_fragment_manager.i
+	@echo ... Core/Src/lvgl/src/others/fragment/lv_fragment_manager.s
+	@echo ... Core/Src/lvgl/src/others/gridnav/lv_gridnav.obj
+	@echo ... Core/Src/lvgl/src/others/gridnav/lv_gridnav.i
+	@echo ... Core/Src/lvgl/src/others/gridnav/lv_gridnav.s
+	@echo ... Core/Src/lvgl/src/others/ime/lv_ime_pinyin.obj
+	@echo ... Core/Src/lvgl/src/others/ime/lv_ime_pinyin.i
+	@echo ... Core/Src/lvgl/src/others/ime/lv_ime_pinyin.s
+	@echo ... Core/Src/lvgl/src/others/imgfont/lv_imgfont.obj
+	@echo ... Core/Src/lvgl/src/others/imgfont/lv_imgfont.i
+	@echo ... Core/Src/lvgl/src/others/imgfont/lv_imgfont.s
+	@echo ... Core/Src/lvgl/src/others/monkey/lv_monkey.obj
+	@echo ... Core/Src/lvgl/src/others/monkey/lv_monkey.i
+	@echo ... Core/Src/lvgl/src/others/monkey/lv_monkey.s
+	@echo ... Core/Src/lvgl/src/others/observer/lv_observer.obj
+	@echo ... Core/Src/lvgl/src/others/observer/lv_observer.i
+	@echo ... Core/Src/lvgl/src/others/observer/lv_observer.s
+	@echo ... Core/Src/lvgl/src/others/snapshot/lv_snapshot.obj
+	@echo ... Core/Src/lvgl/src/others/snapshot/lv_snapshot.i
+	@echo ... Core/Src/lvgl/src/others/snapshot/lv_snapshot.s
+	@echo ... Core/Src/lvgl/src/others/sysmon/lv_sysmon.obj
+	@echo ... Core/Src/lvgl/src/others/sysmon/lv_sysmon.i
+	@echo ... Core/Src/lvgl/src/others/sysmon/lv_sysmon.s
+	@echo ... Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.obj
+	@echo ... Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.i
+	@echo ... Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.s
+	@echo ... Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.obj
+	@echo ... Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.i
+	@echo ... Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.s
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.obj
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.i
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.s
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.obj
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.i
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.s
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.obj
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.i
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.s
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.obj
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.i
+	@echo ... Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.s
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.obj
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.i
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.s
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.obj
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.i
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.s
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_string_clib.obj
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_string_clib.i
+	@echo ... Core/Src/lvgl/src/stdlib/clib/lv_string_clib.s
+	@echo ... Core/Src/lvgl/src/stdlib/lv_mem.obj
+	@echo ... Core/Src/lvgl/src/stdlib/lv_mem.i
+	@echo ... Core/Src/lvgl/src/stdlib/lv_mem.s
+	@echo ... Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.obj
+	@echo ... Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.i
+	@echo ... Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.s
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.obj
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.i
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.s
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.obj
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.i
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.s
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.obj
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.i
+	@echo ... Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.s
+	@echo ... Core/Src/lvgl/src/themes/default/lv_theme_default.obj
+	@echo ... Core/Src/lvgl/src/themes/default/lv_theme_default.i
+	@echo ... Core/Src/lvgl/src/themes/default/lv_theme_default.s
+	@echo ... Core/Src/lvgl/src/themes/lv_theme.obj
+	@echo ... Core/Src/lvgl/src/themes/lv_theme.i
+	@echo ... Core/Src/lvgl/src/themes/lv_theme.s
+	@echo ... Core/Src/lvgl/src/themes/mono/lv_theme_mono.obj
+	@echo ... Core/Src/lvgl/src/themes/mono/lv_theme_mono.i
+	@echo ... Core/Src/lvgl/src/themes/mono/lv_theme_mono.s
+	@echo ... Core/Src/lvgl/src/themes/simple/lv_theme_simple.obj
+	@echo ... Core/Src/lvgl/src/themes/simple/lv_theme_simple.i
+	@echo ... Core/Src/lvgl/src/themes/simple/lv_theme_simple.s
+	@echo ... Core/Src/lvgl/src/tick/lv_tick.obj
+	@echo ... Core/Src/lvgl/src/tick/lv_tick.i
+	@echo ... Core/Src/lvgl/src/tick/lv_tick.s
+	@echo ... Core/Src/lvgl/src/widgets/animimage/lv_animimage.obj
+	@echo ... Core/Src/lvgl/src/widgets/animimage/lv_animimage.i
+	@echo ... Core/Src/lvgl/src/widgets/animimage/lv_animimage.s
+	@echo ... Core/Src/lvgl/src/widgets/arc/lv_arc.obj
+	@echo ... Core/Src/lvgl/src/widgets/arc/lv_arc.i
+	@echo ... Core/Src/lvgl/src/widgets/arc/lv_arc.s
+	@echo ... Core/Src/lvgl/src/widgets/bar/lv_bar.obj
+	@echo ... Core/Src/lvgl/src/widgets/bar/lv_bar.i
+	@echo ... Core/Src/lvgl/src/widgets/bar/lv_bar.s
+	@echo ... Core/Src/lvgl/src/widgets/button/lv_button.obj
+	@echo ... Core/Src/lvgl/src/widgets/button/lv_button.i
+	@echo ... Core/Src/lvgl/src/widgets/button/lv_button.s
+	@echo ... Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.obj
+	@echo ... Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.i
+	@echo ... Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.s
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar.obj
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar.i
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar.s
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.obj
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.i
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.s
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.obj
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.i
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.s
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.obj
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.i
+	@echo ... Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.s
+	@echo ... Core/Src/lvgl/src/widgets/canvas/lv_canvas.obj
+	@echo ... Core/Src/lvgl/src/widgets/canvas/lv_canvas.i
+	@echo ... Core/Src/lvgl/src/widgets/canvas/lv_canvas.s
+	@echo ... Core/Src/lvgl/src/widgets/chart/lv_chart.obj
+	@echo ... Core/Src/lvgl/src/widgets/chart/lv_chart.i
+	@echo ... Core/Src/lvgl/src/widgets/chart/lv_chart.s
+	@echo ... Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.obj
+	@echo ... Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.i
+	@echo ... Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.s
+	@echo ... Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.obj
+	@echo ... Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.i
+	@echo ... Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.s
+	@echo ... Core/Src/lvgl/src/widgets/image/lv_image.obj
+	@echo ... Core/Src/lvgl/src/widgets/image/lv_image.i
+	@echo ... Core/Src/lvgl/src/widgets/image/lv_image.s
+	@echo ... Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.obj
+	@echo ... Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.i
+	@echo ... Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.s
+	@echo ... Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.obj
+	@echo ... Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.i
+	@echo ... Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.s
+	@echo ... Core/Src/lvgl/src/widgets/label/lv_label.obj
+	@echo ... Core/Src/lvgl/src/widgets/label/lv_label.i
+	@echo ... Core/Src/lvgl/src/widgets/label/lv_label.s
+	@echo ... Core/Src/lvgl/src/widgets/led/lv_led.obj
+	@echo ... Core/Src/lvgl/src/widgets/led/lv_led.i
+	@echo ... Core/Src/lvgl/src/widgets/led/lv_led.s
+	@echo ... Core/Src/lvgl/src/widgets/line/lv_line.obj
+	@echo ... Core/Src/lvgl/src/widgets/line/lv_line.i
+	@echo ... Core/Src/lvgl/src/widgets/line/lv_line.s
+	@echo ... Core/Src/lvgl/src/widgets/list/lv_list.obj
+	@echo ... Core/Src/lvgl/src/widgets/list/lv_list.i
+	@echo ... Core/Src/lvgl/src/widgets/list/lv_list.s
+	@echo ... Core/Src/lvgl/src/widgets/lottie/lv_lottie.obj
+	@echo ... Core/Src/lvgl/src/widgets/lottie/lv_lottie.i
+	@echo ... Core/Src/lvgl/src/widgets/lottie/lv_lottie.s
+	@echo ... Core/Src/lvgl/src/widgets/menu/lv_menu.obj
+	@echo ... Core/Src/lvgl/src/widgets/menu/lv_menu.i
+	@echo ... Core/Src/lvgl/src/widgets/menu/lv_menu.s
+	@echo ... Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.obj
+	@echo ... Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.i
+	@echo ... Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.s
+	@echo ... Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.obj
+	@echo ... Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.i
+	@echo ... Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_image_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_image_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_image_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_label_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_label_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_label_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_obj_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_obj_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_obj_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_roller_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_roller_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_roller_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_style_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_style_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_style_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_textarea_properties.obj
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_textarea_properties.i
+	@echo ... Core/Src/lvgl/src/widgets/property/lv_textarea_properties.s
+	@echo ... Core/Src/lvgl/src/widgets/roller/lv_roller.obj
+	@echo ... Core/Src/lvgl/src/widgets/roller/lv_roller.i
+	@echo ... Core/Src/lvgl/src/widgets/roller/lv_roller.s
+	@echo ... Core/Src/lvgl/src/widgets/scale/lv_scale.obj
+	@echo ... Core/Src/lvgl/src/widgets/scale/lv_scale.i
+	@echo ... Core/Src/lvgl/src/widgets/scale/lv_scale.s
+	@echo ... Core/Src/lvgl/src/widgets/slider/lv_slider.obj
+	@echo ... Core/Src/lvgl/src/widgets/slider/lv_slider.i
+	@echo ... Core/Src/lvgl/src/widgets/slider/lv_slider.s
+	@echo ... Core/Src/lvgl/src/widgets/span/lv_span.obj
+	@echo ... Core/Src/lvgl/src/widgets/span/lv_span.i
+	@echo ... Core/Src/lvgl/src/widgets/span/lv_span.s
+	@echo ... Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.obj
+	@echo ... Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.i
+	@echo ... Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.s
+	@echo ... Core/Src/lvgl/src/widgets/spinner/lv_spinner.obj
+	@echo ... Core/Src/lvgl/src/widgets/spinner/lv_spinner.i
+	@echo ... Core/Src/lvgl/src/widgets/spinner/lv_spinner.s
+	@echo ... Core/Src/lvgl/src/widgets/switch/lv_switch.obj
+	@echo ... Core/Src/lvgl/src/widgets/switch/lv_switch.i
+	@echo ... Core/Src/lvgl/src/widgets/switch/lv_switch.s
+	@echo ... Core/Src/lvgl/src/widgets/table/lv_table.obj
+	@echo ... Core/Src/lvgl/src/widgets/table/lv_table.i
+	@echo ... Core/Src/lvgl/src/widgets/table/lv_table.s
+	@echo ... Core/Src/lvgl/src/widgets/tabview/lv_tabview.obj
+	@echo ... Core/Src/lvgl/src/widgets/tabview/lv_tabview.i
+	@echo ... Core/Src/lvgl/src/widgets/tabview/lv_tabview.s
+	@echo ... Core/Src/lvgl/src/widgets/textarea/lv_textarea.obj
+	@echo ... Core/Src/lvgl/src/widgets/textarea/lv_textarea.i
+	@echo ... Core/Src/lvgl/src/widgets/textarea/lv_textarea.s
+	@echo ... Core/Src/lvgl/src/widgets/tileview/lv_tileview.obj
+	@echo ... Core/Src/lvgl/src/widgets/tileview/lv_tileview.i
+	@echo ... Core/Src/lvgl/src/widgets/tileview/lv_tileview.s
+	@echo ... Core/Src/lvgl/src/widgets/win/lv_win.obj
+	@echo ... Core/Src/lvgl/src/widgets/win/lv_win.i
+	@echo ... Core/Src/lvgl/src/widgets/win/lv_win.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s

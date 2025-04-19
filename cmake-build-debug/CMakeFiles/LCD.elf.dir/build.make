@@ -68,10 +68,5146 @@ include CMakeFiles/LCD.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LCD.elf.dir/flags.make
 
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_disp.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_disp.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_disp.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_disp.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_disp.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_disp.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_disp.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_disp.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_fs.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_fs.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_fs.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_fs.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_fs.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_fs.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_fs.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_fs.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_indev.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_indev.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_indev.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_indev.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_indev.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_indev.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_indev.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_indev.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_lcd_stm32.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_lcd_stm32.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_lcd_stm32.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_lcd_stm32.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_lcd_stm32.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_lcd_stm32.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\port\lv_port_lcd_stm32.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\port\lv_port_lcd_stm32.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_group.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_group.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_group.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_group.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_group.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_group.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_group.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_group.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_class.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_class.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_class.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_class.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_class.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_class.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_class.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_class.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_draw.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_draw.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_draw.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_draw.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_draw.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_draw.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_draw.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_draw.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_event.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_event.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_event.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_event.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_event.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_event.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_event.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_event.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_id_builtin.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_id_builtin.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_id_builtin.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_id_builtin.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_id_builtin.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_id_builtin.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_id_builtin.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_id_builtin.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_pos.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_pos.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_pos.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_pos.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_pos.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_pos.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_pos.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_pos.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_property.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_property.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_property.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_property.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_property.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_property.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_property.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_property.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_scroll.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_scroll.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_scroll.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_scroll.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_scroll.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_scroll.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_scroll.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_scroll.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_style.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_style.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_style.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_style.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_style_gen.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style_gen.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style_gen.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_style_gen.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_style_gen.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style_gen.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_style_gen.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_style_gen.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_tree.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_tree.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_tree.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_tree.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_tree.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_tree.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_obj_tree.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_obj_tree.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_refr.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_refr.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_refr.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_refr.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_refr.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_refr.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\core\lv_refr.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\core\lv_refr.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/display/lv_display.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\display\lv_display.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\display\lv_display.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\display\lv_display.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\display\lv_display.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\display\lv_display.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\display\lv_display.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\display\lv_display.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_arc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_arc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_arc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_arc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_arc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_arc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_arc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_arc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_buf.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_buf.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_buf.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_buf.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_buf.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_buf.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_buf.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_buf.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_image.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_image.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_image.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_image.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_image.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_image.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_image.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_image.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_label.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_label.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_label.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_label.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_label.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_label.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_label.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_label.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_line.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_line.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_line.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_line.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_line.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_line.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_line.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_line.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_mask.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_mask.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_mask.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_mask.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_mask.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_mask.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_mask.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_mask.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_rect.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_rect.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_rect.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_rect.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_rect.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_rect.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_rect.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_rect.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_triangle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_triangle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_triangle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_triangle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_triangle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_triangle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_triangle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_triangle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_draw_vector.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_vector.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_vector.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_vector.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_vector.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_vector.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_draw_vector.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_draw_vector.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/lv_image_decoder.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_image_decoder.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_image_decoder.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_image_decoder.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_image_decoder.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_image_decoder.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\lv_image_decoder.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\lv_image_decoder.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_buf_pxp.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_fill.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_img.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_draw_pxp_layer.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_cfg.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_osa.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\pxp\lv_pxp_utils.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_buf_vglite.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_border.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_fill.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_img.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_label.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_layer.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_line.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_draw_vglite_triangle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_buf.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_matrix.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_path.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\nxp\vglite\lv_vglite_utils.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_arc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_border.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_fill.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_image.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_label.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_line.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_mask_rectangle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_triangle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\renesas\dave2d\lv_draw_dave2d_utils.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sdl\lv_draw_sdl.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building ASM object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\helium\lv_blend_helium.S.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\helium\lv_blend_helium.S
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\helium\lv_blend_helium.S > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\helium\lv_blend_helium.S.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\helium\lv_blend_helium.S -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\helium\lv_blend_helium.S.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_al88.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_argb8888.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_i1.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_l8.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb565.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\lv_draw_sw_blend_to_rgb888.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building ASM object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\neon\lv_blend_neon.S.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\neon\lv_blend_neon.S
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\neon\lv_blend_neon.S > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\neon\lv_blend_neon.S.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\blend\neon\lv_blend_neon.S -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\blend\neon\lv_blend_neon.S.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_arc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_border.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_box_shadow.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_fill.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_gradient.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_img.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_letter.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_line.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_mask_rect.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_transform.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_triangle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\sw\lv_draw_sw_vector.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_arc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_border.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_box_shadow.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_fill.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_img.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_label.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_layer.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_mask_rect.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_triangle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_draw_vg_lite_vector.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_decoder.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_grad.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_math.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_path.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_pending.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_stroke.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\draw\vg_lite\lv_vg_lite_utils.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\drm\lv_linux_drm.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\fb\lv_linux_fbdev.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\ili9341\lv_ili9341.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\lcd\lv_lcd_generic_mipi.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\renesas_glcdc\lv_renesas_glcdc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7735\lv_st7735.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7789\lv_st7789.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\st7796\lv_st7796.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\display\tft_espi\lv_tft_espi.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\evdev\lv_evdev.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_glfw_window.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_debug.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_driver.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\glfw\lv_opengles_texture.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_libinput.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\libinput\lv_xkb.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_cache.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_entry.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_fbdev.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_image_cache.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_lcd.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_libuv.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_profiler.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\nuttx\lv_nuttx_touchscreen.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\qnx\lv_qnx.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_keyboard.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mouse.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_mousewheel.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\sdl\lv_sdl_window.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\wayland\lv_wayland_smm.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_context.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_display.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\windows\lv_windows_input.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_display.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\drivers\x11\lv_x11_input.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_binfont_loader.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_binfont_loader.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_binfont_loader.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_binfont_loader.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_binfont_loader.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_binfont_loader.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_binfont_loader.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_binfont_loader.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_fmt_txt.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_fmt_txt.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_fmt_txt.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_fmt_txt.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_fmt_txt.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_fmt_txt.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_fmt_txt.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_fmt_txt.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_10.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_10.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_10.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_10.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_10.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_10.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_10.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_10.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_12.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_12.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_12.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_12.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_12.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_12.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_12.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_12.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_14.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_14.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_14.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_14.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_14.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_14.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_14.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_14.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_16.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_16.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_16.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_16.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_16.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_16.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_16.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_16.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_18.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_18.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_18.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_18.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_18.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_18.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_18.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_18.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_20.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_20.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_20.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_20.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_20.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_20.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_20.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_20.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_22.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_22.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_22.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_22.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_22.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_22.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_22.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_22.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_24.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_24.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_24.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_24.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_24.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_24.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_24.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_24.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_26.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_26.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_26.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_26.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_26.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_26.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_26.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_26.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_28.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_28.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_28.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_28.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_28_compressed.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_30.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_30.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_30.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_30.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_30.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_30.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_30.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_30.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_32.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_32.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_32.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_32.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_32.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_32.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_32.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_32.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_34.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_34.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_34.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_34.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_34.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_34.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_34.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_34.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_36.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_36.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_36.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_36.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_36.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_36.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_36.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_36.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_38.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_38.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_38.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_38.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_38.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_38.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_38.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_38.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_40.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_40.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_40.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_40.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_40.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_40.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_40.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_40.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_42.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_42.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_42.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_42.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_42.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_42.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_42.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_42.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_44.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_44.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_44.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_44.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_44.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_44.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_44.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_44.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_46.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_46.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_46.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_46.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_46.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_46.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_46.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_46.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_48.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_48.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_48.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_48.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_48.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_48.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_48.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_48.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_montserrat_8.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_8.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_8.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_8.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_8.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_8.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_montserrat_8.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_montserrat_8.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_14_cjk.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_simsun_16_cjk.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_unscii_16.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_16.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_16.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_unscii_16.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_unscii_16.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_16.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_unscii_16.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_16.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/font/lv_font_unscii_8.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_8.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_8.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_unscii_8.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_unscii_8.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_8.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\font\lv_font_unscii_8.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\font\lv_font_unscii_8.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/indev/lv_indev.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\indev\lv_indev.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\indev\lv_indev.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\indev\lv_indev.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/indev/lv_indev_scroll.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev_scroll.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev_scroll.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\indev\lv_indev_scroll.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\indev\lv_indev_scroll.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev_scroll.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\indev\lv_indev_scroll.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\indev\lv_indev_scroll.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/layouts/flex/lv_flex.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\flex\lv_flex.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\flex\lv_flex.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\flex\lv_flex.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\flex\lv_flex.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\flex\lv_flex.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\flex\lv_flex.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\flex\lv_flex.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/layouts/grid/lv_grid.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\grid\lv_grid.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\grid\lv_grid.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\grid\lv_grid.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\grid\lv_grid.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\grid\lv_grid.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\grid\lv_grid.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\grid\lv_grid.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/layouts/lv_layout.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\lv_layout.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\lv_layout.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\lv_layout.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\lv_layout.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\lv_layout.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\layouts\lv_layout.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\layouts\lv_layout.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/barcode/code128.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\code128.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\code128.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\barcode\code128.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\barcode\code128.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\code128.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\barcode\code128.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\code128.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/barcode/lv_barcode.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\lv_barcode.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\lv_barcode.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\barcode\lv_barcode.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\barcode\lv_barcode.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\lv_barcode.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\barcode\lv_barcode.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\barcode\lv_barcode.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bin_decoder\lv_bin_decoder.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/bmp/lv_bmp.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bmp\lv_bmp.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bmp\lv_bmp.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\bmp\lv_bmp.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\bmp\lv_bmp.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bmp\lv_bmp.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\bmp\lv_bmp.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\bmp\lv_bmp.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\ffmpeg\lv_ffmpeg.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/freetype/lv_freetype.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_glyph.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_image.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_freetype_outline.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\freetype\lv_ftsystem.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_esp_littlefs.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_arduino_sd.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_cbfs.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_fatfs.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_littlefs.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_memfs.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_posix.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_stdio.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\fsdrv\lv_fs_win32.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/gif/gifdec.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\gifdec.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\gifdec.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\gif\gifdec.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\gif\gifdec.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\gifdec.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\gif\gifdec.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\gifdec.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/gif/lv_gif.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\lv_gif.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\lv_gif.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\gif\lv_gif.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\gif\lv_gif.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\lv_gif.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\gif\lv_gif.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\gif\lv_gif.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libjpeg_turbo\lv_libjpeg_turbo.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/libpng/lv_libpng.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libpng\lv_libpng.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libpng\lv_libpng.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\libpng\lv_libpng.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\libpng\lv_libpng.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libpng\lv_libpng.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\libpng\lv_libpng.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\libpng\lv_libpng.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/lodepng/lodepng.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lodepng.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lodepng.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lodepng\lodepng.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lodepng\lodepng.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lodepng.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lodepng\lodepng.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lodepng.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lodepng\lv_lodepng.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/lz4/lz4.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lz4\lz4.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lz4\lz4.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lz4\lz4.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lz4\lz4.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lz4\lz4.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\lz4\lz4.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\lz4\lz4.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\lv_qrcode.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\qrcode\qrcodegen.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/rle/lv_rle.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rle\lv_rle.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rle\lv_rle.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\rle\lv_rle.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\rle\lv_rle.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rle\lv_rle.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\rle\lv_rle.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rle\lv_rle.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\rlottie\lv_rlottie.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAccessor.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgAnimation.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCanvas.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCapi.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgCompressor.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgFill.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgGlCanvas.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgInitializer.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLines.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLoader.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieAnimation.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieBuilder.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieExpressions.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieInterpolator.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieLoader.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieModel.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParser.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgLottieParserHandler.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgMath.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPaint.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgPicture.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRawLoader.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgRender.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSaver.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgScene.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgShape.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgStr.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgCssStyle.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgLoader.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgPath.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgSceneBuilder.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSvgUtil.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwCanvas.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwFill.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwImage.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMath.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwMemPool.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRaster.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRenderer.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwRle.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwShape.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgSwStroke.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgTaskScheduler.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgText.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgWgCanvas.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\thorvg\tvgXmlParser.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tiny_ttf\lv_tiny_ttf.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\lv_tjpgd.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\libs\tjpgd\tjpgd.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/lv_init.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\lv_init.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\lv_init.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\lv_init.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\lv_init.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\lv_init.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\lv_init.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\lv_init.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/cache/lv_cache.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_entry.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_cache_lru_rb.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/cache/lv_image_cache.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_cache.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_cache.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_image_cache.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_image_cache.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_cache.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_image_cache.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_cache.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\cache\lv_image_header_cache.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_anim.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_anim.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_anim.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_anim.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_anim_timeline.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim_timeline.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim_timeline.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_anim_timeline.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_anim_timeline.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim_timeline.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_anim_timeline.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_anim_timeline.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_area.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_area.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_area.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_area.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_area.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_area.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_area.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_area.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_array.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_array.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_array.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_array.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_array.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_array.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_array.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_array.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_async.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_async.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_async.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_async.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_async.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_async.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_async.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_async.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_bidi.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_bidi.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_bidi.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_bidi.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_bidi.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_bidi.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_bidi.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_bidi.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_color.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_color.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_color.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_color.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_color_op.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color_op.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color_op.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_color_op.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_color_op.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color_op.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_color_op.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_color_op.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_event.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_event.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_event.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_event.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_event.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_event.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_event.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_event.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_fs.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_fs.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_fs.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_fs.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_fs.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_fs.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_fs.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_fs.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_ll.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_ll.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_ll.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_ll.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_ll.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_ll.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_ll.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_ll.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_log.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_log.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_log.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_log.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_log.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_log.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_log.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_log.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_lru.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_lru.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_lru.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_lru.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_lru.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_lru.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_lru.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_lru.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_math.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_math.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_math.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_math.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_math.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_math.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_math.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_math.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_matrix.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_matrix.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_matrix.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_matrix.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_matrix.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_matrix.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_matrix.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_matrix.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_palette.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_palette.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_palette.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_palette.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_palette.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_palette.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_palette.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_palette.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_profiler_builtin.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_profiler_builtin.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_profiler_builtin.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_profiler_builtin.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_profiler_builtin.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_profiler_builtin.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_profiler_builtin.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_profiler_builtin.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_rb.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_rb.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_rb.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_rb.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_rb.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_rb.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_rb.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_rb.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_style.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_style.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_style.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_style.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_style_gen.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style_gen.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style_gen.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_style_gen.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_style_gen.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style_gen.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_style_gen.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_style_gen.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_templ.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_templ.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_templ.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_templ.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_templ.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_templ.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_templ.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_templ.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_text.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_text.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_text.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_text.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_text_ap.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text_ap.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text_ap.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_text_ap.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_text_ap.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text_ap.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_text_ap.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_text_ap.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_timer.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_timer.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_timer.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_timer.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_timer.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_timer.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_timer.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_timer.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/misc/lv_utils.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_utils.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_utils.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_utils.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_utils.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_utils.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\misc\lv_utils.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\misc\lv_utils.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_cmsis_rtos2.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_freertos.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_freertos.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_freertos.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_freertos.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_freertos.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_freertos.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_freertos.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_freertos.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_mqx.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_mqx.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_mqx.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_mqx.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_mqx.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_mqx.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_mqx.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_mqx.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_os.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_os.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_os.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_os.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_os_none.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os_none.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os_none.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_os_none.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_os_none.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os_none.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_os_none.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_os_none.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_pthread.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_pthread.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_pthread.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_pthread.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_pthread.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_pthread.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_pthread.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_pthread.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_rtthread.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_rtthread.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_rtthread.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_rtthread.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_rtthread.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_rtthread.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_rtthread.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_rtthread.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/osal/lv_windows.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_windows.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_windows.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_windows.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_windows.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_windows.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\osal\lv_windows.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\osal\lv_windows.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\file_explorer\lv_file_explorer.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/fragment/lv_fragment.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\fragment\lv_fragment.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\fragment\lv_fragment.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\fragment\lv_fragment.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\fragment\lv_fragment_manager.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\gridnav\lv_gridnav.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\ime\lv_ime_pinyin.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\imgfont\lv_imgfont.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/monkey/lv_monkey.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\monkey\lv_monkey.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\monkey\lv_monkey.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\monkey\lv_monkey.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\monkey\lv_monkey.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\monkey\lv_monkey.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\monkey\lv_monkey.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\monkey\lv_monkey.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/observer/lv_observer.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\observer\lv_observer.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\observer\lv_observer.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\observer\lv_observer.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\observer\lv_observer.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\observer\lv_observer.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\observer\lv_observer.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\observer\lv_observer.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\snapshot\lv_snapshot.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\sysmon\lv_sysmon.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_matrix.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building CXX object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\others\vg_lite_tvg\vg_lite_tvg.cpp.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_mem_core_builtin.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_sprintf_builtin.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_string_builtin.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\builtin\lv_tlsf.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_mem_core_clib.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_sprintf_clib.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\clib\lv_string_clib.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/lv_mem.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\lv_mem.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\lv_mem.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\lv_mem.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\lv_mem.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\lv_mem.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\lv_mem.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\lv_mem.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\micropython\lv_mem_core_micropython.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_mem_core_rtthread.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_sprintf_rtthread.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\stdlib\rtthread\lv_string_rtthread.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/themes/default/lv_theme_default.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\default\lv_theme_default.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\default\lv_theme_default.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\default\lv_theme_default.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\default\lv_theme_default.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\default\lv_theme_default.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\default\lv_theme_default.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\default\lv_theme_default.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/themes/lv_theme.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\lv_theme.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\lv_theme.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\lv_theme.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\lv_theme.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\lv_theme.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\lv_theme.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\lv_theme.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\mono\lv_theme_mono.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\themes\simple\lv_theme_simple.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/tick/lv_tick.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\tick\lv_tick.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\tick\lv_tick.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\tick\lv_tick.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\tick\lv_tick.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\tick\lv_tick.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\tick\lv_tick.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\tick\lv_tick.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\animimage\lv_animimage.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/arc/lv_arc.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\arc\lv_arc.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\arc\lv_arc.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\arc\lv_arc.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\arc\lv_arc.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\arc\lv_arc.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\arc\lv_arc.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\arc\lv_arc.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/bar/lv_bar.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\bar\lv_bar.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\bar\lv_bar.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\bar\lv_bar.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\bar\lv_bar.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\bar\lv_bar.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\bar\lv_bar.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\bar\lv_bar.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/button/lv_button.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\button\lv_button.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\button\lv_button.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\button\lv_button.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\button\lv_button.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\button\lv_button.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\button\lv_button.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\button\lv_button.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\buttonmatrix\lv_buttonmatrix.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_chinese.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_arrow.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\canvas\lv_canvas.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/chart/lv_chart.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\chart\lv_chart.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\chart\lv_chart.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\chart\lv_chart.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\chart\lv_chart.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\chart\lv_chart.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\chart\lv_chart.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\chart\lv_chart.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\checkbox\lv_checkbox.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\dropdown\lv_dropdown.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/image/lv_image.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\image\lv_image.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\image\lv_image.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\image\lv_image.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\image\lv_image.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\image\lv_image.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\image\lv_image.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\image\lv_image.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\imagebutton\lv_imagebutton.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\keyboard\lv_keyboard.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/label/lv_label.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\label\lv_label.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\label\lv_label.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\label\lv_label.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\label\lv_label.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\label\lv_label.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\label\lv_label.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\label\lv_label.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/led/lv_led.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\led\lv_led.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\led\lv_led.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\led\lv_led.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\led\lv_led.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\led\lv_led.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\led\lv_led.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\led\lv_led.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/line/lv_line.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\line\lv_line.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\line\lv_line.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\line\lv_line.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\line\lv_line.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\line\lv_line.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\line\lv_line.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\line\lv_line.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/list/lv_list.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\list\lv_list.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\list\lv_list.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\list\lv_list.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\list\lv_list.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\list\lv_list.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\list\lv_list.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\list\lv_list.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\lottie\lv_lottie.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/menu/lv_menu.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\menu\lv_menu.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\menu\lv_menu.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\menu\lv_menu.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\menu\lv_menu.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\menu\lv_menu.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\menu\lv_menu.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\menu\lv_menu.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\msgbox\lv_msgbox.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\objx_templ\lv_objx_templ.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_dropdown_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_image_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_image_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_image_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_image_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_image_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_image_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_image_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_image_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_keyboard_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_label_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_label_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_label_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_label_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_label_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_label_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_label_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_label_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_obj_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_roller_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_style_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_style_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_style_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_style_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_style_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_style_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_style_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_style_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\property\lv_textarea_properties.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/roller/lv_roller.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\roller\lv_roller.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\roller\lv_roller.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\roller\lv_roller.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\roller\lv_roller.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\roller\lv_roller.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\roller\lv_roller.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\roller\lv_roller.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/scale/lv_scale.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\scale\lv_scale.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\scale\lv_scale.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\scale\lv_scale.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\scale\lv_scale.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\scale\lv_scale.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\scale\lv_scale.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\scale\lv_scale.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/slider/lv_slider.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\slider\lv_slider.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\slider\lv_slider.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\slider\lv_slider.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\slider\lv_slider.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\slider\lv_slider.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\slider\lv_slider.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\slider\lv_slider.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/span/lv_span.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\span\lv_span.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\span\lv_span.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\span\lv_span.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\span\lv_span.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\span\lv_span.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\span\lv_span.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\span\lv_span.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinbox\lv_spinbox.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\spinner\lv_spinner.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/switch/lv_switch.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\switch\lv_switch.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\switch\lv_switch.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\switch\lv_switch.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\switch\lv_switch.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\switch\lv_switch.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\switch\lv_switch.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\switch\lv_switch.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/table/lv_table.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\table\lv_table.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\table\lv_table.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\table\lv_table.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\table\lv_table.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\table\lv_table.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\table\lv_table.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\table\lv_table.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tabview\lv_tabview.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\textarea\lv_textarea.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\tileview\lv_tileview.c.s
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj: CMakeFiles/LCD.elf.dir/flags.make
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/widgets/win/lv_win.c
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\win\lv_win.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\win\lv_win.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\win\lv_win.c
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\win\lv_win.c > CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\win\lv_win.c.i
+
+CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl\src\widgets\win\lv_win.c -o CMakeFiles\LCD.elf.dir\Core\Src\lvgl\src\widgets\win\lv_win.c.s
+
 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/main.c
 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\main.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\main.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/main.c.i: cmake_force
@@ -85,7 +5221,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/st7796.c
 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\st7796.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\st7796.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\st7796.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.i: cmake_force
@@ -99,7 +5235,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/stm32l4xx_hal_msp.c
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\stm32l4xx_hal_msp.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.i: cmake_force
@@ -113,7 +5249,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/stm32l4xx_it.c
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_it.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\stm32l4xx_it.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\stm32l4xx_it.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.i: cmake_force
@@ -127,7 +5263,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/syscalls.c
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\syscalls.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -141,7 +5277,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/sysmem.c
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\sysmem.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -155,7 +5291,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/system_stm32l4xx.c
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles\LCD.elf.dir\Core\Src\system_stm32l4xx.c.obj.d -o CMakeFiles\LCD.elf.dir\Core\Src\system_stm32l4xx.c.obj -c C:\Users\Administrator\Desktop\LCD\Core\Src\system_stm32l4xx.c
 
 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.i: cmake_force
@@ -168,7 +5304,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.s: cmake_force
 
 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj: C:/Users/Administrator/Desktop/LCD/Core/Startup/startup_stm32l476rgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building ASM object CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\LCD.elf.dir\Core\Startup\startup_stm32l476rgtx.s.obj -c C:\Users\Administrator\Desktop\LCD\Core\Startup\startup_stm32l476rgtx.s
 
 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.i: cmake_force
@@ -182,7 +5318,7 @@ CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.s: cmake_force
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
@@ -196,7 +5332,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s: cmake
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
@@ -210,7 +5346,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
@@ -224,7 +5360,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
@@ -238,7 +5374,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
@@ -252,7 +5388,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s: 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
@@ -266,7 +5402,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s:
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
@@ -280,7 +5416,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -294,7 +5430,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramf
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
@@ -308,7 +5444,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s: 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
@@ -322,7 +5458,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
@@ -336,7 +5472,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
@@ -350,7 +5486,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
@@ -364,7 +5500,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
@@ -378,7 +5514,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
@@ -392,7 +5528,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i: cmake_force
@@ -406,7 +5542,7 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.s: c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/LCD.elf.dir/flags.make
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj -MF CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj.d -o CMakeFiles\LCD.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj -c C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c
 
 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i: cmake_force
@@ -419,6 +5555,373 @@ CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.s
 
 # Object files for target LCD.elf
 LCD_elf_OBJECTS = \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj" \
+"CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj" \
 "CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj" \
 "CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" \
@@ -448,6 +5951,373 @@ LCD_elf_OBJECTS = \
 # External object files for target LCD.elf
 LCD_elf_EXTERNAL_OBJECTS =
 
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_draw.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_event.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_id_builtin.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_pos.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_property.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_scroll.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_style_gen.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_tree.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_refr.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/display/lv_display.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_arc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_buf.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_label.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_line.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_mask.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_rect.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_triangle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_vector.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_image_decoder.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sdl/lv_draw_sdl.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_border.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_fill.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_img.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_triangle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_vector.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_math.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_path.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/drm/lv_linux_drm.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/fb/lv_linux_fbdev.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/ili9341/lv_ili9341.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7735/lv_st7735.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7789/lv_st7789.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/st7796/lv_st7796.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/evdev/lv_evdev.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_glfw_window.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_debug.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_driver.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/glfw/lv_opengles_texture.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_libinput.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/libinput/lv_xkb.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_cache.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_entry.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/qnx/lv_qnx.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_keyboard.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mouse.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/sdl/lv_sdl_window.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/wayland/lv_wayland_smm.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_context.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_display.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/windows/lv_windows_input.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_display.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/x11/lv_x11_input.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_binfont_loader.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_10.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_12.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_16.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_18.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_20.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_22.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_24.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_26.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_30.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_32.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_34.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_36.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_38.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_40.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_42.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_44.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_46.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_48.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_8.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_14_cjk.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_simsun_16_cjk.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_16.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_unscii_8.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/indev/lv_indev_scroll.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/flex/lv_flex.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/grid/lv_grid.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/layouts/lv_layout.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/code128.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/barcode/lv_barcode.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bmp/lv_bmp.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_glyph.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_image.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_freetype_outline.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/freetype/lv_ftsystem.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_littlefs.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_memfs.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_posix.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_stdio.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_win32.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/gifdec.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/gif/lv_gif.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/libpng/lv_libpng.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lodepng.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lodepng/lv_lodepng.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/lz4/lz4.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/lv_qrcode.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/qrcode/qrcodegen.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rle/lv_rle.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/rlottie/lv_rlottie.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAccessor.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgAnimation.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCanvas.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCapi.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgCompressor.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgFill.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgGlCanvas.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgInitializer.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLines.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLoader.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieLoader.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieModel.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParser.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgMath.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPaint.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgPicture.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRawLoader.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgRender.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSaver.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgScene.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgShape.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgStr.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgCssStyle.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgLoader.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgPath.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgSceneBuilder.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSvgUtil.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwCanvas.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwFill.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwImage.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMath.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwMemPool.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRaster.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRenderer.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwRle.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwShape.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgSwStroke.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgText.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgWgCanvas.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/thorvg/tvgXmlParser.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/lv_tjpgd.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/tjpgd/tjpgd.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/lv_init.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_entry.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_anim_timeline.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_area.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_array.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_async.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_bidi.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_color_op.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_event.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_ll.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_log.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_lru.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_matrix.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_profiler_builtin.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_rb.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style_gen.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_templ.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text_ap.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_timer.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_utils.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_cmsis_rtos2.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_freertos.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_mqx.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_os_none.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_pthread.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_rtthread.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/osal/lv_windows.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/file_explorer/lv_file_explorer.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/fragment/lv_fragment_manager.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/gridnav/lv_gridnav.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/ime/lv_ime_pinyin.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/imgfont/lv_imgfont.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/monkey/lv_monkey.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/observer/lv_observer.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/snapshot/lv_snapshot.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/sysmon/lv_sysmon.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_string_builtin.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_tlsf.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_mem_core_clib.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_sprintf_clib.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/clib/lv_string_clib.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/lv_mem.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/lv_theme.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/mono/lv_theme_mono.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/simple/lv_theme_simple.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/tick/lv_tick.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/animimage/lv_animimage.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_chinese.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/canvas/lv_canvas.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/imagebutton/lv_imagebutton.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/lottie/lv_lottie.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/objx_templ/lv_objx_templ.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_dropdown_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_image_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_keyboard_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_label_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_obj_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_roller_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_style_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/property/lv_textarea_properties.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/span/lv_span.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
@@ -474,8 +6344,9 @@ LCD.elf: CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_r
 LCD.elf: CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
 LCD.elf: CMakeFiles/LCD.elf.dir/build.make
+LCD.elf: CMakeFiles/LCD.elf.dir/objects1.rsp
 LCD.elf: CMakeFiles/LCD.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable LCD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Administrator\Desktop\LCD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Linking CXX executable LCD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LCD.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Administrator/Desktop/LCD/cmake-build-debug/LCD.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Administrator/Desktop/LCD/cmake-build-debug/LCD.bin"

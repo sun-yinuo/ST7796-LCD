@@ -913,7 +913,7 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188     0x1f38
+.text           0x08000188     0x2450
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x40 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -929,342 +929,342 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x08000300       0x7a CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
                 0x08000300                SystemClock_Config
  *fill*         0x0800037a        0x2 
- .text.main     0x0800037c       0x54 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .text.main     0x0800037c      0x56c CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
                 0x0800037c                main
  .text.LCD_WR_REG
-                0x080003d0       0x50 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080008e8       0x50 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.ST7796_WriteData
-                0x08000420       0x48 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000938       0x48 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.LCD_WR_DATA
-                0x08000468       0x18 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000980       0x18 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.LCD_RESET
-                0x08000480       0x2c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000998       0x2c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.ST7796_AttachSPI
-                0x080004ac        0xc CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080004ac                ST7796_AttachSPI
+                0x080009c4        0xc CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080009c4                ST7796_AttachSPI
  .text.LCD_WriteReg
-                0x080004b8       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080004b8                LCD_WriteReg
+                0x080009d0       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080009d0                LCD_WriteReg
  .text.SPI_WriteByte
-                0x080004c8       0x32 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080004c8                SPI_WriteByte
- *fill*         0x080004fa        0x2 
+                0x080009e0       0x32 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080009e0                SPI_WriteByte
+ *fill*         0x08000a12        0x2 
  .text.LCD_direction
-                0x080004fc       0x8c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080004fc                LCD_direction
+                0x08000a14       0x8c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000a14                LCD_direction
  .text.LCD_SetWindows
-                0x08000588       0x60 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x08000588                LCD_SetWindows
+                0x08000aa0       0x60 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000aa0                LCD_SetWindows
  .text.LCD_Clear
-                0x080005e8       0x7c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080005e8                LCD_Clear
+                0x08000b00       0x7c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000b00                LCD_Clear
  .text.LCD_WriteData_16Bit
-                0x08000664       0x48 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x08000664                LCD_WriteData_16Bit
+                0x08000b7c       0x48 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000b7c                LCD_WriteData_16Bit
  .text.LCD_SetCursor
-                0x080006ac        0xc CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080006ac                LCD_SetCursor
+                0x08000bc4        0xc CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000bc4                LCD_SetCursor
  .text.LCD_DrawPoint
-                0x080006b8       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080006b8                LCD_DrawPoint
+                0x08000bd0       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000bd0                LCD_DrawPoint
  .text.ST7796_Init
-                0x080006c8      0x1b4 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080006c8                ST7796_Init
+                0x08000be0      0x1b4 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08000be0                ST7796_Init
  .text.HAL_MspInit
-                0x0800087c       0x30 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x0800087c                HAL_MspInit
+                0x08000d94       0x30 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08000d94                HAL_MspInit
  .text.HAL_SPI_MspInit
-                0x080008ac       0x98 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x080008ac                HAL_SPI_MspInit
+                0x08000dc4       0x98 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08000dc4                HAL_SPI_MspInit
  .text.NMI_Handler
-                0x08000944        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000944                NMI_Handler
+                0x08000e5c        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e5c                NMI_Handler
  .text.HardFault_Handler
-                0x08000946        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000946                HardFault_Handler
+                0x08000e5e        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e5e                HardFault_Handler
  .text.MemManage_Handler
-                0x08000948        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000948                MemManage_Handler
+                0x08000e60        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e60                MemManage_Handler
  .text.BusFault_Handler
-                0x0800094a        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800094a                BusFault_Handler
+                0x08000e62        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e62                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800094c        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800094c                UsageFault_Handler
+                0x08000e64        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e64                UsageFault_Handler
  .text.SVC_Handler
-                0x0800094e        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800094e                SVC_Handler
+                0x08000e66        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e66                SVC_Handler
  .text.DebugMon_Handler
-                0x08000950        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000950                DebugMon_Handler
+                0x08000e68        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e68                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000952        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000952                PendSV_Handler
+                0x08000e6a        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e6a                PendSV_Handler
  .text.SysTick_Handler
-                0x08000954        0x8 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000954                SysTick_Handler
+                0x08000e6c        0x8 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000e6c                SysTick_Handler
  .text.SystemInit
-                0x0800095c        0x2 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x0800095c                SystemInit
- *fill*         0x0800095e        0x2 
+                0x08000e74        0x2 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08000e74                SystemInit
+ *fill*         0x08000e76        0x2 
  .text.Reset_Handler
-                0x08000960       0x50 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
-                0x08000960                Reset_Handler
+                0x08000e78       0x50 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x08000e78                Reset_Handler
  .text.Default_Handler
-                0x080009b0        0x2 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
-                0x080009b0                RTC_Alarm_IRQHandler
-                0x080009b0                EXTI2_IRQHandler
-                0x080009b0                TIM8_TRG_COM_IRQHandler
-                0x080009b0                TIM8_CC_IRQHandler
-                0x080009b0                TIM1_CC_IRQHandler
-                0x080009b0                TSC_IRQHandler
-                0x080009b0                TAMP_STAMP_IRQHandler
-                0x080009b0                EXTI3_IRQHandler
-                0x080009b0                LPTIM2_IRQHandler
-                0x080009b0                DFSDM1_FLT1_IRQHandler
-                0x080009b0                I2C3_ER_IRQHandler
-                0x080009b0                DFSDM1_FLT2_IRQHandler
-                0x080009b0                EXTI0_IRQHandler
-                0x080009b0                I2C2_EV_IRQHandler
-                0x080009b0                CAN1_RX0_IRQHandler
-                0x080009b0                FPU_IRQHandler
-                0x080009b0                TIM1_UP_TIM16_IRQHandler
-                0x080009b0                ADC1_2_IRQHandler
-                0x080009b0                SPI1_IRQHandler
-                0x080009b0                TIM6_DAC_IRQHandler
-                0x080009b0                TIM8_UP_IRQHandler
-                0x080009b0                DMA2_Channel2_IRQHandler
-                0x080009b0                DMA1_Channel4_IRQHandler
-                0x080009b0                SAI2_IRQHandler
-                0x080009b0                DFSDM1_FLT3_IRQHandler
-                0x080009b0                USART3_IRQHandler
-                0x080009b0                DMA1_Channel7_IRQHandler
-                0x080009b0                CAN1_RX1_IRQHandler
-                0x080009b0                LCD_IRQHandler
-                0x080009b0                UART5_IRQHandler
-                0x080009b0                ADC3_IRQHandler
-                0x080009b0                TIM4_IRQHandler
-                0x080009b0                DMA2_Channel1_IRQHandler
-                0x080009b0                QUADSPI_IRQHandler
-                0x080009b0                I2C1_EV_IRQHandler
-                0x080009b0                DMA1_Channel6_IRQHandler
-                0x080009b0                UART4_IRQHandler
-                0x080009b0                DMA2_Channel4_IRQHandler
-                0x080009b0                TIM3_IRQHandler
-                0x080009b0                RCC_IRQHandler
-                0x080009b0                DMA1_Channel1_IRQHandler
-                0x080009b0                Default_Handler
-                0x080009b0                DMA2_Channel7_IRQHandler
-                0x080009b0                EXTI15_10_IRQHandler
-                0x080009b0                TIM7_IRQHandler
-                0x080009b0                SDMMC1_IRQHandler
-                0x080009b0                TIM5_IRQHandler
-                0x080009b0                I2C3_EV_IRQHandler
-                0x080009b0                EXTI9_5_IRQHandler
-                0x080009b0                RTC_WKUP_IRQHandler
-                0x080009b0                PVD_PVM_IRQHandler
-                0x080009b0                SPI2_IRQHandler
-                0x080009b0                CAN1_TX_IRQHandler
-                0x080009b0                DMA2_Channel5_IRQHandler
-                0x080009b0                DMA1_Channel5_IRQHandler
-                0x080009b0                EXTI4_IRQHandler
-                0x080009b0                RNG_IRQHandler
-                0x080009b0                TIM1_TRG_COM_TIM17_IRQHandler
-                0x080009b0                DMA1_Channel3_IRQHandler
-                0x080009b0                COMP_IRQHandler
-                0x080009b0                WWDG_IRQHandler
-                0x080009b0                LPUART1_IRQHandler
-                0x080009b0                DMA2_Channel6_IRQHandler
-                0x080009b0                TIM2_IRQHandler
-                0x080009b0                EXTI1_IRQHandler
-                0x080009b0                USART2_IRQHandler
-                0x080009b0                DFSDM1_FLT0_IRQHandler
-                0x080009b0                I2C2_ER_IRQHandler
-                0x080009b0                DMA1_Channel2_IRQHandler
-                0x080009b0                TIM8_BRK_IRQHandler
-                0x080009b0                CAN1_SCE_IRQHandler
-                0x080009b0                FLASH_IRQHandler
-                0x080009b0                USART1_IRQHandler
-                0x080009b0                OTG_FS_IRQHandler
-                0x080009b0                SPI3_IRQHandler
-                0x080009b0                I2C1_ER_IRQHandler
-                0x080009b0                FMC_IRQHandler
-                0x080009b0                SWPMI1_IRQHandler
-                0x080009b0                LPTIM1_IRQHandler
-                0x080009b0                SAI1_IRQHandler
-                0x080009b0                DMA2_Channel3_IRQHandler
-                0x080009b0                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x080009b2        0x2 
+                0x08000ec8        0x2 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x08000ec8                RTC_Alarm_IRQHandler
+                0x08000ec8                EXTI2_IRQHandler
+                0x08000ec8                TIM8_TRG_COM_IRQHandler
+                0x08000ec8                TIM8_CC_IRQHandler
+                0x08000ec8                TIM1_CC_IRQHandler
+                0x08000ec8                TSC_IRQHandler
+                0x08000ec8                TAMP_STAMP_IRQHandler
+                0x08000ec8                EXTI3_IRQHandler
+                0x08000ec8                LPTIM2_IRQHandler
+                0x08000ec8                DFSDM1_FLT1_IRQHandler
+                0x08000ec8                I2C3_ER_IRQHandler
+                0x08000ec8                DFSDM1_FLT2_IRQHandler
+                0x08000ec8                EXTI0_IRQHandler
+                0x08000ec8                I2C2_EV_IRQHandler
+                0x08000ec8                CAN1_RX0_IRQHandler
+                0x08000ec8                FPU_IRQHandler
+                0x08000ec8                TIM1_UP_TIM16_IRQHandler
+                0x08000ec8                ADC1_2_IRQHandler
+                0x08000ec8                SPI1_IRQHandler
+                0x08000ec8                TIM6_DAC_IRQHandler
+                0x08000ec8                TIM8_UP_IRQHandler
+                0x08000ec8                DMA2_Channel2_IRQHandler
+                0x08000ec8                DMA1_Channel4_IRQHandler
+                0x08000ec8                SAI2_IRQHandler
+                0x08000ec8                DFSDM1_FLT3_IRQHandler
+                0x08000ec8                USART3_IRQHandler
+                0x08000ec8                DMA1_Channel7_IRQHandler
+                0x08000ec8                CAN1_RX1_IRQHandler
+                0x08000ec8                LCD_IRQHandler
+                0x08000ec8                UART5_IRQHandler
+                0x08000ec8                ADC3_IRQHandler
+                0x08000ec8                TIM4_IRQHandler
+                0x08000ec8                DMA2_Channel1_IRQHandler
+                0x08000ec8                QUADSPI_IRQHandler
+                0x08000ec8                I2C1_EV_IRQHandler
+                0x08000ec8                DMA1_Channel6_IRQHandler
+                0x08000ec8                UART4_IRQHandler
+                0x08000ec8                DMA2_Channel4_IRQHandler
+                0x08000ec8                TIM3_IRQHandler
+                0x08000ec8                RCC_IRQHandler
+                0x08000ec8                DMA1_Channel1_IRQHandler
+                0x08000ec8                Default_Handler
+                0x08000ec8                DMA2_Channel7_IRQHandler
+                0x08000ec8                EXTI15_10_IRQHandler
+                0x08000ec8                TIM7_IRQHandler
+                0x08000ec8                SDMMC1_IRQHandler
+                0x08000ec8                TIM5_IRQHandler
+                0x08000ec8                I2C3_EV_IRQHandler
+                0x08000ec8                EXTI9_5_IRQHandler
+                0x08000ec8                RTC_WKUP_IRQHandler
+                0x08000ec8                PVD_PVM_IRQHandler
+                0x08000ec8                SPI2_IRQHandler
+                0x08000ec8                CAN1_TX_IRQHandler
+                0x08000ec8                DMA2_Channel5_IRQHandler
+                0x08000ec8                DMA1_Channel5_IRQHandler
+                0x08000ec8                EXTI4_IRQHandler
+                0x08000ec8                RNG_IRQHandler
+                0x08000ec8                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000ec8                DMA1_Channel3_IRQHandler
+                0x08000ec8                COMP_IRQHandler
+                0x08000ec8                WWDG_IRQHandler
+                0x08000ec8                LPUART1_IRQHandler
+                0x08000ec8                DMA2_Channel6_IRQHandler
+                0x08000ec8                TIM2_IRQHandler
+                0x08000ec8                EXTI1_IRQHandler
+                0x08000ec8                USART2_IRQHandler
+                0x08000ec8                DFSDM1_FLT0_IRQHandler
+                0x08000ec8                I2C2_ER_IRQHandler
+                0x08000ec8                DMA1_Channel2_IRQHandler
+                0x08000ec8                TIM8_BRK_IRQHandler
+                0x08000ec8                CAN1_SCE_IRQHandler
+                0x08000ec8                FLASH_IRQHandler
+                0x08000ec8                USART1_IRQHandler
+                0x08000ec8                OTG_FS_IRQHandler
+                0x08000ec8                SPI3_IRQHandler
+                0x08000ec8                I2C1_ER_IRQHandler
+                0x08000ec8                FMC_IRQHandler
+                0x08000ec8                SWPMI1_IRQHandler
+                0x08000ec8                LPTIM1_IRQHandler
+                0x08000ec8                SAI1_IRQHandler
+                0x08000ec8                DMA2_Channel3_IRQHandler
+                0x08000ec8                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08000eca        0x2 
  .text.HAL_InitTick
-                0x080009b4       0x50 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x080009b4                HAL_InitTick
+                0x08000ecc       0x50 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000ecc                HAL_InitTick
  .text.HAL_Init
-                0x08000a04       0x1e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000a04                HAL_Init
- *fill*         0x08000a22        0x2 
+                0x08000f1c       0x1e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000f1c                HAL_Init
+ *fill*         0x08000f3a        0x2 
  .text.HAL_IncTick
-                0x08000a24       0x18 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000a24                HAL_IncTick
+                0x08000f3c       0x18 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000f3c                HAL_IncTick
  .text.HAL_GetTick
-                0x08000a3c        0xc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000a3c                HAL_GetTick
+                0x08000f54        0xc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000f54                HAL_GetTick
  .text.HAL_Delay
-                0x08000a48       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000a48                HAL_Delay
+                0x08000f60       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000f60                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000a70       0x24 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08000a70                HAL_NVIC_SetPriorityGrouping
+                0x08000f88       0x24 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08000f88                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000a94       0x70 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08000a94                HAL_NVIC_SetPriority
+                0x08000fac       0x70 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08000fac                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x08000b04       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08000b04                HAL_SYSTICK_Config
+                0x0800101c       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x0800101c                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x08000b2c      0x20c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000b2c                HAL_GPIO_Init
+                0x08001044      0x20c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08001044                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08000d38        0xa CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000d38                HAL_GPIO_WritePin
- *fill*         0x08000d42        0x2 
+                0x08001250        0xa CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08001250                HAL_GPIO_WritePin
+ *fill*         0x0800125a        0x2 
  .text.HAL_PWREx_GetVoltageRange
-                0x08000d44       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08000d44                HAL_PWREx_GetVoltageRange
+                0x0800125c       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x0800125c                HAL_PWREx_GetVoltageRange
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08000d54       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08000d54                HAL_PWREx_ControlVoltageScaling
+                0x0800126c       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x0800126c                HAL_PWREx_ControlVoltageScaling
  .text.RCC_SetFlashLatencyFromMSIRange
-                0x08000de4       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x080012fc       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .text.HAL_RCC_GetSysClockFreq
-                0x08000e74       0xb4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000e74                HAL_RCC_GetSysClockFreq
+                0x0800138c       0xb4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x0800138c                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_OscConfig
-                0x08000f28      0x61c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000f28                HAL_RCC_OscConfig
+                0x08001440      0x61c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08001440                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08001544      0x188 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08001544                HAL_RCC_ClockConfig
+                0x08001a5c      0x188 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08001a5c                HAL_RCC_ClockConfig
  .text.SPI_WaitFlagStateUntilTimeout
-                0x080016cc       0xd4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08001be4       0xd4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .text.SPI_WaitFifoStateUntilTimeout
-                0x080017a0       0xf4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08001cb8       0xf4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .text.SPI_EndRxTxTransaction
-                0x08001894       0x62 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08001dac       0x62 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .text.HAL_SPI_Init
-                0x080018f6       0xde CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
-                0x080018f6                HAL_SPI_Init
+                0x08001e0e       0xde CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08001e0e                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x080019d4      0x20a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
-                0x080019d4                HAL_SPI_Transmit
+                0x08001eec      0x20a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08001eec                HAL_SPI_Transmit
  .text.HAL_SPI_TransmitReceive
-                0x08001bde      0x2fe CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
-                0x08001bde                HAL_SPI_TransmitReceive
+                0x080020f6      0x2fe CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x080020f6                HAL_SPI_TransmitReceive
  .text.__libc_init_array
-                0x08001edc       0x48 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x08001edc                __libc_init_array
- .text.memset   0x08001f24       0xa4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
-                0x08001f24                memset
+                0x080023f4       0x48 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x080023f4                __libc_init_array
+ .text.memset   0x0800243c       0xa4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x0800243c                memset
  .text.startup.register_fini
-                0x08001fc8       0x14 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08001fdc        0xc d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x08001fdc                atexit
+                0x080024e0       0x14 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080024f4        0xc d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x080024f4                atexit
  .text.__libc_fini_array
-                0x08001fe8       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x08001fe8                __libc_fini_array
+                0x08002500       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x08002500                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08002014        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002014                __retarget_lock_acquire_recursive
+                0x0800252c        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x0800252c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08002018        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002018                __retarget_lock_release_recursive
+                0x08002530        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08002530                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x0800201c       0x8c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x0800201c                __register_exitproc
+                0x08002534       0x8c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08002534                __register_exitproc
  *(.glue_7)
- .glue_7        0x080020a8        0x0 linker stubs
+ .glue_7        0x080025c0        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080020a8        0x0 linker stubs
+ .glue_7t       0x080025c0        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080020a8        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x080025c0        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x080020a8        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x080020a8                _init
- .init          0x080020ac        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x080025c0        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x080025c0                _init
+ .init          0x080025c4        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x080020b4        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x080020b4                _fini
- .fini          0x080020b8        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x080020c0                . = ALIGN (0x4)
-                0x080020c0                _etext = .
+ .fini          0x080025cc        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x080025cc                _fini
+ .fini          0x080025d0        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x080025d8                . = ALIGN (0x4)
+                0x080025d8                _etext = .
 
-.vfp11_veneer   0x080020c0        0x0
- .vfp11_veneer  0x080020c0        0x0 linker stubs
+.vfp11_veneer   0x080025d8        0x0
+ .vfp11_veneer  0x080025d8        0x0 linker stubs
 
-.v4_bx          0x080020c0        0x0
- .v4_bx         0x080020c0        0x0 linker stubs
+.v4_bx          0x080025d8        0x0
+ .v4_bx         0x080025d8        0x0 linker stubs
 
-.iplt           0x080020c0        0x0
- .iplt          0x080020c0        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x080025d8        0x0
+ .iplt          0x080025d8        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x080020c0       0x44
-                0x080020c0                . = ALIGN (0x4)
+.rodata         0x080025d8       0x44
+                0x080025d8                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x080020c0       0x10 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x080020c0                AHBPrescTable
+                0x080025d8       0x10 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x080025d8                AHBPrescTable
  .rodata.MSIRangeTable
-                0x080020d0       0x30 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x080020d0                MSIRangeTable
+                0x080025e8       0x30 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x080025e8                MSIRangeTable
  .rodata._global_impure_ptr
-                0x08002100        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x08002100                _global_impure_ptr
-                0x08002104                . = ALIGN (0x4)
+                0x08002618        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x08002618                _global_impure_ptr
+                0x0800261c                . = ALIGN (0x4)
 
-.rel.dyn        0x08002104        0x0
- .rel.iplt      0x08002104        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0800261c        0x0
+ .rel.iplt      0x0800261c        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ARM.extab      0x08002104        0x0
-                0x08002104                . = ALIGN (0x4)
+.ARM.extab      0x0800261c        0x0
+                0x0800261c                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08002104                . = ALIGN (0x4)
+                0x0800261c                . = ALIGN (0x4)
 
-.ARM            0x08002104        0x0
-                0x08002104                . = ALIGN (0x4)
-                0x08002104                __exidx_start = .
+.ARM            0x0800261c        0x0
+                0x0800261c                . = ALIGN (0x4)
+                0x0800261c                __exidx_start = .
  *(.ARM.exidx*)
-                0x08002104                __exidx_end = .
-                0x08002104                . = ALIGN (0x4)
+                0x0800261c                __exidx_end = .
+                0x0800261c                . = ALIGN (0x4)
 
-.preinit_array  0x08002104        0x0
-                0x08002104                . = ALIGN (0x4)
-                0x08002104                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800261c        0x0
+                0x0800261c                . = ALIGN (0x4)
+                0x0800261c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002104                PROVIDE (__preinit_array_end = .)
-                0x08002104                . = ALIGN (0x4)
+                0x0800261c                PROVIDE (__preinit_array_end = .)
+                0x0800261c                . = ALIGN (0x4)
 
-.init_array     0x08002104        0x8
-                0x08002104                . = ALIGN (0x4)
-                0x08002104                PROVIDE (__init_array_start = .)
+.init_array     0x0800261c        0x8
+                0x0800261c                . = ALIGN (0x4)
+                0x0800261c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08002104        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x0800261c        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08002108        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800210c                PROVIDE (__init_array_end = .)
-                0x0800210c                . = ALIGN (0x4)
+ .init_array    0x08002620        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08002624                PROVIDE (__init_array_end = .)
+                0x08002624                . = ALIGN (0x4)
 
-.fini_array     0x0800210c        0x4
-                0x0800210c                . = ALIGN (0x4)
-                0x0800210c                PROVIDE (__fini_array_start = .)
+.fini_array     0x08002624        0x4
+                0x08002624                . = ALIGN (0x4)
+                0x08002624                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800210c        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08002110                PROVIDE (__fini_array_end = .)
-                0x08002110                . = ALIGN (0x4)
-                0x08002110                _sidata = LOADADDR (.data)
+ .fini_array    0x08002624        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08002628                PROVIDE (__fini_array_end = .)
+                0x08002628                . = ALIGN (0x4)
+                0x08002628                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x08002110
+.data           0x20000000      0x43c load address 0x08002628
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1290,11 +1290,11 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x0800254c
+.igot.plt       0x2000043c        0x0 load address 0x08002a64
  .igot.plt      0x2000043c        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x2000043c                . = ALIGN (0x4)
 
-.bss            0x2000043c       0x9c load address 0x0800254c
+.bss            0x2000043c       0x9c load address 0x08002a64
                 0x2000043c                _sbss = .
                 0x2000043c                __bss_start__ = _sbss
  *(.bss)
@@ -1318,7 +1318,7 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x200004d8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200004d8      0x600 load address 0x0800254c
+                0x200004d8      0x600 load address 0x08002a64
                 0x200004d8                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 0x200004d8                PROVIDE (_end = .)
@@ -1388,33 +1388,33 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../..
 LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x924d
- .debug_info    0x00000000      0xe9e CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000e9e     0x1467 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_info    0x00002305      0xa84 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x00002d89      0x130 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x00002eb9      0x425 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_info    0x000032de       0x22 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_info    0x00003300      0xbc6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_info    0x00003ec6     0x10d1 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x00004f97      0x857 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_info    0x000057ee      0xaa2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_info    0x00006290      0xf3f CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_info    0x000071cf     0x207e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+.debug_info     0x00000000     0xa22e
+ .debug_info    0x00000000     0x1e7f CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00001e7f     0x1467 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_info    0x000032e6      0xa84 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x00003d6a      0x130 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x00003e9a      0x425 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_info    0x000042bf       0x22 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_info    0x000042e1      0xbc6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_info    0x00004ea7     0x10d1 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_info    0x00005f78      0x857 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_info    0x000067cf      0xaa2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_info    0x00007271      0xf3f CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_info    0x000081b0     0x207e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_abbrev   0x00000000     0x15d8
- .debug_abbrev  0x00000000      0x243 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000243      0x23f CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_abbrev  0x00000482      0x1a3 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_abbrev  0x00000625       0x7e CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_abbrev  0x000006a3      0x119 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_abbrev  0x000007bc       0x12 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_abbrev  0x000007ce      0x22a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_abbrev  0x000009f8      0x361 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_abbrev  0x00000d59      0x1e6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_abbrev  0x00000f3f      0x215 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00001154      0x251 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_abbrev  0x000013a5      0x233 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+.debug_abbrev   0x00000000     0x15bc
+ .debug_abbrev  0x00000000      0x227 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000227      0x23f CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_abbrev  0x00000466      0x1a3 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000609       0x7e CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_abbrev  0x00000687      0x119 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_abbrev  0x000007a0       0x12 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_abbrev  0x000007b2      0x22a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_abbrev  0x000009dc      0x361 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000d3d      0x1e6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000f23      0x215 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00001138      0x251 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001389      0x233 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
 .debug_aranges  0x00000000      0x7b0
  .debug_aranges
@@ -1456,19 +1456,19 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_ranges  0x00000528       0x98 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_ranges  0x000005c0      0x1c8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_line     0x00000000     0x6d62
- .debug_line    0x00000000      0x51d CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000051d      0x51b CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_line    0x00000a38      0x2e7 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x00000d1f      0x1bf CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x00000ede      0x28b CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_line    0x00001169       0xa8 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_line    0x00001211      0x6fc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_line    0x0000190d      0x7f2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x000020ff      0x70d CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_line    0x0000280c      0xb40 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_line    0x0000334c      0xf3a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_line    0x00004286     0x2adc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+.debug_line     0x00000000     0x6de9
+ .debug_line    0x00000000      0x5a4 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000005a4      0x51b CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_line    0x00000abf      0x2e7 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x00000da6      0x1bf CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x00000f65      0x28b CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_line    0x000011f0       0xa8 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_line    0x00001298      0x6fc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_line    0x00001994      0x7f2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_line    0x00002186      0x70d CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_line    0x00002893      0xb40 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_line    0x000033d3      0xf3a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_line    0x0000430d     0x2adc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
 .debug_str      0x00000000     0x2ad2
  .debug_str     0x00000000      0x96b CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj

@@ -94,10 +94,177 @@ int main(void)
 
   ST7796_Init();
 
+  /*
   LCD_DrawPoint(160, 240,BLACK);
   LCD_DrawPoint(160, 250,RED);
   LCD_DrawPoint(160, 260,BLUE);
   LCD_DrawPoint(160, 270,GREEN);
+  */
+  // 水平线 (顶部)
+LCD_DrawPoint(160, 240, BLACK);
+LCD_DrawPoint(161, 240, BLACK);
+LCD_DrawPoint(162, 240, BLACK);
+LCD_DrawPoint(163, 240, BLACK);
+LCD_DrawPoint(164, 240, BLACK);
+// 垂直线
+LCD_DrawPoint(160, 241, BLACK);
+LCD_DrawPoint(160, 242, BLACK);
+LCD_DrawPoint(160, 243, BLACK);
+LCD_DrawPoint(160, 244, BLACK);
+LCD_DrawPoint(160, 245, BLACK);
+LCD_DrawPoint(160, 246, BLACK);
+// 中间水平线
+LCD_DrawPoint(161, 242, BLACK);
+LCD_DrawPoint(162, 242, BLACK);
+// 中间横线
+LCD_DrawPoint(167, 242, BLACK);
+LCD_DrawPoint(168, 242, BLACK);
+LCD_DrawPoint(169, 242, BLACK);
+// 左垂线
+LCD_DrawPoint(166, 243, BLACK);
+LCD_DrawPoint(166, 244, BLACK);
+LCD_DrawPoint(166, 245, BLACK);
+LCD_DrawPoint(166, 246, BLACK);
+// 右垂线
+LCD_DrawPoint(170, 243, BLACK);
+LCD_DrawPoint(170, 244, BLACK);
+LCD_DrawPoint(170, 245, BLACK);
+LCD_DrawPoint(170, 246, BLACK);
+// 底部横线
+LCD_DrawPoint(167, 246, BLACK);
+LCD_DrawPoint(168, 246, BLACK);
+LCD_DrawPoint(169, 246, BLACK);
+// 左垂线
+LCD_DrawPoint(172, 240, BLACK);
+LCD_DrawPoint(172, 241, BLACK);
+LCD_DrawPoint(172, 242, BLACK);
+LCD_DrawPoint(172, 243, BLACK);
+LCD_DrawPoint(172, 244, BLACK);
+LCD_DrawPoint(172, 245, BLACK);
+LCD_DrawPoint(172, 246, BLACK);
+// 右垂线
+LCD_DrawPoint(176, 242, BLACK);
+LCD_DrawPoint(176, 243, BLACK);
+LCD_DrawPoint(176, 244, BLACK);
+LCD_DrawPoint(176, 245, BLACK);
+LCD_DrawPoint(176, 246, BLACK);
+// 斜线
+LCD_DrawPoint(173, 241, BLACK);
+LCD_DrawPoint(174, 242, BLACK);
+LCD_DrawPoint(175, 243, BLACK);
+// 顶部横线
+LCD_DrawPoint(178, 240, BLACK);
+LCD_DrawPoint(179, 240, BLACK);
+LCD_DrawPoint(180, 240, BLACK);
+LCD_DrawPoint(181, 240, BLACK);
+LCD_DrawPoint(182, 240, BLACK);
+// 斜线
+LCD_DrawPoint(181, 241, BLACK);
+LCD_DrawPoint(180, 242, BLACK);
+LCD_DrawPoint(179, 243, BLACK);
+LCD_DrawPoint(178, 244, BLACK);
+// 底部横线
+LCD_DrawPoint(178, 245, BLACK);
+LCD_DrawPoint(179, 245, BLACK);
+LCD_DrawPoint(180, 245, BLACK);
+LCD_DrawPoint(181, 245, BLACK);
+LCD_DrawPoint(182, 245, BLACK);
+// 垂线
+LCD_DrawPoint(182, 246, BLACK);
+// 左垂线
+LCD_DrawPoint(184, 240, BLACK);
+LCD_DrawPoint(184, 241, BLACK);
+LCD_DrawPoint(184, 242, BLACK);
+LCD_DrawPoint(184, 243, BLACK);
+LCD_DrawPoint(184, 244, BLACK);
+LCD_DrawPoint(184, 245, BLACK);
+LCD_DrawPoint(184, 246, BLACK);
+// 右垂线
+LCD_DrawPoint(188, 242, BLACK);
+LCD_DrawPoint(188, 243, BLACK);
+LCD_DrawPoint(188, 244, BLACK);
+LCD_DrawPoint(188, 245, BLACK);
+LCD_DrawPoint(188, 246, BLACK);
+// 中间横线
+LCD_DrawPoint(185, 242, BLACK);
+LCD_DrawPoint(186, 242, BLACK);
+LCD_DrawPoint(187, 242, BLACK);
+// 垂线
+LCD_DrawPoint(192, 240, BLACK);  // 点
+LCD_DrawPoint(192, 242, BLACK);
+LCD_DrawPoint(192, 243, BLACK);
+LCD_DrawPoint(192, 244, BLACK);
+LCD_DrawPoint(192, 245, BLACK);
+LCD_DrawPoint(192, 246, BLACK);
+// 顶部横线
+LCD_DrawPoint(196, 240, BLACK);
+LCD_DrawPoint(197, 240, BLACK);
+LCD_DrawPoint(198, 240, BLACK);
+LCD_DrawPoint(199, 240, BLACK);
+LCD_DrawPoint(200, 240, BLACK);
+// 垂线
+LCD_DrawPoint(198, 241, BLACK);
+LCD_DrawPoint(198, 242, BLACK);
+LCD_DrawPoint(198, 243, BLACK);
+LCD_DrawPoint(198, 244, BLACK);
+LCD_DrawPoint(198, 245, BLACK);
+LCD_DrawPoint(198, 246, BLACK);
+// 顶部横线
+LCD_DrawPoint(196, 240, BLACK);
+LCD_DrawPoint(197, 240, BLACK);
+LCD_DrawPoint(198, 240, BLACK);
+LCD_DrawPoint(199, 240, BLACK);
+LCD_DrawPoint(200, 240, BLACK);
+// 垂线
+LCD_DrawPoint(198, 241, BLACK);
+LCD_DrawPoint(198, 242, BLACK);
+LCD_DrawPoint(198, 243, BLACK);
+LCD_DrawPoint(198, 244, BLACK);
+LCD_DrawPoint(198, 245, BLACK);
+LCD_DrawPoint(198, 246, BLACK);
+// 垂线
+LCD_DrawPoint(192, 240, BLACK);  // 点
+LCD_DrawPoint(192, 242, BLACK);
+LCD_DrawPoint(192, 243, BLACK);
+LCD_DrawPoint(192, 244, BLACK);
+LCD_DrawPoint(192, 245, BLACK);
+LCD_DrawPoint(192, 246, BLACK);
+// 中间横线
+LCD_DrawPoint(167, 242, BLACK);
+LCD_DrawPoint(168, 242, BLACK);
+LCD_DrawPoint(169, 242, BLACK);
+// 左垂线
+LCD_DrawPoint(166, 243, BLACK);
+LCD_DrawPoint(166, 244, BLACK);
+LCD_DrawPoint(166, 245, BLACK);
+LCD_DrawPoint(166, 246, BLACK);
+// 右垂线
+LCD_DrawPoint(170, 243, BLACK);
+LCD_DrawPoint(170, 244, BLACK);
+LCD_DrawPoint(170, 245, BLACK);
+LCD_DrawPoint(170, 246, BLACK);
+// 底部横线
+LCD_DrawPoint(167, 246, BLACK);
+LCD_DrawPoint(168, 246, BLACK);
+LCD_DrawPoint(169, 246, BLACK);
+// 左垂线
+LCD_DrawPoint(172, 240, BLACK);
+LCD_DrawPoint(172, 241, BLACK);
+LCD_DrawPoint(172, 242, BLACK);
+LCD_DrawPoint(172, 243, BLACK);
+LCD_DrawPoint(172, 244, BLACK);
+LCD_DrawPoint(172, 245, BLACK);
+LCD_DrawPoint(172, 246, BLACK);
+// 右垂线
+LCD_DrawPoint(176, 242, BLACK);
+LCD_DrawPoint(176, 243, BLACK);
+LCD_DrawPoint(176, 244, BLACK);
+LCD_DrawPoint(176, 245, BLACK);
+LCD_DrawPoint(176, 246, BLACK);
+// 斜线
+LCD_DrawPoint(173, 241, BLACK);
+LCD_DrawPoint(174, 242, BLACK);
+LCD_DrawPoint(175, 243, BLACK);
 
 
   /* USER CODE END 2 */

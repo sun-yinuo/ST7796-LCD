@@ -319,7 +319,7 @@ void ST7796_Init(void) {
 	LCD_WR_REG(0x21);
 	LCD_WR_REG(0x29);
 	//设置位默认方向
-	LCD_direction(USE_HORIZONTAL);
+	LCD_direction(2);
 	//填充白色清屏
 	LCD_Clear(0xFFFF);
 }

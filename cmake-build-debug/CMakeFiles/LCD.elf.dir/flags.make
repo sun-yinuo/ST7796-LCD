@@ -3,6 +3,7 @@
 
 # compile ASM with D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
 # compile C with D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+# compile CXX with D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe
 ASM_DEFINES = -DDEBUG -DSTM32L476xx -DUSE_HAL_DRIVER
 
 ASM_INCLUDES = -IC:\Users\Administrator\Desktop\LCD\Core\Inc -IC:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc -IC:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -IC:\Users\Administrator\Desktop\LCD\Drivers\CMSIS\Device\ST\STM32L4xx\Include -IC:\Users\Administrator\Desktop\LCD\Drivers\CMSIS\Include
@@ -14,4 +15,10 @@ C_DEFINES = -DDEBUG -DSTM32L476xx -DUSE_HAL_DRIVER
 C_INCLUDES = -IC:\Users\Administrator\Desktop\LCD\Core\Inc -IC:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc -IC:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -IC:\Users\Administrator\Desktop\LCD\Drivers\CMSIS\Device\ST\STM32L4xx\Include -IC:\Users\Administrator\Desktop\LCD\Drivers\CMSIS\Include
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+
+CXX_DEFINES = -DDEBUG -DSTM32L476xx -DUSE_HAL_DRIVER
+
+CXX_INCLUDES = -IC:\Users\Administrator\Desktop\LCD\Core\Inc -IC:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc -IC:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy -IC:\Users\Administrator\Desktop\LCD\Drivers\CMSIS\Device\ST\STM32L4xx\Include -IC:\Users\Administrator\Desktop\LCD\Drivers\CMSIS\Include
+
+CXX_FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
