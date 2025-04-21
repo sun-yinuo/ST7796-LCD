@@ -198,6 +198,27 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32l4xx.s).                    */
 /******************************************************************************/
 
+/**
+  * @brief This function handles EXTI line0 interrupt.
+  */
+void EXTI0_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI0_IRQn 0 */
+
+  /* USER CODE END EXTI0_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(TOUCH_INT_Pin);
+  /* USER CODE BEGIN EXTI0_IRQn 1 */
+
+  /* USER CODE END EXTI0_IRQn 1 */
+}
+
 /* USER CODE BEGIN 1 */
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  if (GPIO_Pin == GPIO_PIN_0) {
+
+  }
+}
 
 /* USER CODE END 1 */

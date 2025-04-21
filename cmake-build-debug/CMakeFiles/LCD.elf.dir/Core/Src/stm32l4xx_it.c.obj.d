@@ -31,6 +31,8 @@ CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj: \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_flash.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_flash_ex.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_flash_ramfunc.h \
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_i2c.h \
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_i2c_ex.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_pwr.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_pwr_ex.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi.h \

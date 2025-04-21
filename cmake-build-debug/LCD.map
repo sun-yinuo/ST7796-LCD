@@ -5194,6 +5194,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .text.HAL_I2C_MspDeInit
+                0x00000000       0x38 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .text.HAL_SPI_MspDeInit
                 0x00000000       0x3c CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
@@ -5329,8 +5331,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .text.HAL_NVIC_EnableIRQ
-                0x00000000       0x1c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.HAL_NVIC_DisableIRQ
                 0x00000000       0x24 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SystemReset
@@ -5566,32 +5566,180 @@ Discarded input sections
                 0x00000000       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .text.HAL_GPIO_EXTI_Callback
                 0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .text.HAL_GPIO_EXTI_IRQHandler
-                0x00000000       0x1c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_info    0x00000000       0x6b CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_abbrev  0x00000000       0x26 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_line    0x00000000       0x1d CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_str     0x00000000      0x1e2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .comment       0x00000000       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .ARM.attributes
+ .text.I2C_Flush_TXDR
+                0x00000000       0x22 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_TransferConfig
+                0x00000000       0x3a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Enable_IRQ
+                0x00000000       0x9c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Disable_IRQ
+                0x00000000       0x70 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ConvertOtherXferOptions
+                0x00000000       0x1e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_IsErrorOccurred
+                0x00000000      0x114 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_WaitOnTXISFlagUntilTimeout
+                0x00000000       0x60 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_WaitOnFlagUntilTimeout
+                0x00000000       0x7c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_RequestMemoryWrite
+                0x00000000       0x7c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_RequestMemoryRead
+                0x00000000       0x78 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_WaitOnSTOPFlagUntilTimeout
+                0x00000000       0x5e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_WaitOnRXNEFlagUntilTimeout
+                0x00000000       0xaa CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_MspInit
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_MspDeInit
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_DeInit
+                0x00000000       0x32 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Transmit
+                0x00000000      0x1a4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Receive
+                0x00000000      0x17c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Transmit
+                0x00000000      0x1f4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Receive
+                0x00000000      0x17e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Transmit_IT
+                0x00000000       0xc8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Receive_IT
+                0x00000000       0x98 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Transmit_IT
+                0x00000000       0x8c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Receive_IT
+                0x00000000       0x64 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Transmit_DMA
+                0x00000000      0x174 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Receive_DMA
+                0x00000000      0x150 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Transmit_DMA
+                0x00000000      0x140 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Receive_DMA
+                0x00000000       0xf4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Mem_Write
+                0x00000000      0x1a8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Mem_Read
+                0x00000000      0x1b0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Mem_Write_IT
+                0x00000000       0xb8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Mem_Read_IT
+                0x00000000       0xb4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Mem_Write_DMA
+                0x00000000      0x134 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Mem_Read_DMA
+                0x00000000      0x134 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_IsDeviceReady
+                0x00000000      0x13e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Seq_Transmit_IT
+                0x00000000      0x108 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Seq_Transmit_DMA
+                0x00000000      0x1e0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Seq_Receive_IT
+                0x00000000       0xb4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Seq_Receive_DMA
+                0x00000000      0x174 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Seq_Transmit_IT
+                0x00000000       0xe0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Seq_Transmit_DMA
+                0x00000000      0x1ac CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Seq_Receive_IT
+                0x00000000       0xe0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Slave_Seq_Receive_DMA
+                0x00000000      0x1a8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_EnableListen_IT
+                0x00000000       0x2c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_DisableListen_IT
+                0x00000000       0x3a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_Master_Abort_IT
+                0x00000000       0x8c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_EV_IRQHandler
+                0x00000000       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_MasterTxCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_MasterRxCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITMasterSeqCplt
+                0x00000000       0x54 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_SlaveTxCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_SlaveRxCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITSlaveSeqCplt
+                0x00000000       0x82 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_DMASlaveTransmitCplt
+                0x00000000       0x1e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_DMASlaveReceiveCplt
+                0x00000000       0x26 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_AddrCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITAddrCplt
+                0x00000000       0xa0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_ListenCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITListenCplt
+                0x00000000       0x68 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_MemTxCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_MemRxCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_ErrorCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_AbortCpltCallback
+                0x00000000        0x2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_TreatErrorCallback
                 0x00000000       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITError
+                0x00000000      0x130 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITSlaveCplt
+                0x00000000      0x1f8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Slave_ISR_IT
+                0x00000000      0x148 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_ITMasterCplt
+                0x00000000      0x12e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Master_ISR_IT
+                0x00000000      0x1ac CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Mem_ISR_DMA
+                0x00000000      0x1d0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Slave_ISR_DMA
+                0x00000000      0x11e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Master_ISR_DMA
+                0x00000000      0x154 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_DMAError
+                0x00000000       0x16 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_DMAMasterTransmitCplt
+                0x00000000       0x5a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_DMAMasterReceiveCplt
+                0x00000000       0x6a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_Mem_ISR_IT
+                0x00000000      0x1c0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_ER_IRQHandler
+                0x00000000       0x6a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.I2C_DMAAbort
+                0x00000000       0x1a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_GetState
+                0x00000000        0x6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_GetMode
+                0x00000000        0x6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .text.HAL_I2C_GetError
+                0x00000000        0x4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_info    0x00000000       0x6b CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_abbrev  0x00000000       0x26 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_line    0x00000000       0x1d CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_str     0x00000000      0x1e5 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .comment       0x00000000       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .text.HAL_I2CEx_EnableWakeUp
+                0x00000000       0x54 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .text.HAL_I2CEx_DisableWakeUp
+                0x00000000       0x54 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .text.HAL_I2CEx_EnableFastModePlus
+                0x00000000       0x2c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .text.HAL_I2CEx_DisableFastModePlus
+                0x00000000       0x2c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
@@ -5750,12 +5898,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.RCCEx_GetSAIxPeriphCLKFreq
                 0x00000000      0x12c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .text.RCCEx_PLLSAI1_Config
-                0x00000000      0x170 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .text.RCCEx_PLLSAI2_Config
-                0x00000000      0x14c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .text.HAL_RCCEx_PeriphCLKConfig
-                0x00000000      0x454 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_GetPeriphCLKConfig
                 0x00000000      0x148 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_GetPeriphCLKFreq
@@ -5790,18 +5932,6 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_DisableMSIPLLMode
                 0x00000000       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_info    0x00000000     0x125c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00000000      0x275 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_loc     0x00000000     0x1af9 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_aranges
-                0x00000000       0xc0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_ranges  0x00000000       0xc8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_line    0x00000000     0x156f CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_str     0x00000000      0xaed CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .comment       0x00000000       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_frame   0x00000000      0x204 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
@@ -6442,7 +6572,7 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188    0x33da8
+.text           0x08000188    0x34788
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x40 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -9584,746 +9714,778 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .text.lv_win_constructor
                 0x0803203c       0x7c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
  .text.MX_GPIO_Init
-                0x080320b8       0xec CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x080320b8      0x11c CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
  .text.lvgl_init
-                0x080321a4        0xc CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x080321d4        0xc CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x080321b0        0x4 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
-                0x080321b0                Error_Handler
+                0x080321e0        0x4 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x080321e0                Error_Handler
  .text.MX_SPI2_Init
-                0x080321b4       0x48 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x080321e4       0x48 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .text.MX_I2C3_Init
+                0x0803222c       0x54 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
  .text.SystemClock_Config
-                0x080321fc       0x7a CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
-                0x080321fc                SystemClock_Config
- *fill*         0x08032276        0x2 
- .text.main     0x08032278       0x4c CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
-                0x08032278                main
+                0x08032280       0x7a CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x08032280                SystemClock_Config
+ *fill*         0x080322fa        0x2 
+ .text.main     0x080322fc       0x50 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x080322fc                main
  .text.LCD_WR_REG
-                0x080322c4       0x50 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x0803234c       0x50 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.ST7796_WriteData
-                0x08032314       0x48 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x0803239c       0x48 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.LCD_WR_DATA
-                0x0803235c       0x18 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080323e4       0x18 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.LCD_RESET
-                0x08032374       0x2c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080323fc       0x2c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .text.ST7796_AttachSPI
-                0x080323a0        0xc CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080323a0                ST7796_AttachSPI
+                0x08032428        0xc CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08032428                ST7796_AttachSPI
  .text.LCD_WriteReg
-                0x080323ac       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080323ac                LCD_WriteReg
+                0x08032434       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08032434                LCD_WriteReg
  .text.SPI_WriteByte
-                0x080323bc       0x32 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080323bc                SPI_WriteByte
- *fill*         0x080323ee        0x2 
+                0x08032444       0x32 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08032444                SPI_WriteByte
+ *fill*         0x08032476        0x2 
  .text.LCD_direction
-                0x080323f0       0x8c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080323f0                LCD_direction
+                0x08032478       0x8c CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08032478                LCD_direction
  .text.LCD_SetWindows
-                0x0803247c       0x60 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x0803247c                LCD_SetWindows
+                0x08032504       0x60 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08032504                LCD_SetWindows
  .text.LCD_FlushArea
-                0x080324dc       0x64 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x080324dc                LCD_FlushArea
+                0x08032564       0x64 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x08032564                LCD_FlushArea
  .text.ST7796_Init
-                0x08032540      0x1ac CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x08032540                ST7796_Init
+                0x080325c8      0x1ac CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x080325c8                ST7796_Init
  .text.HAL_MspInit
-                0x080326ec       0x30 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x080326ec                HAL_MspInit
+                0x08032774       0x30 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08032774                HAL_MspInit
+ .text.HAL_I2C_MspInit
+                0x080327a4       0x88 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x080327a4                HAL_I2C_MspInit
  .text.HAL_SPI_MspInit
-                0x0803271c       0x98 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x0803271c                HAL_SPI_MspInit
+                0x0803282c       0x98 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x0803282c                HAL_SPI_MspInit
  .text.NMI_Handler
-                0x080327b4        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327b4                NMI_Handler
+                0x080328c4        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328c4                NMI_Handler
  .text.HardFault_Handler
-                0x080327b6        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327b6                HardFault_Handler
+                0x080328c6        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328c6                HardFault_Handler
  .text.MemManage_Handler
-                0x080327b8        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327b8                MemManage_Handler
+                0x080328c8        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328c8                MemManage_Handler
  .text.BusFault_Handler
-                0x080327ba        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327ba                BusFault_Handler
+                0x080328ca        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328ca                BusFault_Handler
  .text.UsageFault_Handler
-                0x080327bc        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327bc                UsageFault_Handler
+                0x080328cc        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328cc                UsageFault_Handler
  .text.SVC_Handler
-                0x080327be        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327be                SVC_Handler
+                0x080328ce        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328ce                SVC_Handler
  .text.DebugMon_Handler
-                0x080327c0        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327c0                DebugMon_Handler
+                0x080328d0        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328d0                DebugMon_Handler
  .text.PendSV_Handler
-                0x080327c2        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327c2                PendSV_Handler
+                0x080328d2        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328d2                PendSV_Handler
  .text.SysTick_Handler
-                0x080327c4        0x8 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080327c4                SysTick_Handler
+                0x080328d4        0x8 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328d4                SysTick_Handler
+ .text.EXTI0_IRQHandler
+                0x080328dc        0xa CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328dc                EXTI0_IRQHandler
+ .text.HAL_GPIO_EXTI_Callback
+                0x080328e6        0x2 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080328e6                HAL_GPIO_EXTI_Callback
  .text.SystemInit
-                0x080327cc        0x2 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x080327cc                SystemInit
- *fill*         0x080327ce        0x2 
+                0x080328e8        0x2 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x080328e8                SystemInit
+ *fill*         0x080328ea        0x2 
  .text.Reset_Handler
-                0x080327d0       0x50 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
-                0x080327d0                Reset_Handler
+                0x080328ec       0x50 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x080328ec                Reset_Handler
  .text.Default_Handler
-                0x08032820        0x2 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
-                0x08032820                RTC_Alarm_IRQHandler
-                0x08032820                EXTI2_IRQHandler
-                0x08032820                TIM8_TRG_COM_IRQHandler
-                0x08032820                TIM8_CC_IRQHandler
-                0x08032820                TIM1_CC_IRQHandler
-                0x08032820                TSC_IRQHandler
-                0x08032820                TAMP_STAMP_IRQHandler
-                0x08032820                EXTI3_IRQHandler
-                0x08032820                LPTIM2_IRQHandler
-                0x08032820                DFSDM1_FLT1_IRQHandler
-                0x08032820                I2C3_ER_IRQHandler
-                0x08032820                DFSDM1_FLT2_IRQHandler
-                0x08032820                EXTI0_IRQHandler
-                0x08032820                I2C2_EV_IRQHandler
-                0x08032820                CAN1_RX0_IRQHandler
-                0x08032820                FPU_IRQHandler
-                0x08032820                TIM1_UP_TIM16_IRQHandler
-                0x08032820                ADC1_2_IRQHandler
-                0x08032820                SPI1_IRQHandler
-                0x08032820                TIM6_DAC_IRQHandler
-                0x08032820                TIM8_UP_IRQHandler
-                0x08032820                DMA2_Channel2_IRQHandler
-                0x08032820                DMA1_Channel4_IRQHandler
-                0x08032820                SAI2_IRQHandler
-                0x08032820                DFSDM1_FLT3_IRQHandler
-                0x08032820                USART3_IRQHandler
-                0x08032820                DMA1_Channel7_IRQHandler
-                0x08032820                CAN1_RX1_IRQHandler
-                0x08032820                LCD_IRQHandler
-                0x08032820                UART5_IRQHandler
-                0x08032820                ADC3_IRQHandler
-                0x08032820                TIM4_IRQHandler
-                0x08032820                DMA2_Channel1_IRQHandler
-                0x08032820                QUADSPI_IRQHandler
-                0x08032820                I2C1_EV_IRQHandler
-                0x08032820                DMA1_Channel6_IRQHandler
-                0x08032820                UART4_IRQHandler
-                0x08032820                DMA2_Channel4_IRQHandler
-                0x08032820                TIM3_IRQHandler
-                0x08032820                RCC_IRQHandler
-                0x08032820                DMA1_Channel1_IRQHandler
-                0x08032820                Default_Handler
-                0x08032820                DMA2_Channel7_IRQHandler
-                0x08032820                EXTI15_10_IRQHandler
-                0x08032820                TIM7_IRQHandler
-                0x08032820                SDMMC1_IRQHandler
-                0x08032820                TIM5_IRQHandler
-                0x08032820                I2C3_EV_IRQHandler
-                0x08032820                EXTI9_5_IRQHandler
-                0x08032820                RTC_WKUP_IRQHandler
-                0x08032820                PVD_PVM_IRQHandler
-                0x08032820                SPI2_IRQHandler
-                0x08032820                CAN1_TX_IRQHandler
-                0x08032820                DMA2_Channel5_IRQHandler
-                0x08032820                DMA1_Channel5_IRQHandler
-                0x08032820                EXTI4_IRQHandler
-                0x08032820                RNG_IRQHandler
-                0x08032820                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08032820                DMA1_Channel3_IRQHandler
-                0x08032820                COMP_IRQHandler
-                0x08032820                WWDG_IRQHandler
-                0x08032820                LPUART1_IRQHandler
-                0x08032820                DMA2_Channel6_IRQHandler
-                0x08032820                TIM2_IRQHandler
-                0x08032820                EXTI1_IRQHandler
-                0x08032820                USART2_IRQHandler
-                0x08032820                DFSDM1_FLT0_IRQHandler
-                0x08032820                I2C2_ER_IRQHandler
-                0x08032820                DMA1_Channel2_IRQHandler
-                0x08032820                TIM8_BRK_IRQHandler
-                0x08032820                CAN1_SCE_IRQHandler
-                0x08032820                FLASH_IRQHandler
-                0x08032820                USART1_IRQHandler
-                0x08032820                OTG_FS_IRQHandler
-                0x08032820                SPI3_IRQHandler
-                0x08032820                I2C1_ER_IRQHandler
-                0x08032820                FMC_IRQHandler
-                0x08032820                SWPMI1_IRQHandler
-                0x08032820                LPTIM1_IRQHandler
-                0x08032820                SAI1_IRQHandler
-                0x08032820                DMA2_Channel3_IRQHandler
-                0x08032820                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x08032822        0x2 
+                0x0803293c        0x2 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x0803293c                RTC_Alarm_IRQHandler
+                0x0803293c                EXTI2_IRQHandler
+                0x0803293c                TIM8_TRG_COM_IRQHandler
+                0x0803293c                TIM8_CC_IRQHandler
+                0x0803293c                TIM1_CC_IRQHandler
+                0x0803293c                TSC_IRQHandler
+                0x0803293c                TAMP_STAMP_IRQHandler
+                0x0803293c                EXTI3_IRQHandler
+                0x0803293c                LPTIM2_IRQHandler
+                0x0803293c                DFSDM1_FLT1_IRQHandler
+                0x0803293c                I2C3_ER_IRQHandler
+                0x0803293c                DFSDM1_FLT2_IRQHandler
+                0x0803293c                I2C2_EV_IRQHandler
+                0x0803293c                CAN1_RX0_IRQHandler
+                0x0803293c                FPU_IRQHandler
+                0x0803293c                TIM1_UP_TIM16_IRQHandler
+                0x0803293c                ADC1_2_IRQHandler
+                0x0803293c                SPI1_IRQHandler
+                0x0803293c                TIM6_DAC_IRQHandler
+                0x0803293c                TIM8_UP_IRQHandler
+                0x0803293c                DMA2_Channel2_IRQHandler
+                0x0803293c                DMA1_Channel4_IRQHandler
+                0x0803293c                SAI2_IRQHandler
+                0x0803293c                DFSDM1_FLT3_IRQHandler
+                0x0803293c                USART3_IRQHandler
+                0x0803293c                DMA1_Channel7_IRQHandler
+                0x0803293c                CAN1_RX1_IRQHandler
+                0x0803293c                LCD_IRQHandler
+                0x0803293c                UART5_IRQHandler
+                0x0803293c                ADC3_IRQHandler
+                0x0803293c                TIM4_IRQHandler
+                0x0803293c                DMA2_Channel1_IRQHandler
+                0x0803293c                QUADSPI_IRQHandler
+                0x0803293c                I2C1_EV_IRQHandler
+                0x0803293c                DMA1_Channel6_IRQHandler
+                0x0803293c                UART4_IRQHandler
+                0x0803293c                DMA2_Channel4_IRQHandler
+                0x0803293c                TIM3_IRQHandler
+                0x0803293c                RCC_IRQHandler
+                0x0803293c                DMA1_Channel1_IRQHandler
+                0x0803293c                Default_Handler
+                0x0803293c                DMA2_Channel7_IRQHandler
+                0x0803293c                EXTI15_10_IRQHandler
+                0x0803293c                TIM7_IRQHandler
+                0x0803293c                SDMMC1_IRQHandler
+                0x0803293c                TIM5_IRQHandler
+                0x0803293c                I2C3_EV_IRQHandler
+                0x0803293c                EXTI9_5_IRQHandler
+                0x0803293c                RTC_WKUP_IRQHandler
+                0x0803293c                PVD_PVM_IRQHandler
+                0x0803293c                SPI2_IRQHandler
+                0x0803293c                CAN1_TX_IRQHandler
+                0x0803293c                DMA2_Channel5_IRQHandler
+                0x0803293c                DMA1_Channel5_IRQHandler
+                0x0803293c                EXTI4_IRQHandler
+                0x0803293c                RNG_IRQHandler
+                0x0803293c                TIM1_TRG_COM_TIM17_IRQHandler
+                0x0803293c                DMA1_Channel3_IRQHandler
+                0x0803293c                COMP_IRQHandler
+                0x0803293c                WWDG_IRQHandler
+                0x0803293c                LPUART1_IRQHandler
+                0x0803293c                DMA2_Channel6_IRQHandler
+                0x0803293c                TIM2_IRQHandler
+                0x0803293c                EXTI1_IRQHandler
+                0x0803293c                USART2_IRQHandler
+                0x0803293c                DFSDM1_FLT0_IRQHandler
+                0x0803293c                I2C2_ER_IRQHandler
+                0x0803293c                DMA1_Channel2_IRQHandler
+                0x0803293c                TIM8_BRK_IRQHandler
+                0x0803293c                CAN1_SCE_IRQHandler
+                0x0803293c                FLASH_IRQHandler
+                0x0803293c                USART1_IRQHandler
+                0x0803293c                OTG_FS_IRQHandler
+                0x0803293c                SPI3_IRQHandler
+                0x0803293c                I2C1_ER_IRQHandler
+                0x0803293c                FMC_IRQHandler
+                0x0803293c                SWPMI1_IRQHandler
+                0x0803293c                LPTIM1_IRQHandler
+                0x0803293c                SAI1_IRQHandler
+                0x0803293c                DMA2_Channel3_IRQHandler
+                0x0803293c                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x0803293e        0x2 
  .text.HAL_InitTick
-                0x08032824       0x50 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08032824                HAL_InitTick
+                0x08032940       0x50 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08032940                HAL_InitTick
  .text.HAL_Init
-                0x08032874       0x1e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08032874                HAL_Init
- *fill*         0x08032892        0x2 
+                0x08032990       0x1e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08032990                HAL_Init
+ *fill*         0x080329ae        0x2 
  .text.HAL_IncTick
-                0x08032894       0x18 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08032894                HAL_IncTick
+                0x080329b0       0x18 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080329b0                HAL_IncTick
  .text.HAL_GetTick
-                0x080328ac        0xc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x080328ac                HAL_GetTick
+                0x080329c8        0xc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080329c8                HAL_GetTick
  .text.HAL_Delay
-                0x080328b8       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x080328b8                HAL_Delay
+                0x080329d4       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080329d4                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080328e0       0x24 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080328e0                HAL_NVIC_SetPriorityGrouping
+                0x080329fc       0x24 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080329fc                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08032904       0x70 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08032904                HAL_NVIC_SetPriority
+                0x08032a20       0x70 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08032a20                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x08032a90       0x1c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08032a90                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08032974       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08032974                HAL_SYSTICK_Config
+                0x08032aac       0x28 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08032aac                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x0803299c      0x20c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x0803299c                HAL_GPIO_Init
+                0x08032ad4      0x20c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08032ad4                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08032ba8        0xa CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08032ba8                HAL_GPIO_WritePin
- *fill*         0x08032bb2        0x2 
+                0x08032ce0        0xa CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08032ce0                HAL_GPIO_WritePin
+ *fill*         0x08032cea        0x2 
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x08032cec       0x1c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08032cec                HAL_GPIO_EXTI_IRQHandler
+ .text.HAL_I2C_Init
+                0x08032d08       0xc8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+                0x08032d08                HAL_I2C_Init
+ .text.HAL_I2CEx_ConfigAnalogFilter
+                0x08032dd0       0x5c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+                0x08032dd0                HAL_I2CEx_ConfigAnalogFilter
+ .text.HAL_I2CEx_ConfigDigitalFilter
+                0x08032e2c       0x58 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+                0x08032e2c                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_PWREx_GetVoltageRange
-                0x08032bb4       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08032bb4                HAL_PWREx_GetVoltageRange
+                0x08032e84       0x10 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08032e84                HAL_PWREx_GetVoltageRange
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08032bc4       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08032bc4                HAL_PWREx_ControlVoltageScaling
+                0x08032e94       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08032e94                HAL_PWREx_ControlVoltageScaling
  .text.RCC_SetFlashLatencyFromMSIRange
-                0x08032c54       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08032f24       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .text.HAL_RCC_GetSysClockFreq
-                0x08032ce4       0xb4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08032ce4                HAL_RCC_GetSysClockFreq
+                0x08032fb4       0xb4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08032fb4                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_OscConfig
-                0x08032d98      0x61c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08032d98                HAL_RCC_OscConfig
+                0x08033068      0x61c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08033068                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x080333b4      0x188 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x080333b4                HAL_RCC_ClockConfig
+                0x08033684      0x188 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08033684                HAL_RCC_ClockConfig
+ .text.RCCEx_PLLSAI1_Config
+                0x0803380c      0x170 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .text.RCCEx_PLLSAI2_Config
+                0x0803397c      0x14c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x08033ac8      0x454 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x08033ac8                HAL_RCCEx_PeriphCLKConfig
  .text.SPI_WaitFlagStateUntilTimeout
-                0x0803353c       0xd4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08033f1c       0xd4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .text.SPI_WaitFifoStateUntilTimeout
-                0x08033610       0xf4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08033ff0       0xf4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .text.SPI_EndRxTxTransaction
-                0x08033704       0x62 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x080340e4       0x62 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .text.HAL_SPI_Init
-                0x08033766       0xde CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
-                0x08033766                HAL_SPI_Init
+                0x08034146       0xde CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08034146                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x08033844      0x20a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
-                0x08033844                HAL_SPI_Transmit
+                0x08034224      0x20a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x08034224                HAL_SPI_Transmit
  .text.HAL_SPI_TransmitReceive
-                0x08033a4e      0x2fe CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
-                0x08033a4e                HAL_SPI_TransmitReceive
+                0x0803442e      0x2fe CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x0803442e                HAL_SPI_TransmitReceive
  .text.__libc_init_array
-                0x08033d4c       0x48 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x08033d4c                __libc_init_array
- .text.memset   0x08033d94       0xa4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
-                0x08033d94                memset
+                0x0803472c       0x48 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x0803472c                __libc_init_array
+ .text.memset   0x08034774       0xa4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x08034774                memset
  .text.startup.register_fini
-                0x08033e38       0x14 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08033e4c        0xc d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x08033e4c                atexit
+                0x08034818       0x14 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x0803482c        0xc d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x0803482c                atexit
  .text.__libc_fini_array
-                0x08033e58       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x08033e58                __libc_fini_array
+                0x08034838       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x08034838                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08033e84        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08033e84                __retarget_lock_acquire_recursive
+                0x08034864        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08034864                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08033e88        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08033e88                __retarget_lock_release_recursive
+                0x08034868        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08034868                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08033e8c       0x8c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08033e8c                __register_exitproc
+                0x0803486c       0x8c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x0803486c                __register_exitproc
  *(.glue_7)
- .glue_7        0x08033f18        0x0 linker stubs
+ .glue_7        0x080348f8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08033f18        0x0 linker stubs
+ .glue_7t       0x080348f8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08033f18        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x080348f8        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08033f18        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08033f18                _init
- .init          0x08033f1c        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x080348f8        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x080348f8                _init
+ .init          0x080348fc        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08033f24        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08033f24                _fini
- .fini          0x08033f28        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08033f30                . = ALIGN (0x4)
-                0x08033f30                _etext = .
+ .fini          0x08034904        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x08034904                _fini
+ .fini          0x08034908        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x08034910                . = ALIGN (0x4)
+                0x08034910                _etext = .
 
-.vfp11_veneer   0x08033f30        0x0
- .vfp11_veneer  0x08033f30        0x0 linker stubs
+.vfp11_veneer   0x08034910        0x0
+ .vfp11_veneer  0x08034910        0x0 linker stubs
 
-.v4_bx          0x08033f30        0x0
- .v4_bx         0x08033f30        0x0 linker stubs
+.v4_bx          0x08034910        0x0
+ .v4_bx         0x08034910        0x0 linker stubs
 
-.iplt           0x08033f30        0x0
- .iplt          0x08033f30        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08034910        0x0
+ .iplt          0x08034910        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08033f30     0x4c2c
-                0x08033f30                . = ALIGN (0x4)
+.rodata         0x08034910     0x4c2c
+                0x08034910                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08033f30       0x10 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj
- .rodata        0x08033f40        0x3 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj
- *fill*         0x08033f43        0x1 
- .rodata        0x08033f44        0xc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
- .rodata        0x08033f50        0xc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
+ .rodata        0x08034910       0x10 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/lv_draw_image.c.obj
+ .rodata        0x08034920        0x3 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.obj
+ *fill*         0x08034923        0x1 
+ .rodata        0x08034924        0xc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
+ .rodata        0x08034930        0xc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
  *(.rodata*)
  .rodata.str1.4
-                0x08033f5c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
+                0x0803493c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
  .rodata.lv_obj_class
-                0x08033f60       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
-                0x08033f60                lv_obj_class
+                0x08034940       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
+                0x08034940                lv_obj_class
  .rodata.wcorr.0
-                0x08033f84       0x21 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj
- *fill*         0x08033fa5        0x3 
+                0x08034964       0x21 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/lv_draw_sw_line.c.obj
+ *fill*         0x08034985        0x3 
  .rodata.opa2_table
-                0x08033fa8        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
+                0x08034988        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
  .rodata.opa4_table
-                0x08033fac       0x10 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
- .rodata.cmaps  0x08033fbc       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x0803498c       0x10 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_fmt_txt.c.obj
+ .rodata.cmaps  0x0803499c       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
  .rodata.font_dsc
-                0x08033fe4       0x14 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x080349c4       0x14 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
  .rodata.glyph_bitmap
-                0x08033ff8     0x2280 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x080349d8     0x2280 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
  .rodata.glyph_dsc
-                0x08036278      0x4f0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x08036c58      0x4f0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
  .rodata.kern_class_values
-                0x08036768      0xbad CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
- *fill*         0x08037315        0x3 
+                0x08037148      0xbad CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+ *fill*         0x08037cf5        0x3 
  .rodata.kern_classes
-                0x08037318       0x10 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x08037cf8       0x10 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
  .rodata.kern_left_class_mapping
-                0x08037328       0x9e CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
- *fill*         0x080373c6        0x2 
+                0x08037d08       0x9e CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+ *fill*         0x08037da6        0x2 
  .rodata.kern_right_class_mapping
-                0x080373c8       0x9e CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
- *fill*         0x08037466        0x2 
+                0x08037da8       0x9e CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+ *fill*         0x08037e46        0x2 
  .rodata.lv_font_montserrat_14
-                0x08037468       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
-                0x08037468                lv_font_montserrat_14
+                0x08037e48       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x08037e48                lv_font_montserrat_14
  .rodata.unicode_list_1
-                0x0803748c       0x7c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
+                0x08037e6c       0x7c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/font/lv_font_montserrat_14.c.obj
  .rodata.lv_bin_decoder_info.str1.4
-                0x08037508        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
+                0x08037ee8        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
  .rodata.lv_bin_decoder_init.str1.4
-                0x0803750c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
+                0x08037eec        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.obj
  .rodata.lv_cache_class_lru_rb_count
-                0x08037510       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
-                0x08037510                lv_cache_class_lru_rb_count
+                0x08037ef0       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
+                0x08037ef0                lv_cache_class_lru_rb_count
  .rodata.lv_cache_class_lru_rb_size
-                0x08037538       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
-                0x08037538                lv_cache_class_lru_rb_size
+                0x08037f18       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_cache_lru_rb.c.obj
+                0x08037f18                lv_cache_class_lru_rb_size
  .rodata.lv_image_cache_init.str1.4
-                0x08037560        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
- *fill*         0x08037566        0x2 
+                0x08037f40        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_cache.c.obj
+ *fill*         0x08037f46        0x2 
  .rodata.lv_image_header_cache_init.str1.4
-                0x08037568        0xd CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
+                0x08037f48        0xd CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/cache/lv_image_header_cache.c.obj
  .rodata.lv_fs_get_ext.str1.4
-                0x08037575        0xd CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj
+                0x08037f55        0xd CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_fs.c.obj
                                   0x1 (size before relaxing)
- *fill*         0x08037575        0x3 
+ *fill*         0x08037f55        0x3 
  .rodata.sin0_90_table
-                0x08037578       0xb6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj
- *fill*         0x0803762e        0x2 
+                0x08037f58       0xb6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_math.c.obj
+ *fill*         0x0803800e        0x2 
  .rodata.colors.0
-                0x08037630       0xe4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
+                0x08038010       0xe4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
  .rodata.colors.1
-                0x08037714      0x11d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
- *fill*         0x08037831        0x3 
+                0x080380f4      0x11d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
+ *fill*         0x08038211        0x3 
  .rodata.colors.2
-                0x08037834       0x39 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
- *fill*         0x0803786d        0x3 
+                0x08038214       0x39 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_palette.c.obj
+ *fill*         0x0803824d        0x3 
  .rodata.lv_style_builtin_prop_flag_lookup_table
-                0x08037870       0x8d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj
-                0x08037870                lv_style_builtin_prop_flag_lookup_table
- *fill*         0x080378fd        0x3 
+                0x08038250       0x8d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj
+                0x08038250                lv_style_builtin_prop_flag_lookup_table
+ *fill*         0x080382dd        0x3 
  .rodata.white.0
-                0x08037900        0x3 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj
- *fill*         0x08037903        0x1 
+                0x080382e0        0x3 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_style.c.obj
+ *fill*         0x080382e3        0x1 
  .rodata.lv_text_get_next_word.str1.4
-                0x08037904        0xb CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
- *fill*         0x0803790f        0x1 
+                0x080382e4        0xb CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+ *fill*         0x080382ef        0x1 
  .rodata.lv_text_encoded_get_byte_id
-                0x08037910        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x08037910                lv_text_encoded_get_byte_id
+                0x080382f0        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x080382f0                lv_text_encoded_get_byte_id
  .rodata.lv_text_encoded_get_char_id
-                0x08037914        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x08037914                lv_text_encoded_get_char_id
+                0x080382f4        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x080382f4                lv_text_encoded_get_char_id
  .rodata.lv_text_encoded_next
-                0x08037918        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x08037918                lv_text_encoded_next
+                0x080382f8        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x080382f8                lv_text_encoded_next
  .rodata.lv_text_encoded_prev
-                0x0803791c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x0803791c                lv_text_encoded_prev
+                0x080382fc        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x080382fc                lv_text_encoded_prev
  .rodata.lv_text_encoded_size
-                0x08037920        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x08037920                lv_text_encoded_size
+                0x08038300        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x08038300                lv_text_encoded_size
  .rodata.lv_text_get_encoded_length
-                0x08037924        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x08037924                lv_text_get_encoded_length
+                0x08038304        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x08038304                lv_text_get_encoded_length
  .rodata.lv_text_unicode_to_encoded
-                0x08037928        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
-                0x08037928                lv_text_unicode_to_encoded
+                0x08038308        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/misc/lv_text.c.obj
+                0x08038308                lv_text_unicode_to_encoded
  .rodata.style_init.str1.4
-                0x0803792c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
+                0x0803830c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
  .rodata.trans_props.0
-                0x08037930        0xc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
+                0x08038310        0xc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/themes/default/lv_theme_default.c.obj
  .rodata.str1.4
-                0x0803793c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
+                0x0803831c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
  .rodata.lv_arc_class
-                0x08037940       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
-                0x08037940                lv_arc_class
+                0x08038320       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/arc/lv_arc.c.obj
+                0x08038320                lv_arc_class
  .rodata.str1.4
-                0x08037964        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
+                0x08038344        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
  .rodata.lv_bar_class
-                0x08037968       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
-                0x08037968                lv_bar_class
+                0x08038348       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/bar/lv_bar.c.obj
+                0x08038348                lv_bar_class
  .rodata.str1.4
-                0x0803798c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj
+                0x0803836c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj
  .rodata.lv_button_class
-                0x08037990       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj
-                0x08037990                lv_button_class
+                0x08038370       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/button/lv_button.c.obj
+                0x08038370                lv_button_class
  .rodata.has_popovers_in_top_row.str1.4
-                0x080379b4        0x2 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
- *fill*         0x080379b6        0x2 
+                0x08038394        0x2 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+ *fill*         0x08038396        0x2 
  .rodata.str1.4
-                0x080379b8       0x31 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+                0x08038398       0x31 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
                                  0x35 (size before relaxing)
- *fill*         0x080379e9        0x3 
+ *fill*         0x080383c9        0x3 
  .rodata.lv_buttonmatrix_class
-                0x080379ec       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
-                0x080379ec                lv_buttonmatrix_class
+                0x080383cc       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+                0x080383cc                lv_buttonmatrix_class
  .rodata.lv_buttonmatrix_def_map
-                0x08037a10       0x1c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
+                0x080383f0       0x1c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.obj
  .rodata.lv_calendar_set_showed_date.str1.4
-                0x08037a2c        0x3 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+                0x0803840c        0x3 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
  .rodata.lv_calendar_constructor.str1.4
-                0x08037a2f        0x5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
- *fill*         0x08037a2f        0x1 
+                0x0803840f        0x5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+ *fill*         0x0803840f        0x1 
  .rodata.str1.4
-                0x08037a30       0x25 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
- *fill*         0x08037a55        0x3 
+                0x08038410       0x25 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+ *fill*         0x08038435        0x3 
  .rodata.day_names_def
-                0x08037a58       0x1c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+                0x08038438       0x1c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
  .rodata.lv_calendar_class
-                0x08037a74       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
-                0x08037a74                lv_calendar_class
+                0x08038454       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar.c.obj
+                0x08038454                lv_calendar_class
  .rodata.my_constructor.str1.4
-                0x08037a98        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+                0x08038478        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
  .rodata.value_changed_event_cb.str1.4
-                0x08037aa0        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
- *fill*         0x08037aa6        0x2 
+                0x08038480        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+ *fill*         0x08038486        0x2 
  .rodata.str1.4
-                0x08037aa8       0x82 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
- *fill*         0x08037b2a        0x2 
+                0x08038488       0x82 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+ *fill*         0x0803850a        0x2 
  .rodata.lv_calendar_header_arrow_class
-                0x08037b2c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
-                0x08037b2c                lv_calendar_header_arrow_class
+                0x0803850c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+                0x0803850c                lv_calendar_header_arrow_class
  .rodata.month_names_def
-                0x08037b50       0x30 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
+                0x08038530       0x30 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.obj
  .rodata.my_constructor.str1.4
-                0x08037b80      0x298 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+                0x08038560      0x298 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
  .rodata.str1.4
-                0x08037e18       0x19 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
- *fill*         0x08037e31        0x3 
+                0x080387f8       0x19 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+ *fill*         0x08038811        0x3 
  .rodata.lv_calendar_header_dropdown_class
-                0x08037e34       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
-                0x08037e34                lv_calendar_header_dropdown_class
+                0x08038814       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.obj
+                0x08038814                lv_calendar_header_dropdown_class
  .rodata.str1.4
-                0x08037e58        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
- *fill*         0x08037e5e        0x2 
+                0x08038838        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
+ *fill*         0x0803883e        0x2 
  .rodata.lv_chart_class
-                0x08037e60       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
-                0x08037e60                lv_chart_class
+                0x08038840       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/chart/lv_chart.c.obj
+                0x08038840                lv_chart_class
  .rodata.lv_checkbox_constructor.str1.4
-                0x08037e84        0xa CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
- *fill*         0x08037e8e        0x2 
+                0x08038864        0xa CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+ *fill*         0x0803886e        0x2 
  .rodata.str1.4
-                0x08037e90        0x9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
- *fill*         0x08037e99        0x3 
+                0x08038870        0x9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+ *fill*         0x08038879        0x3 
  .rodata.lv_checkbox_class
-                0x08037e9c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
-                0x08037e9c                lv_checkbox_class
+                0x0803887c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/checkbox/lv_checkbox.c.obj
+                0x0803887c                lv_checkbox_class
  .rodata.lv_dropdown_constructor.str1.4
-                0x08037ec0       0x1f CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+                0x080388a0       0x1f CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
  .rodata.lv_dropdown_get_options.str1.4
-                0x08037edf        0x1 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
- *fill*         0x08037edf        0x1 
+                0x080388bf        0x1 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+ *fill*         0x080388bf        0x1 
  .rodata.str1.4
-                0x08037ee0        0xe CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+                0x080388c0        0xe CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
                                  0x19 (size before relaxing)
- *fill*         0x08037eee        0x2 
+ *fill*         0x080388ce        0x2 
  .rodata.lv_dropdown_class
-                0x08037ef0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
-                0x08037ef0                lv_dropdown_class
+                0x080388d0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+                0x080388d0                lv_dropdown_class
  .rodata.lv_dropdownlist_class
-                0x08037f14       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
-                0x08037f14                lv_dropdownlist_class
+                0x080388f4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/dropdown/lv_dropdown.c.obj
+                0x080388f4                lv_dropdownlist_class
  .rodata.str1.4
-                0x08037f38        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj
- *fill*         0x08037f3e        0x2 
+                0x08038918        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj
+ *fill*         0x0803891e        0x2 
  .rodata.lv_image_class
-                0x08037f40       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj
-                0x08037f40                lv_image_class
+                0x08038920       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/image/lv_image.c.obj
+                0x08038920                lv_image_class
  .rodata.lv_keyboard_def_event_cb.str1.4
-                0x08037f64       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038944       0x28 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
                                  0x34 (size before relaxing)
  .rodata.str1.4
-                0x08037f8c      0x151 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x0803896c      0x151 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
                                 0x17d (size before relaxing)
- *fill*         0x080380dd        0x3 
+ *fill*         0x08038abd        0x3 
  .rodata.default_kb_ctrl_lc_map
-                0x080380e0       0x50 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038ac0       0x50 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.default_kb_ctrl_num_map
-                0x08038130       0x22 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
- *fill*         0x08038152        0x2 
+                0x08038b10       0x22 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+ *fill*         0x08038b32        0x2 
  .rodata.default_kb_ctrl_spec_map
-                0x08038154       0x50 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038b34       0x50 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.default_kb_ctrl_uc_map
-                0x080381a4       0x50 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038b84       0x50 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.default_kb_map_lc
-                0x080381f4       0xb0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038bd4       0xb0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.default_kb_map_num
-                0x080382a4       0x54 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038c84       0x54 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.default_kb_map_spec
-                0x080382f8       0xb0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038cd8       0xb0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.default_kb_map_uc
-                0x080383a8       0xb0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038d88       0xb0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
  .rodata.lv_keyboard_class
-                0x08038458       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
-                0x08038458                lv_keyboard_class
+                0x08038e38       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/keyboard/lv_keyboard.c.obj
+                0x08038e38                lv_keyboard_class
  .rodata.lv_label_constructor.str1.4
-                0x0803847c        0x5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
- *fill*         0x08038481        0x3 
+                0x08038e5c        0x5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+ *fill*         0x08038e61        0x3 
  .rodata.str1.4
-                0x08038484        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
- *fill*         0x0803848a        0x2 
+                0x08038e64        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+ *fill*         0x08038e6a        0x2 
  .rodata.lv_label_class
-                0x0803848c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
-                0x0803848c                lv_label_class
+                0x08038e6c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/label/lv_label.c.obj
+                0x08038e6c                lv_label_class
  .rodata.str1.4
-                0x080384b0        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj
+                0x08038e90        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj
  .rodata.lv_led_class
-                0x080384b4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj
-                0x080384b4                lv_led_class
+                0x08038e94       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/led/lv_led.c.obj
+                0x08038e94                lv_led_class
  .rodata.str1.4
-                0x080384d8        0x5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj
- *fill*         0x080384dd        0x3 
+                0x08038eb8        0x5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj
+ *fill*         0x08038ebd        0x3 
  .rodata.lv_line_class
-                0x080384e0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj
-                0x080384e0                lv_line_class
+                0x08038ec0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/line/lv_line.c.obj
+                0x08038ec0                lv_line_class
  .rodata.str1.4
-                0x08038504       0x1d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
- *fill*         0x08038521        0x3 
+                0x08038ee4       0x1d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+ *fill*         0x08038f01        0x3 
  .rodata.lv_list_button_class
-                0x08038524       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
-                0x08038524                lv_list_button_class
+                0x08038f04       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+                0x08038f04                lv_list_button_class
  .rodata.lv_list_class
-                0x08038548       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
-                0x08038548                lv_list_class
+                0x08038f28       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+                0x08038f28                lv_list_class
  .rodata.lv_list_text_class
-                0x0803856c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
-                0x0803856c                lv_list_text_class
+                0x08038f4c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/list/lv_list.c.obj
+                0x08038f4c                lv_list_text_class
  .rodata.lv_menu_constructor.str1.4
-                0x08038590        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08038f70        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
  .rodata.str1.4
-                0x08038590       0x3d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
- *fill*         0x080385cd        0x3 
+                0x08038f70       0x3d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+ *fill*         0x08038fad        0x3 
  .rodata.lv_menu_class
-                0x080385d0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x080385d0                lv_menu_class
+                0x08038fb0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08038fb0                lv_menu_class
  .rodata.lv_menu_cont_class
-                0x080385f4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x080385f4                lv_menu_cont_class
+                0x08038fd4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08038fd4                lv_menu_cont_class
  .rodata.lv_menu_main_cont_class
-                0x08038618       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x08038618                lv_menu_main_cont_class
+                0x08038ff8       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08038ff8                lv_menu_main_cont_class
  .rodata.lv_menu_main_header_cont_class
-                0x0803863c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x0803863c                lv_menu_main_header_cont_class
+                0x0803901c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x0803901c                lv_menu_main_header_cont_class
  .rodata.lv_menu_page_class
-                0x08038660       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x08038660                lv_menu_page_class
+                0x08039040       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08039040                lv_menu_page_class
  .rodata.lv_menu_section_class
-                0x08038684       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x08038684                lv_menu_section_class
+                0x08039064       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08039064                lv_menu_section_class
  .rodata.lv_menu_separator_class
-                0x080386a8       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x080386a8                lv_menu_separator_class
+                0x08039088       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x08039088                lv_menu_separator_class
  .rodata.lv_menu_sidebar_cont_class
-                0x080386cc       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x080386cc                lv_menu_sidebar_cont_class
+                0x080390ac       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x080390ac                lv_menu_sidebar_cont_class
  .rodata.lv_menu_sidebar_header_cont_class
-                0x080386f0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
-                0x080386f0                lv_menu_sidebar_header_cont_class
+                0x080390d0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/menu/lv_menu.c.obj
+                0x080390d0                lv_menu_sidebar_header_cont_class
  .rodata.str1.4
-                0x08038714       0x77 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
- *fill*         0x0803878b        0x1 
+                0x080390f4       0x77 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+ *fill*         0x0803916b        0x1 
  .rodata.lv_msgbox_backdrop_class
-                0x0803878c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x0803878c                lv_msgbox_backdrop_class
+                0x0803916c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x0803916c                lv_msgbox_backdrop_class
  .rodata.lv_msgbox_class
-                0x080387b0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x080387b0                lv_msgbox_class
+                0x08039190       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x08039190                lv_msgbox_class
  .rodata.lv_msgbox_content_class
-                0x080387d4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x080387d4                lv_msgbox_content_class
+                0x080391b4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x080391b4                lv_msgbox_content_class
  .rodata.lv_msgbox_footer_button_class
-                0x080387f8       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x080387f8                lv_msgbox_footer_button_class
+                0x080391d8       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x080391d8                lv_msgbox_footer_button_class
  .rodata.lv_msgbox_footer_class
-                0x0803881c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x0803881c                lv_msgbox_footer_class
+                0x080391fc       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x080391fc                lv_msgbox_footer_class
  .rodata.lv_msgbox_header_button_class
-                0x08038840       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x08038840                lv_msgbox_header_button_class
+                0x08039220       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x08039220                lv_msgbox_header_button_class
  .rodata.lv_msgbox_header_class
-                0x08038864       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
-                0x08038864                lv_msgbox_header_class
+                0x08039244       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/msgbox/lv_msgbox.c.obj
+                0x08039244                lv_msgbox_header_class
  .rodata.lv_roller_constructor.str1.4
-                0x08038888       0x2d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
- *fill*         0x080388b5        0x3 
+                0x08039268       0x2d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+ *fill*         0x08039295        0x3 
  .rodata.str1.4
-                0x080388b8       0x17 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
- *fill*         0x080388cf        0x1 
+                0x08039298       0x17 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+ *fill*         0x080392af        0x1 
  .rodata.lv_roller_class
-                0x080388d0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
-                0x080388d0                lv_roller_class
+                0x080392b0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+                0x080392b0                lv_roller_class
  .rodata.lv_roller_label_class
-                0x080388f4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
-                0x080388f4                lv_roller_label_class
+                0x080392d4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/roller/lv_roller.c.obj
+                0x080392d4                lv_roller_label_class
  .rodata.scale_draw_label.str1.4
-                0x08038918        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+                0x080392f8        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
  .rodata.str1.4
-                0x0803891c        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
- *fill*         0x08038922        0x2 
+                0x080392fc        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+ *fill*         0x08039302        0x2 
  .rodata.lv_scale_class
-                0x08038924       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
-                0x08038924                lv_scale_class
+                0x08039304       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/scale/lv_scale.c.obj
+                0x08039304                lv_scale_class
  .rodata.str1.4
-                0x08038948        0x7 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
- *fill*         0x0803894f        0x1 
+                0x08039328        0x7 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
+ *fill*         0x0803932f        0x1 
  .rodata.lv_slider_class
-                0x08038950       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
-                0x08038950                lv_slider_class
+                0x08039330       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/slider/lv_slider.c.obj
+                0x08039330                lv_slider_class
  .rodata.lv_spinbox_updatevalue.str1.4
-                0x08038974        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+                0x08039354        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
  .rodata.str1.4
-                0x08038974        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+                0x08039354        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
  .rodata.lv_spinbox_class
-                0x0803897c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
-                0x0803897c                lv_spinbox_class
+                0x0803935c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinbox/lv_spinbox.c.obj
+                0x0803935c                lv_spinbox_class
  .rodata.str1.4
-                0x080389a0        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
+                0x08039380        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
  .rodata.lv_spinner_class
-                0x080389a8       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
-                0x080389a8                lv_spinner_class
+                0x08039388       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/spinner/lv_spinner.c.obj
+                0x08039388                lv_spinner_class
  .rodata.str1.4
-                0x080389cc        0x7 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
- *fill*         0x080389d3        0x1 
+                0x080393ac        0x7 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
+ *fill*         0x080393b3        0x1 
  .rodata.lv_switch_class
-                0x080389d4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
-                0x080389d4                lv_switch_class
+                0x080393b4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/switch/lv_switch.c.obj
+                0x080393b4                lv_switch_class
  .rodata.str1.4
-                0x080389f8        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj
- *fill*         0x080389fe        0x2 
+                0x080393d8        0x6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj
+ *fill*         0x080393de        0x2 
  .rodata.lv_table_class
-                0x08038a00       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj
-                0x08038a00                lv_table_class
+                0x080393e0       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/table/lv_table.c.obj
+                0x080393e0                lv_table_class
  .rodata.str1.4
-                0x08038a24        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
+                0x08039404        0x8 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
  .rodata.lv_tabview_class
-                0x08038a2c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
-                0x08038a2c                lv_tabview_class
+                0x0803940c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tabview/lv_tabview.c.obj
+                0x0803940c                lv_tabview_class
  .rodata.lv_textarea_get_placeholder_text.str1.4
-                0x08038a50        0x1 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+                0x08039430        0x1 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
  .rodata.lv_textarea_get_password_bullet.str1.4
-                0x08038a50        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+                0x08039430        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
                                   0x6 (size before relaxing)
  .rodata.str1.4
-                0x08038a54        0x9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
- *fill*         0x08038a5d        0x3 
+                0x08039434        0x9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+ *fill*         0x0803943d        0x3 
  .rodata.lv_textarea_class
-                0x08038a60       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
-                0x08038a60                lv_textarea_class
+                0x08039440       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
+                0x08039440                lv_textarea_class
  .rodata.str1.4
-                0x08038a84       0x11 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
- *fill*         0x08038a95        0x3 
+                0x08039464       0x11 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+ *fill*         0x08039475        0x3 
  .rodata.lv_tileview_class
-                0x08038a98       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
-                0x08038a98                lv_tileview_class
+                0x08039478       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+                0x08039478                lv_tileview_class
  .rodata.lv_tileview_tile_class
-                0x08038abc       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
-                0x08038abc                lv_tileview_tile_class
+                0x0803949c       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
+                0x0803949c                lv_tileview_tile_class
  .rodata.str1.4
-                0x08038ae0        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
+                0x080394c0        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
  .rodata.lv_win_class
-                0x08038ae4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
-                0x08038ae4                lv_win_class
+                0x080394c4       0x24 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
+                0x080394c4                lv_win_class
  .rodata.main.str1.4
-                0x08038b08        0xd CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- *fill*         0x08038b15        0x3 
+                0x080394e8        0xd CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ *fill*         0x080394f5        0x3 
  .rodata.AHBPrescTable
-                0x08038b18       0x10 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08038b18                AHBPrescTable
+                0x080394f8       0x10 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x080394f8                AHBPrescTable
  .rodata.MSIRangeTable
-                0x08038b28       0x30 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08038b28                MSIRangeTable
+                0x08039508       0x30 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08039508                MSIRangeTable
  .rodata._global_impure_ptr
-                0x08038b58        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x08038b58                _global_impure_ptr
-                0x08038b5c                . = ALIGN (0x4)
+                0x08039538        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x08039538                _global_impure_ptr
+                0x0803953c                . = ALIGN (0x4)
 
-.ARM.extab      0x08038b5c        0x0
-                0x08038b5c                . = ALIGN (0x4)
+.ARM.extab      0x0803953c        0x0
+                0x0803953c                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08038b5c                . = ALIGN (0x4)
+                0x0803953c                . = ALIGN (0x4)
 
-.ARM            0x08038b5c        0x8
-                0x08038b5c                . = ALIGN (0x4)
-                0x08038b5c                __exidx_start = .
+.ARM            0x0803953c        0x8
+                0x0803953c                . = ALIGN (0x4)
+                0x0803953c                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08038b5c        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x08038b64                __exidx_end = .
-                0x08038b64                . = ALIGN (0x4)
+ .ARM.exidx     0x0803953c        0x8 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08039544                __exidx_end = .
+                0x08039544                . = ALIGN (0x4)
 
-.rel.dyn        0x08038b64        0x0
- .rel.iplt      0x08038b64        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08039544        0x0
+ .rel.iplt      0x08039544        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x08038b64        0x0
-                0x08038b64                . = ALIGN (0x4)
-                0x08038b64                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08039544        0x0
+                0x08039544                . = ALIGN (0x4)
+                0x08039544                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08038b64                PROVIDE (__preinit_array_end = .)
-                0x08038b64                . = ALIGN (0x4)
+                0x08039544                PROVIDE (__preinit_array_end = .)
+                0x08039544                . = ALIGN (0x4)
 
-.init_array     0x08038b64        0x8
-                0x08038b64                . = ALIGN (0x4)
-                0x08038b64                PROVIDE (__init_array_start = .)
+.init_array     0x08039544        0x8
+                0x08039544                . = ALIGN (0x4)
+                0x08039544                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08038b64        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08039544        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08038b68        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08038b6c                PROVIDE (__init_array_end = .)
-                0x08038b6c                . = ALIGN (0x4)
+ .init_array    0x08039548        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0803954c                PROVIDE (__init_array_end = .)
+                0x0803954c                . = ALIGN (0x4)
 
-.fini_array     0x08038b6c        0x4
-                0x08038b6c                . = ALIGN (0x4)
-                0x08038b6c                PROVIDE (__fini_array_start = .)
+.fini_array     0x0803954c        0x4
+                0x0803954c                . = ALIGN (0x4)
+                0x0803954c                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08038b6c        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08038b70                PROVIDE (__fini_array_end = .)
-                0x08038b70                . = ALIGN (0x4)
-                0x08038b70                _sidata = LOADADDR (.data)
+ .fini_array    0x0803954c        0x4 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08039550                PROVIDE (__fini_array_end = .)
+                0x08039550                . = ALIGN (0x4)
+                0x08039550                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x48c load address 0x08038b70
+.data           0x20000000      0x48c load address 0x08039550
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -10351,11 +10513,11 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x2000048c                . = ALIGN (0x4)
                 0x2000048c                _edata = .
 
-.igot.plt       0x2000048c        0x0 load address 0x08038ffc
+.igot.plt       0x2000048c        0x0 load address 0x080399dc
  .igot.plt      0x2000048c        0x0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x2000048c                . = ALIGN (0x4)
 
-.bss            0x2000048c    0x11b8c load address 0x08038ffc
+.bss            0x2000048c    0x11be0 load address 0x080399dc
                 0x2000048c                _sbss = .
                 0x2000048c                __bss_start__ = _sbss
  *(.bss)
@@ -10370,33 +10532,36 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                 0x20001f94    0x10000 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.obj
  .bss.ta_insert_replace
                 0x20011f94        0x4 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
- .bss.hspi2     0x20011f98       0x64 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
-                0x20011f98                hspi2
- .bss.lcd       0x20011ffc       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
-                0x20011ffc                lcd
+ .bss.hi2c3     0x20011f98       0x54 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x20011f98                hi2c3
+ .bss.hspi2     0x20011fec       0x64 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x20011fec                hspi2
+ .bss.lcd       0x20012050       0x10 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x20012050                lcd
  .bss.st7796_hspi
-                0x2001200c        0x4 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .bss.uwTick    0x20012010        0x4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x20012010                uwTick
+                0x20012060        0x4 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .bss.uwTick    0x20012064        0x4 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x20012064                uwTick
  .bss.__lock___atexit_recursive_mutex
-                0x20012014        0x1 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x20012014                __lock___atexit_recursive_mutex
+                0x20012068        0x1 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x20012068                __lock___atexit_recursive_mutex
  *(COMMON)
-                0x20012018                . = ALIGN (0x4)
- *fill*         0x20012015        0x3 
-                0x20012018                _ebss = .
-                0x20012018                __bss_end__ = _ebss
+                0x2001206c                . = ALIGN (0x4)
+ *fill*         0x20012069        0x3 
+                0x2001206c                _ebss = .
+                0x2001206c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20012018      0x600 load address 0x08038ffc
-                0x20012018                . = ALIGN (0x8)
+                0x2001206c      0x604 load address 0x080399dc
+                0x20012070                . = ALIGN (0x8)
+ *fill*         0x2001206c        0x4 
                 [!provide]                PROVIDE (end = .)
-                0x20012018                PROVIDE (_end = .)
-                0x20012218                . = (. + _Min_Heap_Size)
- *fill*         0x20012018      0x200 
-                0x20012618                . = (. + _Min_Stack_Size)
- *fill*         0x20012218      0x400 
-                0x20012618                . = ALIGN (0x8)
+                0x20012070                PROVIDE (_end = .)
+                0x20012270                . = (. + _Min_Heap_Size)
+ *fill*         0x20012070      0x200 
+                0x20012670                . = (. + _Min_Stack_Size)
+ *fill*         0x20012270      0x400 
+                0x20012670                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -10655,46 +10820,52 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .ARM.attributes
                 0x000015fd       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .ARM.attributes
-                0x0000162b       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x0000162b       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .ARM.attributes
-                0x00001659       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x00001659       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .ARM.attributes
-                0x00001687       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x00001687       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .ARM.attributes
-                0x000016b5       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_ldivmod.o)
+                0x000016b5       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .ARM.attributes
-                0x000016d3       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x000016e3       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x000016f1       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00001711       0x2e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
  .ARM.attributes
-                0x0000171f       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000173f       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_ldivmod.o)
  .ARM.attributes
-                0x0000173d       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x0000175d       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000176b       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x0000177b       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x00001799       0x1c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+                0x000017a9       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000017b5       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x000017c7       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x000017e3       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x000017f5       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x00001811       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x00001823       0x1c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x0000183f       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x0000183f       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000186d       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x0000186d       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x0000189b       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x0000189b       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x000018c9       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x000018c9       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000018f7       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00001925       0x2e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00001953       0x1e d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(LCD.elf elf32-littlearm)
 LOAD linker stubs
 LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
 LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000   0x10d384
+.debug_info     0x00000000   0x114200
  .debug_info    0x00000000      0x460 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_info    0x00000460     0x297e CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
  .debug_info    0x00002dde     0x5514 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
@@ -10808,20 +10979,23 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_info    0x000fbc9c     0x5b9d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
  .debug_info    0x00101839     0x190d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
  .debug_info    0x00103146      0xd6d CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
- .debug_info    0x00103eb3      0xfeb CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00104e9e     0x159e CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_info    0x0010643c      0xa84 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x00106ec0      0x130 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x00106ff0      0x425 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_info    0x00107415       0x22 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_info    0x00107437      0xbc6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_info    0x00107ffd     0x10d1 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x001090ce      0x857 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_info    0x00109925      0xaa2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_info    0x0010a3c7      0xf3f CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_info    0x0010b306     0x207e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_info    0x00103eb3     0x164a CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x001054fd     0x159e CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_info    0x00106a9b     0x1113 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x00107bae      0x1a0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x00107d4e      0x425 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_info    0x00108173       0x22 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_info    0x00108195      0xbc6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_info    0x00108d5b     0x10d1 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_info    0x00109e2c      0x857 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_info    0x0010a683     0x446c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_info    0x0010eaef      0xa56 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_info    0x0010f545      0xaa2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_info    0x0010ffe7      0xf3f CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_info    0x00110f26     0x125c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_info    0x00112182     0x207e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_abbrev   0x00000000    0x177be
+.debug_abbrev   0x00000000    0x17eef
  .debug_abbrev  0x00000000      0x1a1 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_abbrev  0x000001a1      0x393 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
  .debug_abbrev  0x00000534      0x54a CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
@@ -10935,20 +11109,23 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_abbrev  0x00015845      0x4cf CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
  .debug_abbrev  0x00015d14      0x252 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
  .debug_abbrev  0x00015f66      0x1ff CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
- .debug_abbrev  0x00016165      0x294 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x000163f9      0x26f CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_abbrev  0x00016668      0x1a3 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_abbrev  0x0001680b       0x7e CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_abbrev  0x00016889      0x119 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_abbrev  0x000169a2       0x12 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_abbrev  0x000169b4      0x22a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_abbrev  0x00016bde      0x361 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_abbrev  0x00016f3f      0x1e6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_abbrev  0x00017125      0x215 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x0001733a      0x251 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_abbrev  0x0001758b      0x233 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_abbrev  0x00016165      0x2d3 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00016438      0x26f CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_abbrev  0x000166a7      0x1dd CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_abbrev  0x00016884       0xb5 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_abbrev  0x00016939      0x119 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_abbrev  0x00016a52       0x12 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_abbrev  0x00016a64      0x22a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_abbrev  0x00016c8e      0x361 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00016fef      0x1e6 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_abbrev  0x000171d5      0x259 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_abbrev  0x0001742e      0x1b3 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_abbrev  0x000175e1      0x215 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x000177f6      0x251 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00017a47      0x275 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00017cbc      0x233 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_loc      0x00000000    0x8c37c
+.debug_loc      0x00000000    0x9329b
  .debug_loc     0x00000000       0xa9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_loc     0x000000a9      0xdd6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
  .debug_loc     0x00000e7f     0x1de9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
@@ -11062,16 +11239,19 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_loc     0x00087c4e      0x2d5 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
  .debug_loc     0x00087f23       0x22 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
  .debug_loc     0x00087f45      0x453 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_loc     0x00088398       0x84 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_loc     0x0008841c      0x127 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_loc     0x00088543      0x1ef CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_loc     0x00088732      0x744 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_loc     0x00088e76      0x3da CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_loc     0x00089250      0xb06 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_loc     0x00089d56      0x81c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_loc     0x0008a572     0x1e0a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_loc     0x00088398      0x105 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_loc     0x0008849d      0x127 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_loc     0x000885c4      0x1ef CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_loc     0x000887b3      0x744 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_loc     0x00088ef7      0x3da CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_loc     0x000892d1     0x51a3 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_loc     0x0008e474      0x202 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_loc     0x0008e676      0xb06 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_loc     0x0008f17c      0x81c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_loc     0x0008f998     0x1af9 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_loc     0x00091491     0x1e0a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_aranges  0x00000000     0x52d8
+.debug_aranges  0x00000000     0x56a8
  .debug_aranges
                 0x00000000       0x40 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_aranges
@@ -11299,31 +11479,37 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_aranges
                 0x00004ad0       0x48 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
  .debug_aranges
-                0x00004b18       0x48 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                0x00004b18       0x50 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00004b60       0x90 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+                0x00004b68       0x90 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
  .debug_aranges
-                0x00004bf0       0x30 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x00004bf8       0x40 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_aranges
-                0x00004c20       0x60 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x00004c38       0x70 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_aranges
-                0x00004c80       0x28 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x00004ca8       0x28 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
  .debug_aranges
-                0x00004ca8       0x28 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x00004cd0       0x28 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
  .debug_aranges
-                0x00004cd0      0x130 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x00004cf8      0x130 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_aranges
-                0x00004e00       0xb8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x00004e28       0xb8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_aranges
-                0x00004eb8       0x58 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x00004ee0       0x58 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00004f10      0x160 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x00004f38      0x2a0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .debug_aranges
-                0x00005070       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x000051d8       0x48 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .debug_aranges
-                0x00005100      0x1d8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+                0x00005220      0x160 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_aranges
+                0x00005380       0x90 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_aranges
+                0x00005410       0xc0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_aranges
+                0x000054d0      0x1d8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_ranges   0x00000000     0x91e8
+.debug_ranges   0x00000000     0x95a0
  .debug_ranges  0x00000000       0x30 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_ranges  0x00000030      0x150 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
  .debug_ranges  0x00000180      0x1e0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
@@ -11436,20 +11622,23 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_ranges  0x00008710      0x2c0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
  .debug_ranges  0x000089d0       0x48 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
  .debug_ranges  0x00008a18       0x38 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
- .debug_ranges  0x00008a50       0x38 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00008a88       0x98 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_ranges  0x00008b20       0x20 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_ranges  0x00008b40       0x50 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_ranges  0x00008b90       0x18 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_ranges  0x00008ba8       0x20 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_ranges  0x00008bc8      0x120 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_ranges  0x00008ce8      0x108 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_ranges  0x00008df0       0x48 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_ranges  0x00008e38      0x150 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_ranges  0x00008f88       0x98 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_ranges  0x00009020      0x1c8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_ranges  0x00008a50       0x40 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00008a90       0x98 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_ranges  0x00008b28       0x30 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_ranges  0x00008b58       0x60 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_ranges  0x00008bb8       0x18 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_ranges  0x00008bd0       0x20 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_ranges  0x00008bf0      0x120 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_ranges  0x00008d10      0x108 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_ranges  0x00008e18       0x48 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_ranges  0x00008e60      0x290 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_ranges  0x000090f0       0x38 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_ranges  0x00009128      0x150 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x00009278       0x98 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_ranges  0x00009310       0xc8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x000093d8      0x1c8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_line     0x00000000    0x8331a
+.debug_line     0x00000000    0x8a34e
  .debug_line    0x00000000      0x315 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_line    0x00000315     0x13f6 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
  .debug_line    0x0000170b     0x1b84 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
@@ -11563,20 +11752,23 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_line    0x000794d7     0x22af CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
  .debug_line    0x0007b786      0x5b0 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
  .debug_line    0x0007bd36      0x530 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
- .debug_line    0x0007c266      0x7e4 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0007ca4a      0x5a6 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_line    0x0007cff0      0x2e7 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x0007d2d7      0x1bf CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x0007d496      0x28b CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_line    0x0007d721       0xa8 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_line    0x0007d7c9      0x6fc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_line    0x0007dec5      0x7f2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x0007e6b7      0x70d CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_line    0x0007edc4      0xb40 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_line    0x0007f904      0xf3a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_line    0x0008083e     0x2adc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_line    0x0007c266      0x8ea CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x0007cb50      0x5a6 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_line    0x0007d0f6      0x418 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x0007d50e      0x2a7 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x0007d7b5      0x28b CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_line    0x0007da40       0xa8 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_line    0x0007dae8      0x6fc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_line    0x0007e1e4      0x7f2 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_line    0x0007e9d6      0x70d CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_line    0x0007f0e3     0x52aa CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_line    0x0008438d      0x4fc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_line    0x00084889      0xb40 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_line    0x000853c9      0xf3a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_line    0x00086303     0x156f CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_line    0x00087872     0x2adc CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_str      0x00000000    0x1b14e
+.debug_str      0x00000000    0x1c360
  .debug_str     0x00000000      0x67b CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
                                 0x6d8 (size before relaxing)
  .debug_str     0x0000067b     0x1b19 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
@@ -11803,29 +11995,35 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
                                0x1683 (size before relaxing)
  .debug_str     0x00018779       0xb9 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
                                 0xe05 (size before relaxing)
- .debug_str     0x00018832      0x7e9 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
-                                0xb80 (size before relaxing)
- .debug_str     0x0001901b      0x180 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_str     0x00018832      0xf86 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+                               0x136f (size before relaxing)
+ .debug_str     0x000197b8      0x180 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
                                 0x7fd (size before relaxing)
- .debug_str     0x0001919b       0x7e CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                                0x7da (size before relaxing)
- .debug_str     0x00019219       0xd7 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                                0x261 (size before relaxing)
- .debug_str     0x000192f0       0xbe CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_str     0x00019938      0x343 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                                0xd86 (size before relaxing)
+ .debug_str     0x00019c7b      0x121 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                                0x2bf (size before relaxing)
+ .debug_str     0x00019d9c       0xbe CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
                                 0x3b7 (size before relaxing)
- .debug_str     0x000193ae       0x56 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_str     0x00019e5a       0x56 CMakeFiles/LCD.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
                                  0x8b (size before relaxing)
- .debug_str     0x00019404      0x999 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_str     0x00019eb0      0x49b CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
                                 0xd20 (size before relaxing)
- .debug_str     0x00019d9d      0x4f0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_str     0x0001a34b      0x4dd CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
                                 0xc84 (size before relaxing)
- .debug_str     0x0001a28d      0x13b CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_str     0x0001a828      0x102 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
                                 0x572 (size before relaxing)
- .debug_str     0x0001a3c8      0x595 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_str     0x0001a92a      0x918 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+                               0x100b (size before relaxing)
+ .debug_str     0x0001b242       0xd8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+                                0x918 (size before relaxing)
+ .debug_str     0x0001b31a      0x595 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
                                 0x881 (size before relaxing)
- .debug_str     0x0001a95d      0x257 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_str     0x0001b8af      0x24c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
                                 0x8ce (size before relaxing)
- .debug_str     0x0001abb4      0x59a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_str     0x0001bafb      0x317 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                                0xaed (size before relaxing)
+ .debug_str     0x0001be12      0x54e CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
                                 0xc0d (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -11951,11 +12149,14 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
 
-.debug_frame    0x00000000    0x100c0
+.debug_frame    0x00000000    0x10d30
  .debug_frame   0x00000000       0x88 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj
  .debug_frame   0x00000088      0x350 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj
  .debug_frame   0x000003d8      0x304 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj
@@ -12068,24 +12269,27 @@ LOAD d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb
  .debug_frame   0x0000e3ec      0x61c CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/textarea/lv_textarea.c.obj
  .debug_frame   0x0000ea08       0xfc CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/tileview/lv_tileview.c.obj
  .debug_frame   0x0000eb04       0xac CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/widgets/win/lv_win.c.obj
- .debug_frame   0x0000ebb0       0xac CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x0000ec5c      0x1a0 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
- .debug_frame   0x0000edfc       0x64 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_frame   0x0000ee60       0xa8 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_frame   0x0000ef08       0x30 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_frame   0x0000ef38      0x274 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_frame   0x0000f1ac      0x168 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_frame   0x0000f314       0xd0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_frame   0x0000f3e4      0x2b8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_frame   0x0000f69c      0x19c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_frame   0x0000f838      0x5f8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
- .debug_frame   0x0000fe30       0x44 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_ldivmod.o)
- .debug_frame   0x0000fe74       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000fea0       0x34 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000fed4       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x0000ff00       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x0000ff2c       0x5c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000ff88       0x20 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x0000ffa8       0x34 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x0000ffdc       0xb0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x0001008c       0x34 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000ebb0       0xc4 CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x0000ec74      0x1a0 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj
+ .debug_frame   0x0000ee14       0xa0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_frame   0x0000eeb4       0xd0 CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_frame   0x0000ef84       0x30 CMakeFiles/LCD.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_frame   0x0000efb4      0x274 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_frame   0x0000f228      0x168 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_frame   0x0000f390       0xd0 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_frame   0x0000f460      0x970 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_frame   0x0000fdd0       0x80 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_frame   0x0000fe50      0x2b8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_frame   0x00010108      0x19c CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_frame   0x000102a4      0x204 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_frame   0x000104a8      0x5f8 CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj
+ .debug_frame   0x00010aa0       0x44 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00010ae4       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00010b10       0x34 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00010b44       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00010b70       0x2c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00010b9c       0x5c d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00010bf8       0x20 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00010c18       0x34 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00010c4c       0xb0 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00010cfc       0x34 d:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
