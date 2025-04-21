@@ -200,30 +200,6 @@ Core/Src/lvgl/port/lv_port_indev.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.s
 .PHONY : Core/Src/lvgl/port/lv_port_indev.c.s
 
-Core/Src/lvgl/port/lv_port_lcd_stm32.obj: Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
-.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.obj
-
-# target to build an object file
-Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
-.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj
-
-Core/Src/lvgl/port/lv_port_lcd_stm32.i: Core/Src/lvgl/port/lv_port_lcd_stm32.c.i
-.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.i
-
-# target to preprocess a source file
-Core/Src/lvgl/port/lv_port_lcd_stm32.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.i
-.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.c.i
-
-Core/Src/lvgl/port/lv_port_lcd_stm32.s: Core/Src/lvgl/port/lv_port_lcd_stm32.c.s
-.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.s
-
-# target to generate assembly for a file
-Core/Src/lvgl/port/lv_port_lcd_stm32.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LCD.elf.dir\build.make CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.s
-.PHONY : Core/Src/lvgl/port/lv_port_lcd_stm32.c.s
-
 Core/Src/lvgl/src/core/lv_group.obj: Core/Src/lvgl/src/core/lv_group.c.obj
 .PHONY : Core/Src/lvgl/src/core/lv_group.obj
 
@@ -9506,9 +9482,6 @@ help:
 	@echo ... Core/Src/lvgl/port/lv_port_indev.obj
 	@echo ... Core/Src/lvgl/port/lv_port_indev.i
 	@echo ... Core/Src/lvgl/port/lv_port_indev.s
-	@echo ... Core/Src/lvgl/port/lv_port_lcd_stm32.obj
-	@echo ... Core/Src/lvgl/port/lv_port_lcd_stm32.i
-	@echo ... Core/Src/lvgl/port/lv_port_lcd_stm32.s
 	@echo ... Core/Src/lvgl/src/core/lv_group.obj
 	@echo ... Core/Src/lvgl/src/core/lv_group.i
 	@echo ... Core/Src/lvgl/src/core/lv_group.s

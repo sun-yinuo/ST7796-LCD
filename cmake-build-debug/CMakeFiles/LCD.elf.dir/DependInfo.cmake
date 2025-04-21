@@ -35,7 +35,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_disp.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_fs.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_indev.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj.d"
-  "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_lcd_stm32.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_group.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/core/lv_obj_class.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj_class.c.obj.d"

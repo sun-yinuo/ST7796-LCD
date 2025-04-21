@@ -1,6 +1,7 @@
 #include "stm32l4xx_hal.h"
 #include "main.h"
 #include "st7796.h"
+#include "lv_conf.h"
 
 static SPI_HandleTypeDef *st7796_hspi;
 _lcd_device lcd;
@@ -225,6 +226,37 @@ void LCD_DrawPoint(const uint16_t x, const uint16_t y, const uint16_t color)
 	LCD_WriteData_16Bit(color);
 }
 
+void LCD_FlushArea(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, const uint8_t *color_p)
+{
+	uint32_t w = x2 - x1 + 1;
+	uint32_t h = y2 - y1 + 1;
+	uint32_t size = w * h;
+
+	LCD_SetWindows(x1, y1, x2, y2);
+	ST7796_CS_LOW();
+	ST7796_DC_HIGH();
+
+
+
+	for (uint32_t i = 0; i < size; i++) {
+		SPI_WriteByte(st7796_hspi, color_p[2 * i + 1]);   // 低位
+		SPI_WriteByte(st7796_hspi, color_p[2 * i]);       // 高位
+	}
+
+	/*
+	for (uint32_t i = 0; i < size; i++) {
+		SPI_WriteByte(st7796_hspi, color_p[2 * i]);       // 高位
+		SPI_WriteByte(st7796_hspi, color_p[2 * i + 1]);   // 低位
+	}
+	*/
+
+
+
+
+	ST7796_CS_HIGH();
+}
+
+
 /**
  * 初始化
  */
@@ -321,6 +353,6 @@ void ST7796_Init(void) {
 	//设置位默认方向
 	LCD_direction(2);
 	//填充白色清屏
-	LCD_Clear(0xFFFF);
+	//LCD_Clear(0xFFFF);
 }
 

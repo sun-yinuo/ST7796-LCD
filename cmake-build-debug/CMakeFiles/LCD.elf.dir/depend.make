@@ -3,6 +3,7 @@
 
 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.obj: \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lv_conf.h \
+ C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/lv_version.h \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/arm2d/lv_blend_arm2d.h \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.h \
@@ -10,6 +11,7 @@ CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S.
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/lv_conf_kconfig.h
 CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S.obj: \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lv_conf.h \
+ C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/lv_version.h \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/draw/sw/blend/neon/lv_blend_neon.h \
  C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/lv_conf_internal.h \

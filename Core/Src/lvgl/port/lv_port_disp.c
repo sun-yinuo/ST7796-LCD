@@ -4,25 +4,27 @@
  */
 
 /*Copy this file as "lv_port_disp.c" and set this value to "1" to enable content*/
-#if 0
+#include <stdint.h>
+#if 1
 
 /*********************
  *      INCLUDES
  *********************/
-#include "lv_port_disp_template.h"
+#include "lv_port_disp.h"
 #include <stdbool.h>
+#include <../Src/st7796.h>
 
 /*********************
  *      DEFINES
  *********************/
 #ifndef MY_DISP_HOR_RES
-    #warning Please define or replace the macro MY_DISP_HOR_RES with the actual screen width, default value 320 is used for now.
+
     #define MY_DISP_HOR_RES    320
 #endif
 
 #ifndef MY_DISP_VER_RES
-    #warning Please define or replace the macro MY_DISP_VER_RES with the actual screen height, default value 240 is used for now.
-    #define MY_DISP_VER_RES    240
+
+    #define MY_DISP_VER_RES    480
 #endif
 
 #define BYTE_PER_PIXEL (LV_COLOR_FORMAT_GET_SIZE(LV_COLOR_FORMAT_RGB565)) /*will be 2 for RGB565 */
@@ -69,6 +71,7 @@ void lv_port_disp_init(void)
     static uint8_t buf_1_1[MY_DISP_HOR_RES * 10 * BYTE_PER_PIXEL];            /*A buffer for 10 rows*/
     lv_display_set_buffers(disp, buf_1_1, NULL, sizeof(buf_1_1), LV_DISPLAY_RENDER_MODE_PARTIAL);
 
+#if 0
     /* Example 2
      * Two buffers for partial rendering
      * In flush_cb DMA or similar hardware should be used to update the display in the background.*/
@@ -88,6 +91,7 @@ void lv_port_disp_init(void)
     LV_ATTRIBUTE_MEM_ALIGN
     static uint8_t buf_3_2[MY_DISP_HOR_RES * MY_DISP_VER_RES * BYTE_PER_PIXEL];
     lv_display_set_buffers(disp, buf_3_1, buf_3_2, sizeof(buf_3_1), LV_DISPLAY_RENDER_MODE_DIRECT);
+#endif
 
 }
 
@@ -98,6 +102,7 @@ void lv_port_disp_init(void)
 /*Initialize your display and the required peripherals.*/
 static void disp_init(void)
 {
+    ST7796_Init();
     /*You code here*/
 }
 
@@ -123,20 +128,7 @@ void disp_disable_update(void)
  *'lv_display_flush_ready()' has to be called when it's finished.*/
 static void disp_flush(lv_display_t * disp_drv, const lv_area_t * area, uint8_t * px_map)
 {
-    if(disp_flush_enabled) {
-        /*The most simple case (but also the slowest) to put all pixels to the screen one-by-one*/
-
-        int32_t x;
-        int32_t y;
-        for(y = area->y1; y <= area->y2; y++) {
-            for(x = area->x1; x <= area->x2; x++) {
-                /*Put a pixel to the display. For example:*/
-                /*put_px(x, y, *px_map)*/
-                px_map++;
-            }
-        }
-    }
-
+    LCD_FlushArea(area->x1, area->y1, area->x2, area->y2, px_map);
     /*IMPORTANT!!!
      *Inform the graphics library that you are ready with the flushing*/
     lv_display_flush_ready(disp_drv);

@@ -4,13 +4,14 @@
  */
 
 /*Copy this file as "lv_port_fs.c" and set this value to "1" to enable content*/
+#include <stdint.h>
 #if 0
 
 /*********************
  *      INCLUDES
  *********************/
-#include "lv_port_fs_template.h"
-#include "../../lvgl.h"
+#include "lv_port_fs.h"
+#include "../../lvgl/lvgl.h"
 
 /*********************
  *      DEFINES

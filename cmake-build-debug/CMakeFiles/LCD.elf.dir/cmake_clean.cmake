@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj.d"
-  "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj"
-  "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_lcd_stm32.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_group.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/core/lv_obj.c.obj"

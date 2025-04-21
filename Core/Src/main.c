@@ -22,6 +22,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "st7796.h"
+#include "lvgl/lvgl.h"
+#include "lvgl/port/lv_port_disp.h"
+#define LVGL_TICK 	5
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,6 +59,15 @@ static void MX_SPI2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+static void lvgl_init( void )
+{
+  lv_init();
+  lv_port_disp_init();        // 显示器初始化
+  // lv_port_indev_init();       // 输入设备初始化
+
+  // lv_port_fs_init();          // 文件系统设备初始化
+}
+
 
 /* USER CODE END 0 */
 
@@ -92,187 +104,26 @@ int main(void)
   /* USER CODE BEGIN 2 */
   ST7796_AttachSPI(&hspi2);
 
-  ST7796_Init();
-
-  /*
-  LCD_DrawPoint(160, 240,BLACK);
-  LCD_DrawPoint(160, 250,RED);
-  LCD_DrawPoint(160, 260,BLUE);
-  LCD_DrawPoint(160, 270,GREEN);
-  */
-  // 水平线 (顶部)
-LCD_DrawPoint(160, 240, BLACK);
-LCD_DrawPoint(161, 240, BLACK);
-LCD_DrawPoint(162, 240, BLACK);
-LCD_DrawPoint(163, 240, BLACK);
-LCD_DrawPoint(164, 240, BLACK);
-// 垂直线
-LCD_DrawPoint(160, 241, BLACK);
-LCD_DrawPoint(160, 242, BLACK);
-LCD_DrawPoint(160, 243, BLACK);
-LCD_DrawPoint(160, 244, BLACK);
-LCD_DrawPoint(160, 245, BLACK);
-LCD_DrawPoint(160, 246, BLACK);
-// 中间水平线
-LCD_DrawPoint(161, 242, BLACK);
-LCD_DrawPoint(162, 242, BLACK);
-// 中间横线
-LCD_DrawPoint(167, 242, BLACK);
-LCD_DrawPoint(168, 242, BLACK);
-LCD_DrawPoint(169, 242, BLACK);
-// 左垂线
-LCD_DrawPoint(166, 243, BLACK);
-LCD_DrawPoint(166, 244, BLACK);
-LCD_DrawPoint(166, 245, BLACK);
-LCD_DrawPoint(166, 246, BLACK);
-// 右垂线
-LCD_DrawPoint(170, 243, BLACK);
-LCD_DrawPoint(170, 244, BLACK);
-LCD_DrawPoint(170, 245, BLACK);
-LCD_DrawPoint(170, 246, BLACK);
-// 底部横线
-LCD_DrawPoint(167, 246, BLACK);
-LCD_DrawPoint(168, 246, BLACK);
-LCD_DrawPoint(169, 246, BLACK);
-// 左垂线
-LCD_DrawPoint(172, 240, BLACK);
-LCD_DrawPoint(172, 241, BLACK);
-LCD_DrawPoint(172, 242, BLACK);
-LCD_DrawPoint(172, 243, BLACK);
-LCD_DrawPoint(172, 244, BLACK);
-LCD_DrawPoint(172, 245, BLACK);
-LCD_DrawPoint(172, 246, BLACK);
-// 右垂线
-LCD_DrawPoint(176, 242, BLACK);
-LCD_DrawPoint(176, 243, BLACK);
-LCD_DrawPoint(176, 244, BLACK);
-LCD_DrawPoint(176, 245, BLACK);
-LCD_DrawPoint(176, 246, BLACK);
-// 斜线
-LCD_DrawPoint(173, 241, BLACK);
-LCD_DrawPoint(174, 242, BLACK);
-LCD_DrawPoint(175, 243, BLACK);
-// 顶部横线
-LCD_DrawPoint(178, 240, BLACK);
-LCD_DrawPoint(179, 240, BLACK);
-LCD_DrawPoint(180, 240, BLACK);
-LCD_DrawPoint(181, 240, BLACK);
-LCD_DrawPoint(182, 240, BLACK);
-// 斜线
-LCD_DrawPoint(181, 241, BLACK);
-LCD_DrawPoint(180, 242, BLACK);
-LCD_DrawPoint(179, 243, BLACK);
-LCD_DrawPoint(178, 244, BLACK);
-// 底部横线
-LCD_DrawPoint(178, 245, BLACK);
-LCD_DrawPoint(179, 245, BLACK);
-LCD_DrawPoint(180, 245, BLACK);
-LCD_DrawPoint(181, 245, BLACK);
-LCD_DrawPoint(182, 245, BLACK);
-// 垂线
-LCD_DrawPoint(182, 246, BLACK);
-// 左垂线
-LCD_DrawPoint(184, 240, BLACK);
-LCD_DrawPoint(184, 241, BLACK);
-LCD_DrawPoint(184, 242, BLACK);
-LCD_DrawPoint(184, 243, BLACK);
-LCD_DrawPoint(184, 244, BLACK);
-LCD_DrawPoint(184, 245, BLACK);
-LCD_DrawPoint(184, 246, BLACK);
-// 右垂线
-LCD_DrawPoint(188, 242, BLACK);
-LCD_DrawPoint(188, 243, BLACK);
-LCD_DrawPoint(188, 244, BLACK);
-LCD_DrawPoint(188, 245, BLACK);
-LCD_DrawPoint(188, 246, BLACK);
-// 中间横线
-LCD_DrawPoint(185, 242, BLACK);
-LCD_DrawPoint(186, 242, BLACK);
-LCD_DrawPoint(187, 242, BLACK);
-// 垂线
-LCD_DrawPoint(192, 240, BLACK);  // 点
-LCD_DrawPoint(192, 242, BLACK);
-LCD_DrawPoint(192, 243, BLACK);
-LCD_DrawPoint(192, 244, BLACK);
-LCD_DrawPoint(192, 245, BLACK);
-LCD_DrawPoint(192, 246, BLACK);
-// 顶部横线
-LCD_DrawPoint(196, 240, BLACK);
-LCD_DrawPoint(197, 240, BLACK);
-LCD_DrawPoint(198, 240, BLACK);
-LCD_DrawPoint(199, 240, BLACK);
-LCD_DrawPoint(200, 240, BLACK);
-// 垂线
-LCD_DrawPoint(198, 241, BLACK);
-LCD_DrawPoint(198, 242, BLACK);
-LCD_DrawPoint(198, 243, BLACK);
-LCD_DrawPoint(198, 244, BLACK);
-LCD_DrawPoint(198, 245, BLACK);
-LCD_DrawPoint(198, 246, BLACK);
-// 顶部横线
-LCD_DrawPoint(196, 240, BLACK);
-LCD_DrawPoint(197, 240, BLACK);
-LCD_DrawPoint(198, 240, BLACK);
-LCD_DrawPoint(199, 240, BLACK);
-LCD_DrawPoint(200, 240, BLACK);
-// 垂线
-LCD_DrawPoint(198, 241, BLACK);
-LCD_DrawPoint(198, 242, BLACK);
-LCD_DrawPoint(198, 243, BLACK);
-LCD_DrawPoint(198, 244, BLACK);
-LCD_DrawPoint(198, 245, BLACK);
-LCD_DrawPoint(198, 246, BLACK);
-// 垂线
-LCD_DrawPoint(192, 240, BLACK);  // 点
-LCD_DrawPoint(192, 242, BLACK);
-LCD_DrawPoint(192, 243, BLACK);
-LCD_DrawPoint(192, 244, BLACK);
-LCD_DrawPoint(192, 245, BLACK);
-LCD_DrawPoint(192, 246, BLACK);
-// 中间横线
-LCD_DrawPoint(167, 242, BLACK);
-LCD_DrawPoint(168, 242, BLACK);
-LCD_DrawPoint(169, 242, BLACK);
-// 左垂线
-LCD_DrawPoint(166, 243, BLACK);
-LCD_DrawPoint(166, 244, BLACK);
-LCD_DrawPoint(166, 245, BLACK);
-LCD_DrawPoint(166, 246, BLACK);
-// 右垂线
-LCD_DrawPoint(170, 243, BLACK);
-LCD_DrawPoint(170, 244, BLACK);
-LCD_DrawPoint(170, 245, BLACK);
-LCD_DrawPoint(170, 246, BLACK);
-// 底部横线
-LCD_DrawPoint(167, 246, BLACK);
-LCD_DrawPoint(168, 246, BLACK);
-LCD_DrawPoint(169, 246, BLACK);
-// 左垂线
-LCD_DrawPoint(172, 240, BLACK);
-LCD_DrawPoint(172, 241, BLACK);
-LCD_DrawPoint(172, 242, BLACK);
-LCD_DrawPoint(172, 243, BLACK);
-LCD_DrawPoint(172, 244, BLACK);
-LCD_DrawPoint(172, 245, BLACK);
-LCD_DrawPoint(172, 246, BLACK);
-// 右垂线
-LCD_DrawPoint(176, 242, BLACK);
-LCD_DrawPoint(176, 243, BLACK);
-LCD_DrawPoint(176, 244, BLACK);
-LCD_DrawPoint(176, 245, BLACK);
-LCD_DrawPoint(176, 246, BLACK);
-// 斜线
-LCD_DrawPoint(173, 241, BLACK);
-LCD_DrawPoint(174, 242, BLACK);
-LCD_DrawPoint(175, 243, BLACK);
+  lvgl_init();
 
 
+  // 创建一个 label 对象
+  lv_obj_t *label = lv_label_create(lv_scr_act());
+
+  // 设置文本
+  lv_label_set_text(label, "Hello,World!");
+
+  // 设置居中对齐
+  lv_obj_center(label);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    lv_tick_inc(LVGL_TICK);
+    lv_task_handler();
+    HAL_Delay(LVGL_TICK);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -352,7 +203,7 @@ static void MX_SPI2_Init(void)
   hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi2.Init.NSS = SPI_NSS_SOFT;
-  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_4;
+  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;

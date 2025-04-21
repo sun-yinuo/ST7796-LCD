@@ -61,4 +61,7 @@ void ST7796_Init(void);
 //画点
 void LCD_DrawPoint(const uint16_t x, const uint16_t y, const uint16_t color);
 
+
+void LCD_FlushArea(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, const uint8_t *color_p);
+
 #endif
