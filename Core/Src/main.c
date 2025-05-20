@@ -81,30 +81,77 @@ static void lvgl_init( void )
 }
 
 
-static void btn_event_handler(lv_event_t *e)
+static void btn_event_cb(lv_event_t * e)
 {
-  static int count = 0;
-  lv_obj_t *btn = lv_event_get_target(e);
-  lv_obj_t *label = lv_obj_get_child(btn, 0);  // 获取第一个子对象（应为label）
+    lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * btn = lv_event_get_target(e);
 
-  char buf[32];
-  snprintf(buf, sizeof(buf), "Clicked: %d", ++count);
-  lv_label_set_text(label, buf);
+    if(code == LV_EVENT_CLICKED) {
+        lv_obj_t * label = lv_obj_get_child(btn, 0);
+        static uint16_t counter = 0;
+        lv_label_set_text_fmt(label, "Clicked: %d", ++counter);
+    }
 }
 
-void create_touch_test_ui(void)
+static void slider_event_cb(lv_event_t * e)
 {
-  lv_obj_t *btn = lv_btn_create(lv_scr_act());   // 创建按钮
-  lv_obj_center(btn);                            // 居中
-
-  lv_obj_t *label = lv_label_create(btn);        // 创建标签
-  lv_label_set_text(label, "Click me");          // 初始文字
-  lv_obj_center(label);                          // 居中标签
-
-  lv_obj_add_event_cb(btn, btn_event_handler, LV_EVENT_CLICKED, NULL);  // 设置事件
+    lv_obj_t * slider = lv_event_get_target(e);
+    int32_t value = lv_slider_get_value(slider);
+    lv_obj_t * label = lv_event_get_user_data(e);
+    lv_label_set_text_fmt(label, "Value: %d", value);
 }
 
-  // 由 CubeMX 自动生成，包含 huart2
+static void switch_event_cb(lv_event_t * e)
+{
+    lv_obj_t * sw = lv_event_get_target(e);
+    bool on = lv_obj_has_state(sw, LV_STATE_CHECKED);
+    printf("Switch toggled: %s\r\n", on ? "ON" : "OFF");
+}
+
+void create_advanced_touch_test_ui(void)
+{
+    // 创建标签作为标题
+    lv_obj_t * title = lv_label_create(lv_scr_act());
+    lv_label_set_text(title, "LVGL Touch Test");
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 10);
+
+    // 创建按钮
+    lv_obj_t * btn = lv_btn_create(lv_scr_act());
+    lv_obj_align(btn, LV_ALIGN_TOP_LEFT, 20, 50);
+    lv_obj_add_event_cb(btn, btn_event_cb, LV_EVENT_CLICKED, NULL);
+    lv_obj_t * btn_label = lv_label_create(btn);
+    lv_label_set_text(btn_label, "Clicked: 0");
+
+    // 创建滑块
+    lv_obj_t * slider = lv_slider_create(lv_scr_act());
+    lv_obj_set_width(slider, 200);
+    lv_obj_align(slider, LV_ALIGN_TOP_MID, 0, 120);
+    lv_slider_set_range(slider, 0, 100);
+
+    lv_obj_t * slider_label = lv_label_create(lv_scr_act());
+    lv_label_set_text(slider_label, "Value: 0");
+    lv_obj_align_to(slider_label, slider, LV_ALIGN_OUT_BOTTOM_MID, 0, 5);
+
+    lv_obj_add_event_cb(slider, slider_event_cb, LV_EVENT_VALUE_CHANGED, slider_label);
+
+    // 创建开关
+    lv_obj_t * sw = lv_switch_create(lv_scr_act());
+    lv_obj_align(sw, LV_ALIGN_TOP_RIGHT, -20, 50);
+    lv_obj_add_event_cb(sw, switch_event_cb, LV_EVENT_VALUE_CHANGED, NULL);
+
+    // 创建下拉框
+    lv_obj_t * dd = lv_dropdown_create(lv_scr_act());
+    lv_dropdown_set_options(dd, "Option 1\nOption 2\nOption 3");
+    lv_obj_align(dd, LV_ALIGN_BOTTOM_LEFT, 20, -20);
+
+    // 创建文本框
+    lv_obj_t * ta = lv_textarea_create(lv_scr_act());
+    lv_obj_set_width(ta, 180);
+    lv_obj_align(ta, LV_ALIGN_BOTTOM_RIGHT, -20, -20);
+    lv_textarea_set_placeholder_text(ta, "Enter text...");
+}
+
+
 
 int _write(int file, char *ptr, int len)
 {
@@ -151,7 +198,7 @@ int main(void)
   ST7796_AttachSPI(&hspi2);
 
   lvgl_init();
-  create_touch_test_ui();
+  create_advanced_touch_test_ui();
 
 
   /* USER CODE END 2 */
@@ -235,7 +282,7 @@ static void MX_I2C3_Init(void)
 
   /* USER CODE END I2C3_Init 1 */
   hi2c3.Instance = I2C3;
-  hi2c3.Init.Timing = 0x00F12981;
+  hi2c3.Init.Timing = 0x10D19CE4;
   hi2c3.Init.OwnAddress1 = 0;
   hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;

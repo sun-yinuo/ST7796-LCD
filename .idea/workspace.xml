@@ -29,39 +29,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bb8ce90-7272-4434-9748-5108d20a3ae1" name="更改" comment="I2C3 EXTI init">
-      <change afterPath="$PROJECT_DIR$/Core/Src/ft6336u.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/ft6336u.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="0bb8ce90-7272-4434-9748-5108d20a3ae1" name="更改" comment="Add FU6336U Touch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32l4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32l4xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32l4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32l4xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_indev.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_indev.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_indev.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_indev.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32l4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32l4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32l4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32l4xx_it.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LCD.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/LCD.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2044,7 +2026,7 @@
       <workItem from="1746163711603" duration="1729000" />
       <workItem from="1746242204988" duration="26448000" />
       <workItem from="1746971160984" duration="4815000" />
-      <workItem from="1747745142083" duration="1141000" />
+      <workItem from="1747745142083" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -2094,7 +2076,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745248552535</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add FU6336U Touch">
+      <option name="closed" value="true" />
+      <created>1747746655544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747746655544</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2123,7 +2113,8 @@
     <MESSAGE value="LVGL init" />
     <MESSAGE value="LVGL Display Text" />
     <MESSAGE value="I2C3 EXTI init" />
-    <option name="LAST_COMMIT_MESSAGE" value="I2C3 EXTI init" />
+    <MESSAGE value="Add FU6336U Touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FU6336U Touch" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -126,7 +126,11 @@ static void touchpad_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
 {
     uint16_t x, y;
 
+
+
     if (FT6336_Scan(&x, &y)) {
+        y = 480 - y;
+        x = 320 -x;
         data->point.x = x;
         data->point.y = y;
         data->state = LV_INDEV_STATE_PRESSED;
