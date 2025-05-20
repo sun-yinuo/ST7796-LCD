@@ -32,6 +32,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Administrator/Desktop/LCD/Core/Src/ft6336u.c" "CMakeFiles/LCD.elf.dir/Core/Src/ft6336u.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/ft6336u.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_disp.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_fs.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/port/lv_port_indev.c" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_indev.c.obj.d"
@@ -370,6 +371,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj.d"
+  "C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj.d"
+  "C:/Users/Administrator/Desktop/LCD/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj" "gcc" "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/drivers/display/tft_espi/lv_tft_espi.cpp.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_esp_littlefs.cpp.obj.d"
   "C:/Users/Administrator/Desktop/LCD/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj" "gcc" "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/src/libs/fsdrv/lv_fs_arduino_sd.cpp.obj.d"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LCD.elf.dir/Core/Src/ft6336u.c.obj"
+  "CMakeFiles/LCD.elf.dir/Core/Src/ft6336u.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_disp.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Core/Src/lvgl/port/lv_port_fs.c.obj"
@@ -778,6 +780,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj.d"
   "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
   "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj.d"
+  "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+  "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj.d"
+  "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+  "CMakeFiles/LCD.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj.d"
   "LCD.elf"
   "LCD.elf.manifest"
   "LCD.elf.pdb"

@@ -37,6 +37,37 @@ CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_pwr_ex.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi_ex.h \
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_uart.h \
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_uart_ex.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdio.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\types.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\endian.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_endian.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\select.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_sigset.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_timeval.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\timespec.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_timespec.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_pthreadtypes.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\sched.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\types.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
+ d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h \
+ C:\Users\Administrator\Desktop\LCD\Core\Src\ft6336u.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\st7796.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/lvgl.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/lv_version.h \
@@ -48,17 +79,10 @@ CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: \
  c:\users\administrator\desktop\lcd\core\src\lvgl\src\lv_conf_internal.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\inttypes.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\limits.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\syslimits.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\limits.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\syslimits.h \
- d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/src/stdlib/lv_mem.h \
  c:\users\administrator\desktop\lcd\core\src\lvgl\src\lv_conf_internal.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/src/stdlib/lv_string.h \
@@ -445,4 +469,5 @@ CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/src/lv_api_map_v9_0.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/src/lv_api_map_v9_1.h \
  C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/port/lv_port_disp.h \
- c:\users\administrator\desktop\lcd\core\src\lvgl\lvgl.h
+ c:\users\administrator\desktop\lcd\core\src\lvgl\lvgl.h \
+ C:\Users\Administrator\Desktop\LCD\Core\Src\lvgl/port/lv_port_indev.h

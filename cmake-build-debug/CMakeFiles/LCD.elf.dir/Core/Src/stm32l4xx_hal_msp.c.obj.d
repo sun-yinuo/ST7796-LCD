@@ -36,4 +36,6 @@ CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_pwr.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_pwr_ex.h \
  C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi.h \
- C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi_ex.h
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi_ex.h \
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_uart.h \
+ C:\Users\Administrator\Desktop\LCD\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_uart_ex.h

@@ -21,9 +21,15 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
+#include <string.h>
+
+
+#include "ft6336u.h"
 #include "st7796.h"
 #include "lvgl/lvgl.h"
 #include "lvgl/port/lv_port_disp.h"
+#include "lvgl/port/lv_port_indev.h"
 #define LVGL_TICK 	5
 /* USER CODE END Includes */
 
@@ -47,6 +53,8 @@ I2C_HandleTypeDef hi2c3;
 
 SPI_HandleTypeDef hspi2;
 
+UART_HandleTypeDef huart2;
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -56,6 +64,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_I2C3_Init(void);
+static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -66,9 +75,41 @@ static void lvgl_init( void )
 {
   lv_init();
   lv_port_disp_init();        // 显示器初始化
-  // lv_port_indev_init();       // 输入设备初始化
+  lv_port_indev_init();       // 输入设备初始化
 
   // lv_port_fs_init();          // 文件系统设备初始化
+}
+
+
+static void btn_event_handler(lv_event_t *e)
+{
+  static int count = 0;
+  lv_obj_t *btn = lv_event_get_target(e);
+  lv_obj_t *label = lv_obj_get_child(btn, 0);  // 获取第一个子对象（应为label）
+
+  char buf[32];
+  snprintf(buf, sizeof(buf), "Clicked: %d", ++count);
+  lv_label_set_text(label, buf);
+}
+
+void create_touch_test_ui(void)
+{
+  lv_obj_t *btn = lv_btn_create(lv_scr_act());   // 创建按钮
+  lv_obj_center(btn);                            // 居中
+
+  lv_obj_t *label = lv_label_create(btn);        // 创建标签
+  lv_label_set_text(label, "Click me");          // 初始文字
+  lv_obj_center(label);                          // 居中标签
+
+  lv_obj_add_event_cb(btn, btn_event_handler, LV_EVENT_CLICKED, NULL);  // 设置事件
+}
+
+  // 由 CubeMX 自动生成，包含 huart2
+
+int _write(int file, char *ptr, int len)
+{
+  HAL_UART_Transmit(&huart2, (uint8_t *)ptr, len, HAL_MAX_DELAY);
+  return len;
 }
 
 
@@ -105,28 +146,22 @@ int main(void)
   MX_GPIO_Init();
   MX_SPI2_Init();
   MX_I2C3_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   ST7796_AttachSPI(&hspi2);
 
   lvgl_init();
+  create_touch_test_ui();
 
 
-  // 创建一个 label 对象
-  lv_obj_t *label = lv_label_create(lv_scr_act());
-
-  // 设置文本
-  lv_label_set_text(label, "Hello,World!");
-
-  // 设置居中对齐
-  lv_obj_center(label);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    lv_tick_inc(LVGL_TICK);
-    lv_task_handler();
+
+    lv_timer_handler();
     HAL_Delay(LVGL_TICK);
     /* USER CODE END WHILE */
 
@@ -200,7 +235,7 @@ static void MX_I2C3_Init(void)
 
   /* USER CODE END I2C3_Init 1 */
   hi2c3.Instance = I2C3;
-  hi2c3.Init.Timing = 0x10D19CE4;
+  hi2c3.Init.Timing = 0x00F12981;
   hi2c3.Init.OwnAddress1 = 0;
   hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -255,7 +290,7 @@ static void MX_SPI2_Init(void)
   hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi2.Init.NSS = SPI_NSS_SOFT;
-  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_4;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -269,6 +304,41 @@ static void MX_SPI2_Init(void)
   /* USER CODE BEGIN SPI2_Init 2 */
 
   /* USER CODE END SPI2_Init 2 */
+
+}
+
+/**
+  * @brief USART2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART2_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 115200;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART2_Init 2 */
+
+  /* USER CODE END USART2_Init 2 */
 
 }
 
@@ -305,14 +375,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : USART_TX_Pin USART_RX_Pin */
-  GPIO_InitStruct.Pin = USART_TX_Pin|USART_RX_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-  GPIO_InitStruct.Alternate = GPIO_AF7_USART2;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
   /*Configure GPIO pin : TOUCH_RST_Pin */
   GPIO_InitStruct.Pin = TOUCH_RST_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
@@ -326,22 +388,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : TOUCH_INT_Pin */
-  GPIO_InitStruct.Pin = TOUCH_INT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(TOUCH_INT_GPIO_Port, &GPIO_InitStruct);
-
   /*Configure GPIO pin : DC_Pin */
   GPIO_InitStruct.Pin = DC_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(DC_GPIO_Port, &GPIO_InitStruct);
-
-  /* EXTI interrupt init*/
-  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
