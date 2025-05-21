@@ -59,9 +59,8 @@ void ST7796_AttachSPI(SPI_HandleTypeDef *hspi);
 //初始化函数
 void ST7796_Init(void);
 //画点
-void LCD_DrawPoint(const uint16_t x, const uint16_t y, const uint16_t color);
-
-
+void LCD_DrawPoint(uint16_t x, uint16_t y, uint16_t color);
+//画区域
 void LCD_FlushArea(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, const uint8_t *color_p);
 
 #endif

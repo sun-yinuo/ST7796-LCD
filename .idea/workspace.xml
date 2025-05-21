@@ -29,19 +29,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bb8ce90-7272-4434-9748-5108d20a3ae1" name="更改" comment="Add FU6336U Touch">
+    <list default="true" id="0bb8ce90-7272-4434-9748-5108d20a3ae1" name="更改" comment="fix touch xy exchange">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/ft6336u.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/ft6336u.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/ft6336u.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/ft6336u.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_disp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_disp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_indev.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/lvgl/port/lv_port_indev.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCD.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/LCD.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/st7796.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/st7796.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/st7796.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/st7796.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32l4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32l4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/Core/Src/stm32l4xx_it.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LCD.elf.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.elf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD.map" afterDir="false" />
     </list>
@@ -1982,15 +1986,15 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD LCD">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LCD" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
     <configuration name="LCD.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LCD" TARGET_NAME="LCD.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LCD" RUN_TARGET_NAME="LCD.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -2026,7 +2030,8 @@
       <workItem from="1746163711603" duration="1729000" />
       <workItem from="1746242204988" duration="26448000" />
       <workItem from="1746971160984" duration="4815000" />
-      <workItem from="1747745142083" duration="3592000" />
+      <workItem from="1747745142083" duration="4530000" />
+      <workItem from="1747827635812" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -2084,7 +2089,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747746655544</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix touch xy exchange">
+      <option name="closed" value="true" />
+      <created>1747748807901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747748807901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2114,7 +2127,8 @@
     <MESSAGE value="LVGL Display Text" />
     <MESSAGE value="I2C3 EXTI init" />
     <MESSAGE value="Add FU6336U Touch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add FU6336U Touch" />
+    <MESSAGE value="fix touch xy exchange" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix touch xy exchange" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

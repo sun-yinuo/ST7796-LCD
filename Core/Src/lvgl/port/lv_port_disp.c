@@ -65,14 +65,15 @@ void lv_port_disp_init(void)
     lv_display_t * disp = lv_display_create(MY_DISP_HOR_RES, MY_DISP_VER_RES);
     lv_display_set_flush_cb(disp, disp_flush);
 
-    /* Example 1
-     * One buffer for partial rendering*/
+#if 1
+     /* One buffer for partial rendering*/
     LV_ATTRIBUTE_MEM_ALIGN
     static uint8_t buf_1_1[MY_DISP_HOR_RES * 10 * BYTE_PER_PIXEL];            /*A buffer for 10 rows*/
     lv_display_set_buffers(disp, buf_1_1, NULL, sizeof(buf_1_1), LV_DISPLAY_RENDER_MODE_PARTIAL);
+#endif
 
 #if 0
-    /* Example 2
+    /*
      * Two buffers for partial rendering
      * In flush_cb DMA or similar hardware should be used to update the display in the background.*/
     LV_ATTRIBUTE_MEM_ALIGN
@@ -81,8 +82,10 @@ void lv_port_disp_init(void)
     LV_ATTRIBUTE_MEM_ALIGN
     static uint8_t buf_2_2[MY_DISP_HOR_RES * 10 * BYTE_PER_PIXEL];
     lv_display_set_buffers(disp, buf_2_1, buf_2_2, sizeof(buf_2_1), LV_DISPLAY_RENDER_MODE_PARTIAL);
+#endif
 
-    /* Example 3
+#if 0
+    /*
      * Two buffers screen sized buffer for double buffering.
      * Both LV_DISPLAY_RENDER_MODE_DIRECT and LV_DISPLAY_RENDER_MODE_FULL works, see their comments*/
     LV_ATTRIBUTE_MEM_ALIGN
@@ -102,8 +105,8 @@ void lv_port_disp_init(void)
 /*Initialize your display and the required peripherals.*/
 static void disp_init(void)
 {
+    //init
     ST7796_Init();
-    /*You code here*/
 }
 
 volatile bool disp_flush_enabled = true;

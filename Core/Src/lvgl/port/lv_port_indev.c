@@ -71,38 +71,17 @@ static lv_indev_state_t encoder_state;
 
 void lv_port_indev_init(void)
 {
-    /**
-     * Here you will find example implementation of input devices supported by LittelvGL:
-     *  - Touchpad
-     *  - Mouse (with cursor support)
-     *  - Keypad (supports GUI usage only with key)
-     *  - Encoder (supports GUI usage only with: left, right, push)
-     *  - Button (external buttons to press points on the screen)
-     *
-     *  The `..._read()` function are only examples.
-     *  You should shape them according to your hardware
-     */
-
     /*------------------
      * Touchpad
      * -----------------*/
 
-    /*Initialize your touchpad if you have*/
+    /*Initialize*/
     touchpad_init();
 
     /*Register a touchpad input device*/
     indev_touchpad = lv_indev_create();
     lv_indev_set_type(indev_touchpad, LV_INDEV_TYPE_POINTER);
     lv_indev_set_read_cb(indev_touchpad, touchpad_read);
-
-
-
-    /*------------------
-     * Mouse
-     * -----------------*/
-
-
-
 }
 
 /**********************
@@ -113,10 +92,10 @@ void lv_port_indev_init(void)
  * Touchpad
  * -----------------*/
 
-/*Initialize your touchpad*/
+
 static void touchpad_init(void)
 {
-    // 初始化触摸芯片
+    //init
     FT6336_Init(&hi2c3);
 }
 
@@ -129,6 +108,7 @@ static void touchpad_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
 
 
     if (FT6336_Scan(&x, &y)) {
+        //TODO 因调试改变屏幕方向,触摸点位反转 关联st7796.C
         y = 480 - y;
         x = 320 -x;
         data->point.x = x;

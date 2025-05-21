@@ -24,7 +24,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
 #include "ft6336u.h"
 #include "st7796.h"
 #include "lvgl/lvgl.h"
@@ -49,10 +48,14 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+
+//FT6336U I2C3
 I2C_HandleTypeDef hi2c3;
 
+//ST7796 SPI2
 SPI_HandleTypeDef hspi2;
 
+//虚拟com口 UART2
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
@@ -73,11 +76,9 @@ static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN 0 */
 static void lvgl_init( void )
 {
-  lv_init();
+  lv_init(); //基本初始化
   lv_port_disp_init();        // 显示器初始化
   lv_port_indev_init();       // 输入设备初始化
-
-  // lv_port_fs_init();          // 文件系统设备初始化
 }
 
 
@@ -195,8 +196,10 @@ int main(void)
   MX_I2C3_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  ST7796_AttachSPI(&hspi2);
 
+  //驱动程序指针初始化
+  ST7796_AttachSPI(&hspi2);
+  //lvgl初始化
   lvgl_init();
   create_advanced_touch_test_ui();
 
@@ -207,7 +210,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
     lv_timer_handler();
     HAL_Delay(LVGL_TICK);
     /* USER CODE END WHILE */

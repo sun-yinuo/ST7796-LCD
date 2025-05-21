@@ -191,6 +191,7 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
+  //lvgl tick
   lv_tick_inc(1);
   /* USER CODE END SysTick_IRQn 1 */
 }

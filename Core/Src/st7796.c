@@ -1,7 +1,6 @@
 #include "stm32l4xx_hal.h"
 #include "main.h"
 #include "st7796.h"
-#include "lv_conf.h"
 
 static SPI_HandleTypeDef *st7796_hspi;
 _lcd_device lcd;
@@ -87,8 +86,7 @@ uint8_t SPI_WriteByte(SPI_HandleTypeDef *hspi, const uint8_t byte)
 /**
  * 设置 ST7796 显示方向（0-3），对应 0°/90°/180°/270° 旋转
  *
- * 写入 ST7796 的 0x36 寄存器（Memory Access Control）来控制
- * 图像的扫描方向和颜色顺序。并同步更新 lcddev 的宽高属性。
+ * 写入 ST7796 的 0x36 寄存器（Memory Access Control）
  *
  * @param direction 显示方向（0：正常，1：顺时针90度，2：180度，3：270度）
  */
@@ -236,22 +234,10 @@ void LCD_FlushArea(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, const uin
 	ST7796_CS_LOW();
 	ST7796_DC_HIGH();
 
-
-
 	for (uint32_t i = 0; i < size; i++) {
 		SPI_WriteByte(st7796_hspi, color_p[2 * i + 1]);   // 低位
 		SPI_WriteByte(st7796_hspi, color_p[2 * i]);       // 高位
 	}
-
-	/*
-	for (uint32_t i = 0; i < size; i++) {
-		SPI_WriteByte(st7796_hspi, color_p[2 * i]);       // 高位
-		SPI_WriteByte(st7796_hspi, color_p[2 * i + 1]);   // 低位
-	}
-	*/
-
-
-
 
 	ST7796_CS_HIGH();
 }
@@ -351,8 +337,7 @@ void ST7796_Init(void) {
 	LCD_WR_REG(0x21);
 	LCD_WR_REG(0x29);
 	//设置位默认方向
+	//TODO 因调试改变屏幕方向,触摸点位反转 关联ft6336u.c
 	LCD_direction(2);
-	//填充白色清屏
-	//LCD_Clear(0xFFFF);
 }
 

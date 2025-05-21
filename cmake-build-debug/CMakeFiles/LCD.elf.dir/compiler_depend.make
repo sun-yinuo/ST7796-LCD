@@ -32857,7 +32857,6 @@ CMakeFiles/LCD.elf.dir/Core/Src/main.c.obj: C:/Users/Administrator/Desktop/LCD/C
 CMakeFiles/LCD.elf.dir/Core/Src/st7796.c.obj: C:/Users/Administrator/Desktop/LCD/Core/Src/st7796.c \
   C:/Users/Administrator/Desktop/LCD/Core/Inc/main.h \
   C:/Users/Administrator/Desktop/LCD/Core/Inc/stm32l4xx_hal_conf.h \
-  C:/Users/Administrator/Desktop/LCD/Core/Src/lv_conf.h \
   C:/Users/Administrator/Desktop/LCD/Core/Src/st7796.h \
   C:/Users/Administrator/Desktop/LCD/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h \
   C:/Users/Administrator/Desktop/LCD/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
